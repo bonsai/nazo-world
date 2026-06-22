@@ -1,0 +1,584 @@
+{
+  "nodes": [
+    {
+      "id": 0,
+      "name": "漢字",
+      "freq": 44,
+      "size": 88
+    },
+    {
+      "id": 1,
+      "name": "前",
+      "freq": 23,
+      "size": 46
+    },
+    {
+      "id": 2,
+      "name": "いか",
+      "freq": 19,
+      "size": 38
+    },
+    {
+      "id": 3,
+      "name": "車",
+      "freq": 18,
+      "size": 36
+    },
+    {
+      "id": 4,
+      "name": "上",
+      "freq": 17,
+      "size": 34
+    },
+    {
+      "id": 5,
+      "name": "パン",
+      "freq": 16,
+      "size": 32
+    },
+    {
+      "id": 6,
+      "name": "下",
+      "freq": 16,
+      "size": 32
+    },
+    {
+      "id": 7,
+      "name": "風",
+      "freq": 16,
+      "size": 32
+    },
+    {
+      "id": 8,
+      "name": "ペン",
+      "freq": 13,
+      "size": 26
+    },
+    {
+      "id": 9,
+      "name": "口",
+      "freq": 11,
+      "size": 22
+    },
+    {
+      "id": 10,
+      "name": "時計",
+      "freq": 11,
+      "size": 22
+    },
+    {
+      "id": 11,
+      "name": "はさみ",
+      "freq": 11,
+      "size": 22
+    },
+    {
+      "id": 12,
+      "name": "雨",
+      "freq": 10,
+      "size": 20
+    },
+    {
+      "id": 13,
+      "name": "自分で",
+      "freq": 10,
+      "size": 20
+    },
+    {
+      "id": 14,
+      "name": "かさ",
+      "freq": 9,
+      "size": 18
+    },
+    {
+      "id": 15,
+      "name": "テレビ",
+      "freq": 8,
+      "size": 16
+    },
+    {
+      "id": 16,
+      "name": "海",
+      "freq": 8,
+      "size": 16
+    },
+    {
+      "id": 17,
+      "name": "電話",
+      "freq": 7,
+      "size": 14
+    },
+    {
+      "id": 18,
+      "name": "外",
+      "freq": 7,
+      "size": 14
+    },
+    {
+      "id": 19,
+      "name": "月",
+      "freq": 7,
+      "size": 14
+    },
+    {
+      "id": 20,
+      "name": "左",
+      "freq": 7,
+      "size": 14
+    },
+    {
+      "id": 21,
+      "name": "山",
+      "freq": 7,
+      "size": 14
+    },
+    {
+      "id": 22,
+      "name": "先生",
+      "freq": 7,
+      "size": 14
+    },
+    {
+      "id": 23,
+      "name": "うし",
+      "freq": 6,
+      "size": 12
+    },
+    {
+      "id": 24,
+      "name": "かき",
+      "freq": 6,
+      "size": 12
+    },
+    {
+      "id": 25,
+      "name": "雪",
+      "freq": 6,
+      "size": 12
+    },
+    {
+      "id": 26,
+      "name": "右",
+      "freq": 6,
+      "size": 12
+    },
+    {
+      "id": 27,
+      "name": "子ども",
+      "freq": 6,
+      "size": 12
+    },
+    {
+      "id": 28,
+      "name": "お茶",
+      "freq": 5,
+      "size": 10
+    },
+    {
+      "id": 29,
+      "name": "たこ",
+      "freq": 5,
+      "size": 10
+    },
+    {
+      "id": 30,
+      "name": "ペンギン",
+      "freq": 5,
+      "size": 10
+    },
+    {
+      "id": 31,
+      "name": "ラジオ",
+      "freq": 5,
+      "size": 10
+    },
+    {
+      "id": 32,
+      "name": "鏡",
+      "freq": 5,
+      "size": 10
+    },
+    {
+      "id": 33,
+      "name": "赤ちゃん",
+      "freq": 5,
+      "size": 10
+    },
+    {
+      "id": 34,
+      "name": "フライパン",
+      "freq": 4,
+      "size": 8
+    },
+    {
+      "id": 35,
+      "name": "カレー",
+      "freq": 4,
+      "size": 8
+    },
+    {
+      "id": 36,
+      "name": "電車",
+      "freq": 4,
+      "size": 8
+    },
+    {
+      "id": 37,
+      "name": "りんご",
+      "freq": 4,
+      "size": 8
+    },
+    {
+      "id": 38,
+      "name": "とり",
+      "freq": 4,
+      "size": 8
+    },
+    {
+      "id": 39,
+      "name": "ジュース",
+      "freq": 4,
+      "size": 8
+    },
+    {
+      "id": 40,
+      "name": "母",
+      "freq": 4,
+      "size": 8
+    },
+    {
+      "id": 41,
+      "name": "かばん",
+      "freq": 4,
+      "size": 8
+    },
+    {
+      "id": 42,
+      "name": "とけい",
+      "freq": 4,
+      "size": 8
+    },
+    {
+      "id": 43,
+      "name": "ふく",
+      "freq": 4,
+      "size": 8
+    },
+    {
+      "id": 44,
+      "name": "えんぴつ",
+      "freq": 4,
+      "size": 8
+    },
+    {
+      "id": 45,
+      "name": "いす",
+      "freq": 4,
+      "size": 8
+    },
+    {
+      "id": 46,
+      "name": "つくえ",
+      "freq": 4,
+      "size": 8
+    },
+    {
+      "id": 47,
+      "name": "くるま",
+      "freq": 4,
+      "size": 8
+    },
+    {
+      "id": 48,
+      "name": "船",
+      "freq": 4,
+      "size": 8
+    },
+    {
+      "id": 49,
+      "name": "もも",
+      "freq": 4,
+      "size": 8
+    },
+    {
+      "id": 50,
+      "name": "後ろ",
+      "freq": 4,
+      "size": 8
+    },
+    {
+      "id": 51,
+      "name": "ほん",
+      "freq": 4,
+      "size": 8
+    },
+    {
+      "id": 52,
+      "name": "なし",
+      "freq": 4,
+      "size": 8
+    },
+    {
+      "id": 53,
+      "name": "すし",
+      "freq": 3,
+      "size": 6
+    },
+    {
+      "id": 54,
+      "name": "ぶどう",
+      "freq": 3,
+      "size": 6
+    },
+    {
+      "id": 55,
+      "name": "そば",
+      "freq": 3,
+      "size": 6
+    },
+    {
+      "id": 56,
+      "name": "かみ",
+      "freq": 3,
+      "size": 6
+    },
+    {
+      "id": 57,
+      "name": "髪",
+      "freq": 3,
+      "size": 6
+    },
+    {
+      "id": 58,
+      "name": "鼻",
+      "freq": 3,
+      "size": 6
+    },
+    {
+      "id": 59,
+      "name": "頭",
+      "freq": 3,
+      "size": 6
+    },
+    {
+      "id": 60,
+      "name": "くつ",
+      "freq": 3,
+      "size": 6
+    },
+    {
+      "id": 61,
+      "name": "はし",
+      "freq": 3,
+      "size": 6
+    },
+    {
+      "id": 62,
+      "name": "でんわ",
+      "freq": 3,
+      "size": 6
+    },
+    {
+      "id": 63,
+      "name": "ふね",
+      "freq": 3,
+      "size": 6
+    },
+    {
+      "id": 64,
+      "name": "スプーン",
+      "freq": 3,
+      "size": 6
+    },
+    {
+      "id": 65,
+      "name": "フォーク",
+      "freq": 3,
+      "size": 6
+    },
+    {
+      "id": 66,
+      "name": "コーヒー",
+      "freq": 3,
+      "size": 6
+    },
+    {
+      "id": 67,
+      "name": "冷蔵庫",
+      "freq": 3,
+      "size": 6
+    },
+    {
+      "id": 68,
+      "name": "弟",
+      "freq": 3,
+      "size": 6
+    },
+    {
+      "id": 69,
+      "name": "いるか",
+      "freq": 3,
+      "size": 6
+    },
+    {
+      "id": 70,
+      "name": "星",
+      "freq": 3,
+      "size": 6
+    },
+    {
+      "id": 71,
+      "name": "目",
+      "freq": 3,
+      "size": 6
+    },
+    {
+      "id": 72,
+      "name": "さけ",
+      "freq": 3,
+      "size": 6
+    },
+    {
+      "id": 73,
+      "name": "まんが",
+      "freq": 3,
+      "size": 6
+    },
+    {
+      "id": 74,
+      "name": "しんぶん",
+      "freq": 3,
+      "size": 6
+    },
+    {
+      "id": 75,
+      "name": "はこ",
+      "freq": 3,
+      "size": 6
+    },
+    {
+      "id": 76,
+      "name": "包丁",
+      "freq": 3,
+      "size": 6
+    },
+    {
+      "id": 77,
+      "name": "のり",
+      "freq": 3,
+      "size": 6
+    }
+  ],
+  "links": [
+    {
+      "source": 26,
+      "target": 20,
+      "strength": 6
+    },
+    {
+      "source": 8,
+      "target": 30,
+      "strength": 5
+    },
+    {
+      "source": 5,
+      "target": 34,
+      "strength": 4
+    },
+    {
+      "source": 3,
+      "target": 36,
+      "strength": 4
+    },
+    {
+      "source": 42,
+      "target": 10,
+      "strength": 4
+    },
+    {
+      "source": 47,
+      "target": 3,
+      "strength": 4
+    },
+    {
+      "source": 9,
+      "target": 0,
+      "strength": 4
+    },
+    {
+      "source": 2,
+      "target": 14,
+      "strength": 3
+    },
+    {
+      "source": 62,
+      "target": 17,
+      "strength": 3
+    },
+    {
+      "source": 63,
+      "target": 48,
+      "strength": 3
+    },
+    {
+      "source": 56,
+      "target": 57,
+      "strength": 2
+    },
+    {
+      "source": 14,
+      "target": 12,
+      "strength": 2
+    },
+    {
+      "source": 4,
+      "target": 6,
+      "strength": 2
+    },
+    {
+      "source": 24,
+      "target": 25,
+      "strength": 2
+    },
+    {
+      "source": 1,
+      "target": 7,
+      "strength": 2
+    },
+    {
+      "source": 29,
+      "target": 33,
+      "strength": 2
+    },
+    {
+      "source": 6,
+      "target": 1,
+      "strength": 2
+    },
+    {
+      "source": 9,
+      "target": 71,
+      "strength": 2
+    },
+    {
+      "source": 0,
+      "target": 12,
+      "strength": 2
+    },
+    {
+      "source": 41,
+      "target": 27,
+      "strength": 2
+    },
+    {
+      "source": 2,
+      "target": 24,
+      "strength": 2
+    },
+    {
+      "source": 77,
+      "target": 16,
+      "strength": 2
+    }
+  ]
+}

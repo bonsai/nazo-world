@@ -1,0 +1,10910 @@
+{
+  "meta": {
+    "total_riddles": 1048,
+    "total_entities": 753,
+    "total_relations": 350,
+    "total_homophone_groups": 25,
+    "total_templates": 9,
+    "total_reasoning_laws": 14,
+    "total_unique_repeat_terms": 699,
+    "category_breakdown": {
+      "ダジャレ・同音異義語": 535,
+      "言葉遊び": 133,
+      "ひっかけ": 93,
+      "なぞかけ": 64,
+      "漢字なぞなぞ": 48,
+      "数字・記号": 43,
+      "あるある": 38,
+      "道具なぞなぞ": 33,
+      "漢字連想": 32,
+      "動物なぞなぞ": 29
+    }
+  },
+  "entity_map": {
+    "漢字": {
+      "count": 44,
+      "categories": [
+        "抽象",
+        "文字"
+      ],
+      "related_riddle_ids": [
+        109,
+        110,
+        111,
+        123,
+        127,
+        128,
+        133,
+        137,
+        138,
+        139,
+        140,
+        323,
+        324,
+        325,
+        326,
+        327,
+        328,
+        331,
+        332,
+        340,
+        341,
+        342,
+        343,
+        353,
+        363,
+        367,
+        368,
+        370,
+        371,
+        372,
+        373,
+        374,
+        382,
+        383,
+        384,
+        386,
+        387,
+        388,
+        389,
+        491,
+        908,
+        914,
+        995,
+        1000
+      ],
+      "aliases": []
+    },
+    "前": {
+      "count": 23,
+      "categories": [
+        "抽象",
+        "方角"
+      ],
+      "related_riddle_ids": [
+        134,
+        135,
+        176,
+        213,
+        215,
+        216,
+        217,
+        219,
+        249,
+        276,
+        356,
+        358,
+        360,
+        361,
+        362,
+        458,
+        518,
+        931,
+        955,
+        994,
+        1013,
+        1015,
+        1020
+      ],
+      "aliases": []
+    },
+    "いか": {
+      "count": 19,
+      "categories": [
+        "動物",
+        "海の生き物"
+      ],
+      "related_riddle_ids": [
+        13,
+        71,
+        269,
+        283,
+        533,
+        539,
+        550,
+        558,
+        583,
+        590,
+        592,
+        603,
+        606,
+        608,
+        675,
+        682,
+        683,
+        684,
+        688
+      ],
+      "aliases": [
+        "烏賊"
+      ]
+    },
+    "車": {
+      "count": 18,
+      "categories": [
+        "乗り物",
+        "道具"
+      ],
+      "related_riddle_ids": [
+        8,
+        71,
+        72,
+        73,
+        74,
+        82,
+        132,
+        143,
+        270,
+        391,
+        458,
+        466,
+        648,
+        656,
+        657,
+        662,
+        865,
+        970
+      ],
+      "aliases": [
+        "自動車"
+      ]
+    },
+    "上": {
+      "count": 17,
+      "categories": [
+        "抽象",
+        "方角"
+      ],
+      "related_riddle_ids": [
+        84,
+        98,
+        181,
+        284,
+        285,
+        339,
+        369,
+        427,
+        506,
+        529,
+        792,
+        808,
+        817,
+        932,
+        995,
+        996,
+        1012
+      ],
+      "aliases": []
+    },
+    "パン": {
+      "count": 16,
+      "categories": [
+        "料理",
+        "食べ物"
+      ],
+      "related_riddle_ids": [
+        0,
+        1,
+        2,
+        3,
+        162,
+        170,
+        268,
+        345,
+        393,
+        394,
+        395,
+        452,
+        498,
+        508,
+        513,
+        737
+      ],
+      "aliases": [
+        "食パン"
+      ]
+    },
+    "下": {
+      "count": 16,
+      "categories": [
+        "抽象",
+        "方角"
+      ],
+      "related_riddle_ids": [
+        84,
+        96,
+        360,
+        361,
+        441,
+        493,
+        519,
+        530,
+        606,
+        785,
+        787,
+        791,
+        804,
+        917,
+        932,
+        1006
+      ],
+      "aliases": []
+    },
+    "風": {
+      "count": 16,
+      "categories": [
+        "天気",
+        "自然"
+      ],
+      "related_riddle_ids": [
+        94,
+        175,
+        176,
+        222,
+        297,
+        358,
+        359,
+        494,
+        671,
+        698,
+        744,
+        754,
+        760,
+        832,
+        843,
+        1019
+      ],
+      "aliases": []
+    },
+    "ペン": {
+      "count": 13,
+      "categories": [
+        "文房具",
+        "道具"
+      ],
+      "related_riddle_ids": [
+        60,
+        61,
+        62,
+        63,
+        135,
+        230,
+        258,
+        259,
+        306,
+        409,
+        677,
+        917,
+        979
+      ],
+      "aliases": []
+    },
+    "口": {
+      "count": 11,
+      "categories": [
+        "体"
+      ],
+      "related_riddle_ids": [
+        38,
+        122,
+        125,
+        137,
+        372,
+        373,
+        802,
+        908,
+        1003,
+        1004,
+        1005
+      ],
+      "aliases": [
+        "嘴"
+      ]
+    },
+    "時計": {
+      "count": 11,
+      "categories": [
+        "道具"
+      ],
+      "related_riddle_ids": [
+        48,
+        87,
+        164,
+        201,
+        295,
+        296,
+        428,
+        429,
+        434,
+        483,
+        690
+      ],
+      "aliases": []
+    },
+    "はさみ": {
+      "count": 11,
+      "categories": [
+        "文房具",
+        "道具"
+      ],
+      "related_riddle_ids": [
+        57,
+        64,
+        65,
+        66,
+        107,
+        436,
+        437,
+        438,
+        679,
+        921,
+        922
+      ],
+      "aliases": [
+        "鋏"
+      ]
+    },
+    "雨": {
+      "count": 10,
+      "categories": [
+        "天気",
+        "自然"
+      ],
+      "related_riddle_ids": [
+        49,
+        146,
+        275,
+        299,
+        388,
+        389,
+        390,
+        440,
+        519,
+        761
+      ],
+      "aliases": []
+    },
+    "自分で": {
+      "count": 10,
+      "categories": [
+        "その他"
+      ],
+      "related_riddle_ids": [
+        967,
+        968,
+        969,
+        970,
+        971,
+        972,
+        973,
+        974,
+        975,
+        976
+      ],
+      "aliases": []
+    },
+    "かさ": {
+      "count": 9,
+      "categories": [
+        "道具"
+      ],
+      "related_riddle_ids": [
+        13,
+        49,
+        50,
+        146,
+        166,
+        418,
+        419,
+        682,
+        683
+      ],
+      "aliases": [
+        "傘"
+      ]
+    },
+    "テレビ": {
+      "count": 8,
+      "categories": [
+        "家電",
+        "道具"
+      ],
+      "related_riddle_ids": [
+        68,
+        174,
+        192,
+        288,
+        432,
+        433,
+        473,
+        710
+      ],
+      "aliases": []
+    },
+    "海": {
+      "count": 8,
+      "categories": [
+        "地形",
+        "自然"
+      ],
+      "related_riddle_ids": [
+        74,
+        109,
+        114,
+        229,
+        236,
+        615,
+        680,
+        766
+      ],
+      "aliases": []
+    },
+    "電話": {
+      "count": 7,
+      "categories": [
+        "通信機器",
+        "道具"
+      ],
+      "related_riddle_ids": [
+        67,
+        83,
+        224,
+        430,
+        431,
+        968,
+        1017
+      ],
+      "aliases": [
+        "tel"
+      ]
+    },
+    "外": {
+      "count": 7,
+      "categories": [
+        "位置",
+        "抽象"
+      ],
+      "related_riddle_ids": [
+        102,
+        170,
+        203,
+        292,
+        297,
+        519,
+        1021
+      ],
+      "aliases": []
+    },
+    "月": {
+      "count": 7,
+      "categories": [
+        "天体",
+        "自然"
+      ],
+      "related_riddle_ids": [
+        109,
+        126,
+        381,
+        623,
+        719,
+        757,
+        1007
+      ],
+      "aliases": []
+    },
+    "左": {
+      "count": 7,
+      "categories": [
+        "抽象",
+        "方角"
+      ],
+      "related_riddle_ids": [
+        123,
+        531,
+        532,
+        930,
+        948,
+        949,
+        1043
+      ],
+      "aliases": []
+    },
+    "山": {
+      "count": 7,
+      "categories": [
+        "地形",
+        "自然"
+      ],
+      "related_riddle_ids": [
+        131,
+        191,
+        377,
+        563,
+        582,
+        764,
+        1009
+      ],
+      "aliases": []
+    },
+    "先生": {
+      "count": 7,
+      "categories": [
+        "人",
+        "職業"
+      ],
+      "related_riddle_ids": [
+        464,
+        470,
+        473,
+        493,
+        859,
+        929,
+        979
+      ],
+      "aliases": []
+    },
+    "うし": {
+      "count": 6,
+      "categories": [
+        "動物"
+      ],
+      "related_riddle_ids": [
+        19,
+        159,
+        442,
+        458,
+        463,
+        910
+      ],
+      "aliases": [
+        "牛",
+        "丑"
+      ]
+    },
+    "かき": {
+      "count": 6,
+      "categories": [
+        "果物",
+        "食べ物"
+      ],
+      "related_riddle_ids": [
+        113,
+        142,
+        168,
+        539,
+        550,
+        697
+      ],
+      "aliases": [
+        "柿"
+      ]
+    },
+    "雪": {
+      "count": 6,
+      "categories": [
+        "天気",
+        "自然"
+      ],
+      "related_riddle_ids": [
+        115,
+        142,
+        168,
+        190,
+        268,
+        762
+      ],
+      "aliases": []
+    },
+    "右": {
+      "count": 6,
+      "categories": [
+        "抽象",
+        "方角"
+      ],
+      "related_riddle_ids": [
+        123,
+        531,
+        532,
+        930,
+        948,
+        949
+      ],
+      "aliases": []
+    },
+    "子ども": {
+      "count": 6,
+      "categories": [
+        "人"
+      ],
+      "related_riddle_ids": [
+        158,
+        160,
+        420,
+        466,
+        684,
+        927
+      ],
+      "aliases": [
+        "子供"
+      ]
+    },
+    "お茶": {
+      "count": 5,
+      "categories": [
+        "食べ物",
+        "飲み物"
+      ],
+      "related_riddle_ids": [
+        4,
+        5,
+        239,
+        470,
+        741
+      ],
+      "aliases": [
+        "茶"
+      ]
+    },
+    "たこ": {
+      "count": 5,
+      "categories": [
+        "動物",
+        "海の生き物"
+      ],
+      "related_riddle_ids": [
+        14,
+        197,
+        221,
+        222,
+        605
+      ],
+      "aliases": [
+        "蛸",
+        "凧"
+      ]
+    },
+    "ペンギン": {
+      "count": 5,
+      "categories": [
+        "動物",
+        "鳥"
+      ],
+      "related_riddle_ids": [
+        60,
+        135,
+        230,
+        258,
+        259
+      ],
+      "aliases": []
+    },
+    "ラジオ": {
+      "count": 5,
+      "categories": [
+        "家電",
+        "道具"
+      ],
+      "related_riddle_ids": [
+        69,
+        70,
+        434,
+        435,
+        711
+      ],
+      "aliases": []
+    },
+    "鏡": {
+      "count": 5,
+      "categories": [
+        "道具"
+      ],
+      "related_riddle_ids": [
+        86,
+        185,
+        488,
+        691,
+        993
+      ],
+      "aliases": []
+    },
+    "赤ちゃん": {
+      "count": 5,
+      "categories": [
+        "人"
+      ],
+      "related_riddle_ids": [
+        221,
+        222,
+        260,
+        262,
+        467
+      ],
+      "aliases": [
+        "赤ん坊"
+      ]
+    },
+    "フライパン": {
+      "count": 4,
+      "categories": [
+        "調理器具",
+        "道具"
+      ],
+      "related_riddle_ids": [
+        0,
+        393,
+        508,
+        737
+      ],
+      "aliases": []
+    },
+    "カレー": {
+      "count": 4,
+      "categories": [
+        "料理",
+        "食べ物"
+      ],
+      "related_riddle_ids": [
+        6,
+        453,
+        624,
+        967
+      ],
+      "aliases": []
+    },
+    "電車": {
+      "count": 4,
+      "categories": [
+        "乗り物",
+        "道具"
+      ],
+      "related_riddle_ids": [
+        8,
+        82,
+        466,
+        657
+      ],
+      "aliases": []
+    },
+    "りんご": {
+      "count": 4,
+      "categories": [
+        "果物",
+        "食べ物"
+      ],
+      "related_riddle_ids": [
+        10,
+        249,
+        543,
+        544
+      ],
+      "aliases": [
+        "リンゴ",
+        "林檎"
+      ]
+    },
+    "とり": {
+      "count": 4,
+      "categories": [
+        "動物",
+        "鳥"
+      ],
+      "related_riddle_ids": [
+        17,
+        111,
+        161,
+        589
+      ],
+      "aliases": [
+        "鳥",
+        "取り"
+      ]
+    },
+    "ジュース": {
+      "count": 4,
+      "categories": [
+        "食べ物",
+        "飲み物"
+      ],
+      "related_riddle_ids": [
+        28,
+        398,
+        399,
+        467
+      ],
+      "aliases": []
+    },
+    "母": {
+      "count": 4,
+      "categories": [
+        "人",
+        "家族"
+      ],
+      "related_riddle_ids": [
+        31,
+        196,
+        232,
+        927
+      ],
+      "aliases": [
+        "母親"
+      ]
+    },
+    "かばん": {
+      "count": 4,
+      "categories": [
+        "その他"
+      ],
+      "related_riddle_ids": [
+        47,
+        420,
+        421,
+        684
+      ],
+      "aliases": []
+    },
+    "とけい": {
+      "count": 4,
+      "categories": [
+        "その他"
+      ],
+      "related_riddle_ids": [
+        48,
+        428,
+        429,
+        690
+      ],
+      "aliases": []
+    },
+    "ふく": {
+      "count": 4,
+      "categories": [
+        "その他"
+      ],
+      "related_riddle_ids": [
+        53,
+        54,
+        443,
+        444
+      ],
+      "aliases": []
+    },
+    "えんぴつ": {
+      "count": 4,
+      "categories": [
+        "その他"
+      ],
+      "related_riddle_ids": [
+        56,
+        416,
+        417,
+        676
+      ],
+      "aliases": []
+    },
+    "いす": {
+      "count": 4,
+      "categories": [
+        "その他"
+      ],
+      "related_riddle_ids": [
+        58,
+        424,
+        425,
+        721
+      ],
+      "aliases": []
+    },
+    "つくえ": {
+      "count": 4,
+      "categories": [
+        "その他"
+      ],
+      "related_riddle_ids": [
+        59,
+        426,
+        427,
+        720
+      ],
+      "aliases": []
+    },
+    "くるま": {
+      "count": 4,
+      "categories": [
+        "その他"
+      ],
+      "related_riddle_ids": [
+        72,
+        73,
+        74,
+        656
+      ],
+      "aliases": []
+    },
+    "船": {
+      "count": 4,
+      "categories": [
+        "乗り物",
+        "道具"
+      ],
+      "related_riddle_ids": [
+        75,
+        76,
+        659,
+        864
+      ],
+      "aliases": []
+    },
+    "もも": {
+      "count": 4,
+      "categories": [
+        "果物",
+        "食べ物"
+      ],
+      "related_riddle_ids": [
+        124,
+        537,
+        549,
+        553
+      ],
+      "aliases": [
+        "桃"
+      ]
+    },
+    "後ろ": {
+      "count": 4,
+      "categories": [
+        "抽象",
+        "方角"
+      ],
+      "related_riddle_ids": [
+        165,
+        194,
+        528,
+        931
+      ],
+      "aliases": []
+    },
+    "ほん": {
+      "count": 4,
+      "categories": [
+        "その他"
+      ],
+      "related_riddle_ids": [
+        413,
+        414,
+        415,
+        693
+      ],
+      "aliases": []
+    },
+    "なし": {
+      "count": 4,
+      "categories": [
+        "果物",
+        "食べ物"
+      ],
+      "related_riddle_ids": [
+        521,
+        538,
+        551,
+        552
+      ],
+      "aliases": [
+        "梨"
+      ]
+    },
+    "すし": {
+      "count": 3,
+      "categories": [
+        "料理",
+        "食べ物"
+      ],
+      "related_riddle_ids": [
+        8,
+        453,
+        596
+      ],
+      "aliases": [
+        "鮨",
+        "寿司"
+      ]
+    },
+    "ぶどう": {
+      "count": 3,
+      "categories": [
+        "果物",
+        "食べ物"
+      ],
+      "related_riddle_ids": [
+        11,
+        535,
+        548
+      ],
+      "aliases": [
+        "葡萄"
+      ]
+    },
+    "そば": {
+      "count": 3,
+      "categories": [
+        "料理",
+        "食べ物"
+      ],
+      "related_riddle_ids": [
+        30,
+        238,
+        621
+      ],
+      "aliases": [
+        "蕎麦"
+      ]
+    },
+    "かみ": {
+      "count": 3,
+      "categories": [
+        "その他"
+      ],
+      "related_riddle_ids": [
+        32,
+        57,
+        675
+      ],
+      "aliases": []
+    },
+    "髪": {
+      "count": 3,
+      "categories": [
+        "体"
+      ],
+      "related_riddle_ids": [
+        32,
+        675,
+        797
+      ],
+      "aliases": [
+        "髪の毛"
+      ]
+    },
+    "鼻": {
+      "count": 3,
+      "categories": [
+        "体"
+      ],
+      "related_riddle_ids": [
+        33,
+        770,
+        801
+      ],
+      "aliases": []
+    },
+    "頭": {
+      "count": 3,
+      "categories": [
+        "体"
+      ],
+      "related_riddle_ids": [
+        43,
+        264,
+        796
+      ],
+      "aliases": []
+    },
+    "くつ": {
+      "count": 3,
+      "categories": [
+        "その他"
+      ],
+      "related_riddle_ids": [
+        45,
+        439,
+        440
+      ],
+      "aliases": []
+    },
+    "はし": {
+      "count": 3,
+      "categories": [
+        "その他"
+      ],
+      "related_riddle_ids": [
+        51,
+        52,
+        743
+      ],
+      "aliases": []
+    },
+    "でんわ": {
+      "count": 3,
+      "categories": [
+        "その他"
+      ],
+      "related_riddle_ids": [
+        67,
+        430,
+        431
+      ],
+      "aliases": []
+    },
+    "ふね": {
+      "count": 3,
+      "categories": [
+        "その他"
+      ],
+      "related_riddle_ids": [
+        75,
+        76,
+        659
+      ],
+      "aliases": []
+    },
+    "スプーン": {
+      "count": 3,
+      "categories": [
+        "その他"
+      ],
+      "related_riddle_ids": [
+        77,
+        78,
+        744
+      ],
+      "aliases": []
+    },
+    "フォーク": {
+      "count": 3,
+      "categories": [
+        "その他"
+      ],
+      "related_riddle_ids": [
+        79,
+        80,
+        745
+      ],
+      "aliases": []
+    },
+    "コーヒー": {
+      "count": 3,
+      "categories": [
+        "食べ物",
+        "飲み物"
+      ],
+      "related_riddle_ids": [
+        90,
+        402,
+        403
+      ],
+      "aliases": []
+    },
+    "冷蔵庫": {
+      "count": 3,
+      "categories": [
+        "家電",
+        "道具"
+      ],
+      "related_riddle_ids": [
+        97,
+        495,
+        731
+      ],
+      "aliases": []
+    },
+    "弟": {
+      "count": 3,
+      "categories": [
+        "人",
+        "家族"
+      ],
+      "related_riddle_ids": [
+        183,
+        898,
+        928
+      ],
+      "aliases": []
+    },
+    "いるか": {
+      "count": 3,
+      "categories": [
+        "動物",
+        "海の生き物"
+      ],
+      "related_riddle_ids": [
+        271,
+        274,
+        990
+      ],
+      "aliases": [
+        "海豚"
+      ]
+    },
+    "星": {
+      "count": 3,
+      "categories": [
+        "天体",
+        "自然"
+      ],
+      "related_riddle_ids": [
+        338,
+        758,
+        896
+      ],
+      "aliases": []
+    },
+    "目": {
+      "count": 3,
+      "categories": [
+        "体"
+      ],
+      "related_riddle_ids": [
+        373,
+        799,
+        1004
+      ],
+      "aliases": [
+        "眼"
+      ]
+    },
+    "さけ": {
+      "count": 3,
+      "categories": [
+        "その他"
+      ],
+      "related_riddle_ids": [
+        406,
+        407,
+        598
+      ],
+      "aliases": []
+    },
+    "まんが": {
+      "count": 3,
+      "categories": [
+        "その他"
+      ],
+      "related_riddle_ids": [
+        408,
+        409,
+        718
+      ],
+      "aliases": []
+    },
+    "しんぶん": {
+      "count": 3,
+      "categories": [
+        "その他"
+      ],
+      "related_riddle_ids": [
+        410,
+        411,
+        716
+      ],
+      "aliases": []
+    },
+    "はこ": {
+      "count": 3,
+      "categories": [
+        "その他"
+      ],
+      "related_riddle_ids": [
+        422,
+        423,
+        687
+      ],
+      "aliases": []
+    },
+    "包丁": {
+      "count": 3,
+      "categories": [
+        "調理器具",
+        "道具"
+      ],
+      "related_riddle_ids": [
+        505,
+        506,
+        739
+      ],
+      "aliases": []
+    },
+    "のり": {
+      "count": 3,
+      "categories": [
+        "文房具",
+        "道具"
+      ],
+      "related_riddle_ids": [
+        615,
+        680,
+        920
+      ],
+      "aliases": [
+        "糊"
+      ]
+    },
+    "うどん": {
+      "count": 2,
+      "categories": [
+        "料理",
+        "食べ物"
+      ],
+      "related_riddle_ids": [
+        7,
+        620
+      ],
+      "aliases": [
+        "饂飩"
+      ]
+    },
+    "てんぷら": {
+      "count": 2,
+      "categories": [
+        "料理",
+        "食べ物"
+      ],
+      "related_riddle_ids": [
+        9,
+        594
+      ],
+      "aliases": [
+        "天ぷら"
+      ]
+    },
+    "みかん": {
+      "count": 2,
+      "categories": [
+        "果物",
+        "食べ物"
+      ],
+      "related_riddle_ids": [
+        12,
+        536
+      ],
+      "aliases": [
+        "蜜柑"
+      ]
+    },
+    "かに": {
+      "count": 2,
+      "categories": [
+        "動物",
+        "海の生き物"
+      ],
+      "related_riddle_ids": [
+        15,
+        608
+      ],
+      "aliases": [
+        "蟹"
+      ]
+    },
+    "えび": {
+      "count": 2,
+      "categories": [
+        "動物",
+        "海の生き物"
+      ],
+      "related_riddle_ids": [
+        16,
+        607
+      ],
+      "aliases": [
+        "海老",
+        "恵比寿"
+      ]
+    },
+    "ぶた": {
+      "count": 2,
+      "categories": [
+        "動物"
+      ],
+      "related_riddle_ids": [
+        18,
+        950
+      ],
+      "aliases": [
+        "豚",
+        "蓋"
+      ]
+    },
+    "うま": {
+      "count": 2,
+      "categories": [
+        "動物"
+      ],
+      "related_riddle_ids": [
+        20,
+        587
+      ],
+      "aliases": [
+        "馬",
+        "午"
+      ]
+    },
+    "さる": {
+      "count": 2,
+      "categories": [
+        "動物"
+      ],
+      "related_riddle_ids": [
+        21,
+        771
+      ],
+      "aliases": [
+        "猿",
+        "申"
+      ]
+    },
+    "いぬ": {
+      "count": 2,
+      "categories": [
+        "動物"
+      ],
+      "related_riddle_ids": [
+        22,
+        255
+      ],
+      "aliases": [
+        "犬",
+        "戌"
+      ]
+    },
+    "アイス": {
+      "count": 2,
+      "categories": [
+        "その他"
+      ],
+      "related_riddle_ids": [
+        27,
+        647
+      ],
+      "aliases": []
+    },
+    "めん": {
+      "count": 2,
+      "categories": [
+        "その他"
+      ],
+      "related_riddle_ids": [
+        29,
+        619
+      ],
+      "aliases": []
+    },
+    "はな": {
+      "count": 2,
+      "categories": [
+        "その他"
+      ],
+      "related_riddle_ids": [
+        33,
+        34
+      ],
+      "aliases": []
+    },
+    "くち": {
+      "count": 2,
+      "categories": [
+        "その他"
+      ],
+      "related_riddle_ids": [
+        37,
+        38
+      ],
+      "aliases": []
+    },
+    "手": {
+      "count": 2,
+      "categories": [
+        "体"
+      ],
+      "related_riddle_ids": [
+        41,
+        809
+      ],
+      "aliases": []
+    },
+    "自転車": {
+      "count": 2,
+      "categories": [
+        "乗り物",
+        "道具"
+      ],
+      "related_riddle_ids": [
+        71,
+        662
+      ],
+      "aliases": []
+    },
+    "ナイフ": {
+      "count": 2,
+      "categories": [
+        "その他"
+      ],
+      "related_riddle_ids": [
+        81,
+        746
+      ],
+      "aliases": []
+    },
+    "ゾウ": {
+      "count": 2,
+      "categories": [
+        "動物"
+      ],
+      "related_riddle_ids": [
+        143,
+        262
+      ],
+      "aliases": [
+        "象"
+      ]
+    },
+    "パンダ": {
+      "count": 2,
+      "categories": [
+        "動物"
+      ],
+      "related_riddle_ids": [
+        170,
+        268
+      ],
+      "aliases": []
+    },
+    "兄": {
+      "count": 2,
+      "categories": [
+        "人",
+        "家族"
+      ],
+      "related_riddle_ids": [
+        183,
+        928
+      ],
+      "aliases": [
+        "兄"
+      ]
+    },
+    "耳": {
+      "count": 2,
+      "categories": [
+        "体"
+      ],
+      "related_riddle_ids": [
+        189,
+        800
+      ],
+      "aliases": []
+    },
+    "ライター": {
+      "count": 2,
+      "categories": [
+        "道具"
+      ],
+      "related_riddle_ids": [
+        233,
+        713
+      ],
+      "aliases": []
+    },
+    "マッチ": {
+      "count": 2,
+      "categories": [
+        "道具"
+      ],
+      "related_riddle_ids": [
+        233,
+        714
+      ],
+      "aliases": []
+    },
+    "カンガルー": {
+      "count": 2,
+      "categories": [
+        "動物"
+      ],
+      "related_riddle_ids": [
+        260,
+        261
+      ],
+      "aliases": []
+    },
+    "雲": {
+      "count": 2,
+      "categories": [
+        "天気",
+        "自然"
+      ],
+      "related_riddle_ids": [
+        389,
+        759
+      ],
+      "aliases": [
+        "くも"
+      ]
+    },
+    "ケーキ": {
+      "count": 2,
+      "categories": [
+        "その他"
+      ],
+      "related_riddle_ids": [
+        396,
+        397
+      ],
+      "aliases": []
+    },
+    "おかし": {
+      "count": 2,
+      "categories": [
+        "その他"
+      ],
+      "related_riddle_ids": [
+        400,
+        401
+      ],
+      "aliases": []
+    },
+    "ビール": {
+      "count": 2,
+      "categories": [
+        "その他"
+      ],
+      "related_riddle_ids": [
+        404,
+        405
+      ],
+      "aliases": []
+    },
+    "ざっし": {
+      "count": 2,
+      "categories": [
+        "その他"
+      ],
+      "related_riddle_ids": [
+        412,
+        717
+      ],
+      "aliases": []
+    },
+    "舌": {
+      "count": 2,
+      "categories": [
+        "体"
+      ],
+      "related_riddle_ids": [
+        441,
+        804
+      ],
+      "aliases": []
+    },
+    "こたつ": {
+      "count": 2,
+      "categories": [
+        "その他"
+      ],
+      "related_riddle_ids": [
+        446,
+        447
+      ],
+      "aliases": []
+    },
+    "ふとん": {
+      "count": 2,
+      "categories": [
+        "その他"
+      ],
+      "related_riddle_ids": [
+        449,
+        664
+      ],
+      "aliases": []
+    },
+    "まくら": {
+      "count": 2,
+      "categories": [
+        "その他"
+      ],
+      "related_riddle_ids": [
+        450,
+        665
+      ],
+      "aliases": []
+    },
+    "生徒": {
+      "count": 2,
+      "categories": [
+        "人"
+      ],
+      "related_riddle_ids": [
+        465,
+        929
+      ],
+      "aliases": []
+    },
+    "鍋": {
+      "count": 2,
+      "categories": [
+        "調理器具",
+        "道具"
+      ],
+      "related_riddle_ids": [
+        507,
+        736
+      ],
+      "aliases": []
+    },
+    "スープ": {
+      "count": 2,
+      "categories": [
+        "料理",
+        "食べ物"
+      ],
+      "related_riddle_ids": [
+        511,
+        626
+      ],
+      "aliases": []
+    },
+    "サラダ": {
+      "count": 2,
+      "categories": [
+        "料理",
+        "食べ物"
+      ],
+      "related_riddle_ids": [
+        512,
+        627
+      ],
+      "aliases": []
+    },
+    "いちご": {
+      "count": 2,
+      "categories": [
+        "果物",
+        "食べ物"
+      ],
+      "related_riddle_ids": [
+        545,
+        546
+      ],
+      "aliases": [
+        "苺"
+      ]
+    },
+    "たまねぎ": {
+      "count": 2,
+      "categories": [
+        "その他"
+      ],
+      "related_riddle_ids": [
+        564,
+        565
+      ],
+      "aliases": []
+    },
+    "かめ": {
+      "count": 2,
+      "categories": [
+        "動物"
+      ],
+      "related_riddle_ids": [
+        617,
+        879
+      ],
+      "aliases": [
+        "亀"
+      ]
+    },
+    "さいふ": {
+      "count": 2,
+      "categories": [
+        "その他"
+      ],
+      "related_riddle_ids": [
+        685,
+        692
+      ],
+      "aliases": []
+    },
+    "姉": {
+      "count": 2,
+      "categories": [
+        "人",
+        "家族"
+      ],
+      "related_riddle_ids": [
+        691,
+        928
+      ],
+      "aliases": []
+    },
+    "はがき": {
+      "count": 2,
+      "categories": [
+        "その他"
+      ],
+      "related_riddle_ids": [
+        697,
+        719
+      ],
+      "aliases": []
+    },
+    "歯": {
+      "count": 2,
+      "categories": [
+        "体"
+      ],
+      "related_riddle_ids": [
+        776,
+        803
+      ],
+      "aliases": []
+    },
+    "中間": {
+      "count": 2,
+      "categories": [
+        "位置",
+        "抽象"
+      ],
+      "related_riddle_ids": [
+        932,
+        940
+      ],
+      "aliases": []
+    },
+    "アルファベット": {
+      "count": 2,
+      "categories": [
+        "抽象",
+        "文字"
+      ],
+      "related_riddle_ids": [
+        1039,
+        1040
+      ],
+      "aliases": []
+    },
+    "食パン": {
+      "count": 1,
+      "categories": [
+        "料理",
+        "食べ物"
+      ],
+      "related_riddle_ids": [
+        1
+      ],
+      "aliases": [
+        "パン"
+      ]
+    },
+    "かにカニでも食べられないカニ": {
+      "count": 1,
+      "categories": [
+        "その他"
+      ],
+      "related_riddle_ids": [
+        15
+      ],
+      "aliases": []
+    },
+    "ねずみ": {
+      "count": 1,
+      "categories": [
+        "動物"
+      ],
+      "related_riddle_ids": [
+        23
+      ],
+      "aliases": [
+        "鼠",
+        "子"
+      ]
+    },
+    "とら": {
+      "count": 1,
+      "categories": [
+        "動物"
+      ],
+      "related_riddle_ids": [
+        24
+      ],
+      "aliases": [
+        "虎",
+        "寅"
+      ]
+    },
+    "野菜": {
+      "count": 1,
+      "categories": [
+        "その他"
+      ],
+      "related_riddle_ids": [
+        25
+      ],
+      "aliases": []
+    },
+    "たまご": {
+      "count": 1,
+      "categories": [
+        "その他"
+      ],
+      "related_riddle_ids": [
+        26
+      ],
+      "aliases": []
+    },
+    "やきそば": {
+      "count": 1,
+      "categories": [
+        "その他"
+      ],
+      "related_riddle_ids": [
+        30
+      ],
+      "aliases": []
+    },
+    "うば": {
+      "count": 1,
+      "categories": [
+        "その他"
+      ],
+      "related_riddle_ids": [
+        31
+      ],
+      "aliases": []
+    },
+    "め": {
+      "count": 1,
+      "categories": [
+        "その他"
+      ],
+      "related_riddle_ids": [
+        35
+      ],
+      "aliases": []
+    },
+    "みみ": {
+      "count": 1,
+      "categories": [
+        "その他"
+      ],
+      "related_riddle_ids": [
+        36
+      ],
+      "aliases": []
+    },
+    "は": {
+      "count": 1,
+      "categories": [
+        "その他"
+      ],
+      "related_riddle_ids": [
+        39
+      ],
+      "aliases": []
+    },
+    "あし": {
+      "count": 1,
+      "categories": [
+        "その他"
+      ],
+      "related_riddle_ids": [
+        40
+      ],
+      "aliases": []
+    },
+    "て": {
+      "count": 1,
+      "categories": [
+        "その他"
+      ],
+      "related_riddle_ids": [
+        41
+      ],
+      "aliases": []
+    },
+    "せなか": {
+      "count": 1,
+      "categories": [
+        "その他"
+      ],
+      "related_riddle_ids": [
+        42
+      ],
+      "aliases": []
+    },
+    "あたま": {
+      "count": 1,
+      "categories": [
+        "その他"
+      ],
+      "related_riddle_ids": [
+        43
+      ],
+      "aliases": []
+    },
+    "かお": {
+      "count": 1,
+      "categories": [
+        "その他"
+      ],
+      "related_riddle_ids": [
+        44
+      ],
+      "aliases": []
+    },
+    "はきもの": {
+      "count": 1,
+      "categories": [
+        "その他"
+      ],
+      "related_riddle_ids": [
+        46
+      ],
+      "aliases": []
+    },
+    "くすり": {
+      "count": 1,
+      "categories": [
+        "その他"
+      ],
+      "related_riddle_ids": [
+        55
+      ],
+      "aliases": []
+    },
+    "電車とかけて弁当と解く。その心": {
+      "count": 1,
+      "categories": [
+        "その他"
+      ],
+      "related_riddle_ids": [
+        82
+      ],
+      "aliases": []
+    },
+    "電話とかけて友情と解く。その心": {
+      "count": 1,
+      "categories": [
+        "その他"
+      ],
+      "related_riddle_ids": [
+        83
+      ],
+      "aliases": []
+    },
+    "階段とかけて人生と解く。その心": {
+      "count": 1,
+      "categories": [
+        "その他"
+      ],
+      "related_riddle_ids": [
+        84
+      ],
+      "aliases": []
+    },
+    "鏡とかけて夫婦と解く。その心": {
+      "count": 1,
+      "categories": [
+        "その他"
+      ],
+      "related_riddle_ids": [
+        86
+      ],
+      "aliases": []
+    },
+    "傘とかけて友情と解く。その心": {
+      "count": 1,
+      "categories": [
+        "その他"
+      ],
+      "related_riddle_ids": [
+        88
+      ],
+      "aliases": []
+    },
+    "花ととかけて教師と解く。その心": {
+      "count": 1,
+      "categories": [
+        "その他"
+      ],
+      "related_riddle_ids": [
+        100
+      ],
+      "aliases": []
+    },
+    "鉛筆とかけて恋と解く。その心": {
+      "count": 1,
+      "categories": [
+        "その他"
+      ],
+      "related_riddle_ids": [
+        105
+      ],
+      "aliases": []
+    },
+    "魚へんに春夏秋冬、秋の魚": {
+      "count": 1,
+      "categories": [
+        "その他"
+      ],
+      "related_riddle_ids": [
+        116
+      ],
+      "aliases": []
+    },
+    "虫へんに冬と書く、秋に鳴く虫": {
+      "count": 1,
+      "categories": [
+        "その他"
+      ],
+      "related_riddle_ids": [
+        119
+      ],
+      "aliases": []
+    },
+    "「口」に「鳥」を足すとできる鳥": {
+      "count": 1,
+      "categories": [
+        "その他"
+      ],
+      "related_riddle_ids": [
+        125
+      ],
+      "aliases": []
+    },
+    "「人」と「人」が支え合う漢字": {
+      "count": 1,
+      "categories": [
+        "その他"
+      ],
+      "related_riddle_ids": [
+        128
+      ],
+      "aliases": []
+    },
+    "「女」に「子」を足すとできるの": {
+      "count": 1,
+      "categories": [
+        "その他"
+      ],
+      "related_riddle_ids": [
+        130
+      ],
+      "aliases": []
+    },
+    "頭に雪が積もっている食べ物": {
+      "count": 1,
+      "categories": [
+        "その他"
+      ],
+      "related_riddle_ids": [
+        142
+      ],
+      "aliases": []
+    },
+    "ゾウが乗っている車": {
+      "count": 1,
+      "categories": [
+        "その他"
+      ],
+      "related_riddle_ids": [
+        143
+      ],
+      "aliases": []
+    },
+    "ご飯を食べるときに使う武器": {
+      "count": 1,
+      "categories": [
+        "その他"
+      ],
+      "related_riddle_ids": [
+        144
+      ],
+      "aliases": []
+    },
+    "着るとみんなが驚く服": {
+      "count": 1,
+      "categories": [
+        "その他"
+      ],
+      "related_riddle_ids": [
+        145
+      ],
+      "aliases": []
+    },
+    "雨の日にかぎりなく近づけるもの": {
+      "count": 1,
+      "categories": [
+        "その他"
+      ],
+      "related_riddle_ids": [
+        146
+      ],
+      "aliases": []
+    },
+    "カラオケで歌うと貯金できるの": {
+      "count": 1,
+      "categories": [
+        "その他"
+      ],
+      "related_riddle_ids": [
+        150
+      ],
+      "aliases": []
+    },
+    "逆立ちすると速くなる乗り物": {
+      "count": 1,
+      "categories": [
+        "その他"
+      ],
+      "related_riddle_ids": [
+        151
+      ],
+      "aliases": []
+    },
+    "耳が二つあるのに聞こえないもの": {
+      "count": 1,
+      "categories": [
+        "その他"
+      ],
+      "related_riddle_ids": [
+        152
+      ],
+      "aliases": []
+    },
+    "壁に向かって言う言葉": {
+      "count": 1,
+      "categories": [
+        "その他"
+      ],
+      "related_riddle_ids": [
+        153
+      ],
+      "aliases": []
+    },
+    "食べると口がへの字になる食べ物": {
+      "count": 1,
+      "categories": [
+        "その他"
+      ],
+      "related_riddle_ids": [
+        154
+      ],
+      "aliases": []
+    },
+    "水に弱い虫": {
+      "count": 1,
+      "categories": [
+        "その他"
+      ],
+      "related_riddle_ids": [
+        155
+      ],
+      "aliases": []
+    },
+    "足が4本あるのに歩けないもの": {
+      "count": 1,
+      "categories": [
+        "その他"
+      ],
+      "related_riddle_ids": [
+        156
+      ],
+      "aliases": []
+    },
+    "1年中眠い野菜": {
+      "count": 1,
+      "categories": [
+        "その他"
+      ],
+      "related_riddle_ids": [
+        157
+      ],
+      "aliases": []
+    },
+    "子どもが3人集まるとできるもの": {
+      "count": 1,
+      "categories": [
+        "その他"
+      ],
+      "related_riddle_ids": [
+        158
+      ],
+      "aliases": []
+    },
+    "いつも人のうしろにいるもの": {
+      "count": 1,
+      "categories": [
+        "その他"
+      ],
+      "related_riddle_ids": [
+        159
+      ],
+      "aliases": []
+    },
+    "子どもの頃": {
+      "count": 1,
+      "categories": [
+        "その他"
+      ],
+      "related_riddle_ids": [
+        160
+      ],
+      "aliases": []
+    },
+    "からだが半分しかない鳥": {
+      "count": 1,
+      "categories": [
+        "その他"
+      ],
+      "related_riddle_ids": [
+        161
+      ],
+      "aliases": []
+    },
+    "口の周りにぐるっと巻いた食べ物": {
+      "count": 1,
+      "categories": [
+        "その他"
+      ],
+      "related_riddle_ids": [
+        162
+      ],
+      "aliases": []
+    },
+    "1分ごとに鳴く鳥": {
+      "count": 1,
+      "categories": [
+        "その他"
+      ],
+      "related_riddle_ids": [
+        163
+      ],
+      "aliases": []
+    },
+    "歩くとカチカチ音がする生き物": {
+      "count": 1,
+      "categories": [
+        "その他"
+      ],
+      "related_riddle_ids": [
+        164
+      ],
+      "aliases": []
+    },
+    "世界中の人の耳の後ろにあるもの": {
+      "count": 1,
+      "categories": [
+        "その他"
+      ],
+      "related_riddle_ids": [
+        165
+      ],
+      "aliases": []
+    },
+    "中にクマが住んでいるお菓子": {
+      "count": 1,
+      "categories": [
+        "その他"
+      ],
+      "related_riddle_ids": [
+        167
+      ],
+      "aliases": []
+    },
+    "くま": {
+      "count": 1,
+      "categories": [
+        "動物"
+      ],
+      "related_riddle_ids": [
+        167
+      ],
+      "aliases": [
+        "熊"
+      ]
+    },
+    "夏にしか会えない雪だるま": {
+      "count": 1,
+      "categories": [
+        "その他"
+      ],
+      "related_riddle_ids": [
+        168
+      ],
+      "aliases": []
+    },
+    "会えば会うほど短くなる関係": {
+      "count": 1,
+      "categories": [
+        "その他"
+      ],
+      "related_riddle_ids": [
+        169
+      ],
+      "aliases": []
+    },
+    "パンダの好きな食べ物": {
+      "count": 1,
+      "categories": [
+        "その他"
+      ],
+      "related_riddle_ids": [
+        170
+      ],
+      "aliases": []
+    },
+    "ネコの好きな温度": {
+      "count": 1,
+      "categories": [
+        "その他"
+      ],
+      "related_riddle_ids": [
+        171
+      ],
+      "aliases": []
+    },
+    "犬がよく見る夢": {
+      "count": 1,
+      "categories": [
+        "その他"
+      ],
+      "related_riddle_ids": [
+        172
+      ],
+      "aliases": []
+    },
+    "風が吹けば桶屋が儲かる。で": {
+      "count": 1,
+      "categories": [
+        "その他"
+      ],
+      "related_riddle_ids": [
+        175
+      ],
+      "aliases": []
+    },
+    "お風呂に入る前にするべきこと": {
+      "count": 1,
+      "categories": [
+        "その他"
+      ],
+      "related_riddle_ids": [
+        176
+      ],
+      "aliases": []
+    },
+    "食べ物の話をすると出てくる怪獣": {
+      "count": 1,
+      "categories": [
+        "その他"
+      ],
+      "related_riddle_ids": [
+        177
+      ],
+      "aliases": []
+    },
+    "生まれたときから老いているもの": {
+      "count": 1,
+      "categories": [
+        "その他"
+      ],
+      "related_riddle_ids": [
+        185
+      ],
+      "aliases": []
+    },
+    "止まると死んでしまう生き物": {
+      "count": 1,
+      "categories": [
+        "その他"
+      ],
+      "related_riddle_ids": [
+        187
+      ],
+      "aliases": []
+    },
+    "食べると目が覚める食べ物": {
+      "count": 1,
+      "categories": [
+        "その他"
+      ],
+      "related_riddle_ids": [
+        188
+      ],
+      "aliases": []
+    },
+    "耳にすると美味しいもの": {
+      "count": 1,
+      "categories": [
+        "その他"
+      ],
+      "related_riddle_ids": [
+        189
+      ],
+      "aliases": []
+    },
+    "宇宙人が見ているテレビ番組": {
+      "count": 1,
+      "categories": [
+        "その他"
+      ],
+      "related_riddle_ids": [
+        192
+      ],
+      "aliases": []
+    },
+    "男の人も女の人も持っているけど、自分で": {
+      "count": 1,
+      "categories": [
+        "その他"
+      ],
+      "related_riddle_ids": [
+        194
+      ],
+      "aliases": []
+    },
+    "思っているだけで叶うこと": {
+      "count": 1,
+      "categories": [
+        "その他"
+      ],
+      "related_riddle_ids": [
+        195
+      ],
+      "aliases": []
+    },
+    "内": {
+      "count": 1,
+      "categories": [
+        "位置",
+        "抽象"
+      ],
+      "related_riddle_ids": [
+        196
+      ],
+      "aliases": [
+        "中"
+      ]
+    },
+    "一度も見たことがないのに、明日に": {
+      "count": 1,
+      "categories": [
+        "その他"
+      ],
+      "related_riddle_ids": [
+        197
+      ],
+      "aliases": []
+    },
+    "新しいほど暗い家具": {
+      "count": 1,
+      "categories": [
+        "その他"
+      ],
+      "related_riddle_ids": [
+        198
+      ],
+      "aliases": []
+    },
+    "古いほど明るくなるもの": {
+      "count": 1,
+      "categories": [
+        "その他"
+      ],
+      "related_riddle_ids": [
+        199
+      ],
+      "aliases": []
+    },
+    "手が2本なのに触れないもの": {
+      "count": 1,
+      "categories": [
+        "その他"
+      ],
+      "related_riddle_ids": [
+        201
+      ],
+      "aliases": []
+    },
+    "話すとき": {
+      "count": 1,
+      "categories": [
+        "その他"
+      ],
+      "related_riddle_ids": [
+        202
+      ],
+      "aliases": []
+    },
+    "書けば書くほど汚くなるもの": {
+      "count": 1,
+      "categories": [
+        "その他"
+      ],
+      "related_riddle_ids": [
+        204
+      ],
+      "aliases": []
+    },
+    "冷やすと甘くなる果物": {
+      "count": 1,
+      "categories": [
+        "その他"
+      ],
+      "related_riddle_ids": [
+        205
+      ],
+      "aliases": []
+    },
+    "一年中赤い信号を出しているもの": {
+      "count": 1,
+      "categories": [
+        "その他"
+      ],
+      "related_riddle_ids": [
+        206
+      ],
+      "aliases": []
+    },
+    "2＋2＋2": {
+      "count": 1,
+      "categories": [
+        "その他"
+      ],
+      "related_riddle_ids": [
+        207
+      ],
+      "aliases": []
+    },
+    "3＋3÷3": {
+      "count": 1,
+      "categories": [
+        "その他"
+      ],
+      "related_riddle_ids": [
+        208
+      ],
+      "aliases": []
+    },
+    "10＋10": {
+      "count": 1,
+      "categories": [
+        "その他"
+      ],
+      "related_riddle_ids": [
+        209
+      ],
+      "aliases": []
+    },
+    "20＋20": {
+      "count": 1,
+      "categories": [
+        "その他"
+      ],
+      "related_riddle_ids": [
+        210
+      ],
+      "aliases": []
+    },
+    "5＋5＋5": {
+      "count": 1,
+      "categories": [
+        "その他"
+      ],
+      "related_riddle_ids": [
+        211
+      ],
+      "aliases": []
+    },
+    "100＋100": {
+      "count": 1,
+      "categories": [
+        "その他"
+      ],
+      "related_riddle_ids": [
+        212
+      ],
+      "aliases": []
+    },
+    "明日の前日": {
+      "count": 1,
+      "categories": [
+        "その他"
+      ],
+      "related_riddle_ids": [
+        217
+      ],
+      "aliases": []
+    },
+    "昨日の次の日": {
+      "count": 1,
+      "categories": [
+        "その他"
+      ],
+      "related_riddle_ids": [
+        218
+      ],
+      "aliases": []
+    },
+    "明後日の前日": {
+      "count": 1,
+      "categories": [
+        "その他"
+      ],
+      "related_riddle_ids": [
+        219
+      ],
+      "aliases": []
+    },
+    "一昨日の次の次の日": {
+      "count": 1,
+      "categories": [
+        "その他"
+      ],
+      "related_riddle_ids": [
+        220
+      ],
+      "aliases": []
+    },
+    "目が見えないのに新聞が読める人": {
+      "count": 1,
+      "categories": [
+        "その他"
+      ],
+      "related_riddle_ids": [
+        225
+      ],
+      "aliases": []
+    },
+    "足がないのに世界を旅するもの": {
+      "count": 1,
+      "categories": [
+        "その他"
+      ],
+      "related_riddle_ids": [
+        227
+      ],
+      "aliases": []
+    },
+    "足が4本あるのに自分で": {
+      "count": 1,
+      "categories": [
+        "その他"
+      ],
+      "related_riddle_ids": [
+        228
+      ],
+      "aliases": []
+    },
+    "泳げないのに海で生きていける魚": {
+      "count": 1,
+      "categories": [
+        "その他"
+      ],
+      "related_riddle_ids": [
+        229
+      ],
+      "aliases": []
+    },
+    "卵を産むのに鳥で": {
+      "count": 1,
+      "categories": [
+        "その他"
+      ],
+      "related_riddle_ids": [
+        231
+      ],
+      "aliases": []
+    },
+    "ミルクを出すのに牛で": {
+      "count": 1,
+      "categories": [
+        "その他"
+      ],
+      "related_riddle_ids": [
+        232
+      ],
+      "aliases": []
+    },
+    "火を使うのに料理をしない道具": {
+      "count": 1,
+      "categories": [
+        "その他"
+      ],
+      "related_riddle_ids": [
+        233
+      ],
+      "aliases": []
+    },
+    "食べられるのに料理をしないもの": {
+      "count": 1,
+      "categories": [
+        "その他"
+      ],
+      "related_riddle_ids": [
+        234
+      ],
+      "aliases": []
+    },
+    "海の中にあるのに濡れないもの": {
+      "count": 1,
+      "categories": [
+        "その他"
+      ],
+      "related_riddle_ids": [
+        236
+      ],
+      "aliases": []
+    },
+    "水の中で燃えるもの": {
+      "count": 1,
+      "categories": [
+        "その他"
+      ],
+      "related_riddle_ids": [
+        237
+      ],
+      "aliases": []
+    },
+    "火のそばにいるのに燃えないもの": {
+      "count": 1,
+      "categories": [
+        "その他"
+      ],
+      "related_riddle_ids": [
+        238
+      ],
+      "aliases": []
+    },
+    "熱いのに冷たいと言われるもの": {
+      "count": 1,
+      "categories": [
+        "その他"
+      ],
+      "related_riddle_ids": [
+        239
+      ],
+      "aliases": []
+    },
+    "年を取らないのに古くなるもの": {
+      "count": 1,
+      "categories": [
+        "その他"
+      ],
+      "related_riddle_ids": [
+        240
+      ],
+      "aliases": []
+    },
+    "新しいのに古いと言われるもの": {
+      "count": 1,
+      "categories": [
+        "その他"
+      ],
+      "related_riddle_ids": [
+        241
+      ],
+      "aliases": []
+    },
+    "安いのに高いと言われるもの": {
+      "count": 1,
+      "categories": [
+        "その他"
+      ],
+      "related_riddle_ids": [
+        242
+      ],
+      "aliases": []
+    },
+    "大きいのに小さいと呼ばれるもの": {
+      "count": 1,
+      "categories": [
+        "その他"
+      ],
+      "related_riddle_ids": [
+        243
+      ],
+      "aliases": []
+    },
+    "小さいのに大きいと呼ばれるもの": {
+      "count": 1,
+      "categories": [
+        "その他"
+      ],
+      "related_riddle_ids": [
+        244
+      ],
+      "aliases": []
+    },
+    "丸いのに角があるもの": {
+      "count": 1,
+      "categories": [
+        "その他"
+      ],
+      "related_riddle_ids": [
+        245
+      ],
+      "aliases": []
+    },
+    "黒いのに白いと言われるもの": {
+      "count": 1,
+      "categories": [
+        "その他"
+      ],
+      "related_riddle_ids": [
+        247
+      ],
+      "aliases": []
+    },
+    "白いのに黒いと言われるもの": {
+      "count": 1,
+      "categories": [
+        "その他"
+      ],
+      "related_riddle_ids": [
+        248
+      ],
+      "aliases": []
+    },
+    "赤いのに青いと言われる果物": {
+      "count": 1,
+      "categories": [
+        "その他"
+      ],
+      "related_riddle_ids": [
+        249
+      ],
+      "aliases": []
+    },
+    "夏にしかない冬のもの": {
+      "count": 1,
+      "categories": [
+        "その他"
+      ],
+      "related_riddle_ids": [
+        250
+      ],
+      "aliases": []
+    },
+    "秋にしかない春のもの": {
+      "count": 1,
+      "categories": [
+        "その他"
+      ],
+      "related_riddle_ids": [
+        251
+      ],
+      "aliases": []
+    },
+    "冬にしかない夏のもの": {
+      "count": 1,
+      "categories": [
+        "その他"
+      ],
+      "related_riddle_ids": [
+        252
+      ],
+      "aliases": []
+    },
+    "朝にしかない夜のもの": {
+      "count": 1,
+      "categories": [
+        "その他"
+      ],
+      "related_riddle_ids": [
+        253
+      ],
+      "aliases": []
+    },
+    "昼にしかない夜のもの": {
+      "count": 1,
+      "categories": [
+        "その他"
+      ],
+      "related_riddle_ids": [
+        254
+      ],
+      "aliases": []
+    },
+    "犬を飼うときにもらえる書類": {
+      "count": 1,
+      "categories": [
+        "その他"
+      ],
+      "related_riddle_ids": [
+        255
+      ],
+      "aliases": []
+    },
+    "ねこ": {
+      "count": 1,
+      "categories": [
+        "動物"
+      ],
+      "related_riddle_ids": [
+        256
+      ],
+      "aliases": [
+        "猫"
+      ]
+    },
+    "猫の手を借りたい人": {
+      "count": 1,
+      "categories": [
+        "その他"
+      ],
+      "related_riddle_ids": [
+        257
+      ],
+      "aliases": []
+    },
+    "ペンギンの好きな文房具": {
+      "count": 1,
+      "categories": [
+        "その他"
+      ],
+      "related_riddle_ids": [
+        258
+      ],
+      "aliases": []
+    },
+    "ペンギンが仕事中に使うもの": {
+      "count": 1,
+      "categories": [
+        "その他"
+      ],
+      "related_riddle_ids": [
+        259
+      ],
+      "aliases": []
+    },
+    "カンガルーの好きな食べ物": {
+      "count": 1,
+      "categories": [
+        "その他"
+      ],
+      "related_riddle_ids": [
+        261
+      ],
+      "aliases": []
+    },
+    "ライオンが泳げない理由": {
+      "count": 1,
+      "categories": [
+        "その他"
+      ],
+      "related_riddle_ids": [
+        263
+      ],
+      "aliases": []
+    },
+    "ライオン": {
+      "count": 1,
+      "categories": [
+        "動物"
+      ],
+      "related_riddle_ids": [
+        263
+      ],
+      "aliases": []
+    },
+    "シマウマのシマシマ": {
+      "count": 1,
+      "categories": [
+        "その他"
+      ],
+      "related_riddle_ids": [
+        264
+      ],
+      "aliases": []
+    },
+    "キリンの首が長いの": {
+      "count": 1,
+      "categories": [
+        "その他"
+      ],
+      "related_riddle_ids": [
+        265
+      ],
+      "aliases": []
+    },
+    "カメレオンが色を変えるの": {
+      "count": 1,
+      "categories": [
+        "その他"
+      ],
+      "related_riddle_ids": [
+        266
+      ],
+      "aliases": []
+    },
+    "ハリネズミのトゲトゲ": {
+      "count": 1,
+      "categories": [
+        "その他"
+      ],
+      "related_riddle_ids": [
+        267
+      ],
+      "aliases": []
+    },
+    "パンダの模様が白と黒なの": {
+      "count": 1,
+      "categories": [
+        "その他"
+      ],
+      "related_riddle_ids": [
+        268
+      ],
+      "aliases": []
+    },
+    "コアラ": {
+      "count": 1,
+      "categories": [
+        "動物"
+      ],
+      "related_riddle_ids": [
+        269
+      ],
+      "aliases": []
+    },
+    "コアラがほとんど動かないの": {
+      "count": 1,
+      "categories": [
+        "その他"
+      ],
+      "related_riddle_ids": [
+        269
+      ],
+      "aliases": []
+    },
+    "カラスが賢いと言われる理由": {
+      "count": 1,
+      "categories": [
+        "その他"
+      ],
+      "related_riddle_ids": [
+        270
+      ],
+      "aliases": []
+    },
+    "フクロウが夜に活動するの": {
+      "count": 1,
+      "categories": [
+        "その他"
+      ],
+      "related_riddle_ids": [
+        271
+      ],
+      "aliases": []
+    },
+    "セミが成虫で過ごす期間": {
+      "count": 1,
+      "categories": [
+        "その他"
+      ],
+      "related_riddle_ids": [
+        272
+      ],
+      "aliases": []
+    },
+    "ホタルが光るの": {
+      "count": 1,
+      "categories": [
+        "その他"
+      ],
+      "related_riddle_ids": [
+        273
+      ],
+      "aliases": []
+    },
+    "アリが行列を作るの": {
+      "count": 1,
+      "categories": [
+        "その他"
+      ],
+      "related_riddle_ids": [
+        274
+      ],
+      "aliases": []
+    },
+    "クモの巣が雨の日に見えやすいの": {
+      "count": 1,
+      "categories": [
+        "その他"
+      ],
+      "related_riddle_ids": [
+        275
+      ],
+      "aliases": []
+    },
+    "イヌが寝る前にくるくる回るの": {
+      "count": 1,
+      "categories": [
+        "その他"
+      ],
+      "related_riddle_ids": [
+        276
+      ],
+      "aliases": []
+    },
+    "ネコがゴロゴロのどを鳴らすの": {
+      "count": 1,
+      "categories": [
+        "その他"
+      ],
+      "related_riddle_ids": [
+        277
+      ],
+      "aliases": []
+    },
+    "クラゲの体の95%": {
+      "count": 1,
+      "categories": [
+        "その他"
+      ],
+      "related_riddle_ids": [
+        278
+      ],
+      "aliases": []
+    },
+    "エビが加熱すると赤くなるの": {
+      "count": 1,
+      "categories": [
+        "その他"
+      ],
+      "related_riddle_ids": [
+        279
+      ],
+      "aliases": []
+    },
+    "タコの足（腕）": {
+      "count": 1,
+      "categories": [
+        "その他"
+      ],
+      "related_riddle_ids": [
+        280
+      ],
+      "aliases": []
+    },
+    "イカの足（腕）": {
+      "count": 1,
+      "categories": [
+        "その他"
+      ],
+      "related_riddle_ids": [
+        281
+      ],
+      "aliases": []
+    },
+    "カニが横歩きするの": {
+      "count": 1,
+      "categories": [
+        "その他"
+      ],
+      "related_riddle_ids": [
+        282
+      ],
+      "aliases": []
+    },
+    "カメが長生きするの": {
+      "count": 1,
+      "categories": [
+        "その他"
+      ],
+      "related_riddle_ids": [
+        283
+      ],
+      "aliases": []
+    },
+    "机の上で働く動物": {
+      "count": 1,
+      "categories": [
+        "その他"
+      ],
+      "related_riddle_ids": [
+        284
+      ],
+      "aliases": []
+    },
+    "机の上にのっている動物": {
+      "count": 1,
+      "categories": [
+        "その他"
+      ],
+      "related_riddle_ids": [
+        285
+      ],
+      "aliases": []
+    },
+    "壁に向かって喋っているもの": {
+      "count": 1,
+      "categories": [
+        "その他"
+      ],
+      "related_riddle_ids": [
+        286
+      ],
+      "aliases": []
+    },
+    "水の中で燃える道具": {
+      "count": 1,
+      "categories": [
+        "その他"
+      ],
+      "related_riddle_ids": [
+        287
+      ],
+      "aliases": []
+    },
+    "触ると冷たいのに、中が熱いもの": {
+      "count": 1,
+      "categories": [
+        "その他"
+      ],
+      "related_riddle_ids": [
+        291
+      ],
+      "aliases": []
+    },
+    "触ると熱いのに、中が冷たいもの": {
+      "count": 1,
+      "categories": [
+        "その他"
+      ],
+      "related_riddle_ids": [
+        292
+      ],
+      "aliases": []
+    },
+    "朝に合わせるのに、夜に使うもの": {
+      "count": 1,
+      "categories": [
+        "その他"
+      ],
+      "related_riddle_ids": [
+        295
+      ],
+      "aliases": []
+    },
+    "靴の中で一番偉いもの": {
+      "count": 1,
+      "categories": [
+        "その他"
+      ],
+      "related_riddle_ids": [
+        301
+      ],
+      "aliases": []
+    },
+    "履くものの中で一番頭がいいもの": {
+      "count": 1,
+      "categories": [
+        "その他"
+      ],
+      "related_riddle_ids": [
+        302
+      ],
+      "aliases": []
+    },
+    "着るものの中で一番元気なもの": {
+      "count": 1,
+      "categories": [
+        "その他"
+      ],
+      "related_riddle_ids": [
+        303
+      ],
+      "aliases": []
+    },
+    "座るものの中で一番高いもの": {
+      "count": 1,
+      "categories": [
+        "その他"
+      ],
+      "related_riddle_ids": [
+        304
+      ],
+      "aliases": []
+    },
+    "寝るものの中で一番広いもの": {
+      "count": 1,
+      "categories": [
+        "その他"
+      ],
+      "related_riddle_ids": [
+        305
+      ],
+      "aliases": []
+    },
+    "書くものの中で一番細いもの": {
+      "count": 1,
+      "categories": [
+        "その他"
+      ],
+      "related_riddle_ids": [
+        306
+      ],
+      "aliases": []
+    },
+    "消すものの中で一番大きいもの": {
+      "count": 1,
+      "categories": [
+        "その他"
+      ],
+      "related_riddle_ids": [
+        307
+      ],
+      "aliases": []
+    },
+    "切るものの中で一番小さいもの": {
+      "count": 1,
+      "categories": [
+        "その他"
+      ],
+      "related_riddle_ids": [
+        308
+      ],
+      "aliases": []
+    },
+    "貼るものの中で一番便利なもの": {
+      "count": 1,
+      "categories": [
+        "その他"
+      ],
+      "related_riddle_ids": [
+        309
+      ],
+      "aliases": []
+    },
+    "包むものの中で一番かわいいもの": {
+      "count": 1,
+      "categories": [
+        "その他"
+      ],
+      "related_riddle_ids": [
+        310
+      ],
+      "aliases": []
+    },
+    "入れるものの中で一番大事なもの": {
+      "count": 1,
+      "categories": [
+        "その他"
+      ],
+      "related_riddle_ids": [
+        311
+      ],
+      "aliases": []
+    },
+    "運ぶものの中で一番重いもの": {
+      "count": 1,
+      "categories": [
+        "その他"
+      ],
+      "related_riddle_ids": [
+        312
+      ],
+      "aliases": []
+    },
+    "測るものの中で一番正確なもの": {
+      "count": 1,
+      "categories": [
+        "その他"
+      ],
+      "related_riddle_ids": [
+        313
+      ],
+      "aliases": []
+    },
+    "数えるものの中で一番速いもの": {
+      "count": 1,
+      "categories": [
+        "その他"
+      ],
+      "related_riddle_ids": [
+        314
+      ],
+      "aliases": []
+    },
+    "灯すものの中で一番温かいもの": {
+      "count": 1,
+      "categories": [
+        "その他"
+      ],
+      "related_riddle_ids": [
+        315
+      ],
+      "aliases": []
+    },
+    "架けるものの中で一番長いもの": {
+      "count": 1,
+      "categories": [
+        "その他"
+      ],
+      "related_riddle_ids": [
+        316
+      ],
+      "aliases": []
+    },
+    "1を逆さまにしても同じ数字": {
+      "count": 1,
+      "categories": [
+        "その他"
+      ],
+      "related_riddle_ids": [
+        321
+      ],
+      "aliases": []
+    },
+    "0をいくつ集めても変わらないの": {
+      "count": 1,
+      "categories": [
+        "その他"
+      ],
+      "related_riddle_ids": [
+        322
+      ],
+      "aliases": []
+    },
+    "「十」を四つ集めてできる漢字": {
+      "count": 1,
+      "categories": [
+        "その他"
+      ],
+      "related_riddle_ids": [
+        325
+      ],
+      "aliases": []
+    },
+    "数字の1と数字の1でできる漢字": {
+      "count": 1,
+      "categories": [
+        "その他"
+      ],
+      "related_riddle_ids": [
+        327
+      ],
+      "aliases": []
+    },
+    "数字の1と数字の2でできる漢字": {
+      "count": 1,
+      "categories": [
+        "その他"
+      ],
+      "related_riddle_ids": [
+        328
+      ],
+      "aliases": []
+    },
+    "「★」を4つ集めるとできる記号": {
+      "count": 1,
+      "categories": [
+        "その他"
+      ],
+      "related_riddle_ids": [
+        338
+      ],
+      "aliases": []
+    },
+    "「○」と「△」でできる形": {
+      "count": 1,
+      "categories": [
+        "その他"
+      ],
+      "related_riddle_ids": [
+        339
+      ],
+      "aliases": []
+    },
+    "3本の線でできる漢字": {
+      "count": 1,
+      "categories": [
+        "その他"
+      ],
+      "related_riddle_ids": [
+        342
+      ],
+      "aliases": []
+    },
+    "4本の線でできる漢字": {
+      "count": 1,
+      "categories": [
+        "その他"
+      ],
+      "related_riddle_ids": [
+        343
+      ],
+      "aliases": []
+    },
+    "地球が丸いことを最初に言った人": {
+      "count": 1,
+      "categories": [
+        "その他"
+      ],
+      "related_riddle_ids": [
+        344
+      ],
+      "aliases": []
+    },
+    "パンを食べるときに必ずする動作": {
+      "count": 1,
+      "categories": [
+        "その他"
+      ],
+      "related_riddle_ids": [
+        345
+      ],
+      "aliases": []
+    },
+    "寝ている間に必ずすること": {
+      "count": 1,
+      "categories": [
+        "その他"
+      ],
+      "related_riddle_ids": [
+        346
+      ],
+      "aliases": []
+    },
+    "目を閉じても見えるもの": {
+      "count": 1,
+      "categories": [
+        "その他"
+      ],
+      "related_riddle_ids": [
+        347
+      ],
+      "aliases": []
+    },
+    "耳を塞いでも聞こえる音": {
+      "count": 1,
+      "categories": [
+        "その他"
+      ],
+      "related_riddle_ids": [
+        348
+      ],
+      "aliases": []
+    },
+    "口を閉じてもできること": {
+      "count": 1,
+      "categories": [
+        "その他"
+      ],
+      "related_riddle_ids": [
+        349
+      ],
+      "aliases": []
+    },
+    "鼻を摘んでも感じるもの": {
+      "count": 1,
+      "categories": [
+        "その他"
+      ],
+      "related_riddle_ids": [
+        350
+      ],
+      "aliases": []
+    },
+    "朝に一番最初にすること": {
+      "count": 1,
+      "categories": [
+        "その他"
+      ],
+      "related_riddle_ids": [
+        354
+      ],
+      "aliases": []
+    },
+    "夜に一番最後にすること": {
+      "count": 1,
+      "categories": [
+        "その他"
+      ],
+      "related_riddle_ids": [
+        355
+      ],
+      "aliases": []
+    },
+    "ご飯を食べる前に必ず言うこと": {
+      "count": 1,
+      "categories": [
+        "その他"
+      ],
+      "related_riddle_ids": [
+        356
+      ],
+      "aliases": []
+    },
+    "ご飯を食べた後に必ず言うこと": {
+      "count": 1,
+      "categories": [
+        "その他"
+      ],
+      "related_riddle_ids": [
+        357
+      ],
+      "aliases": []
+    },
+    "お風呂に入る前に必ずすること": {
+      "count": 1,
+      "categories": [
+        "その他"
+      ],
+      "related_riddle_ids": [
+        358
+      ],
+      "aliases": []
+    },
+    "お風呂に入った後に必ずすること": {
+      "count": 1,
+      "categories": [
+        "その他"
+      ],
+      "related_riddle_ids": [
+        359
+      ],
+      "aliases": []
+    },
+    "靴を履く前に必ずすること": {
+      "count": 1,
+      "categories": [
+        "その他"
+      ],
+      "related_riddle_ids": [
+        360
+      ],
+      "aliases": []
+    },
+    "靴下を履く前に必ずすること": {
+      "count": 1,
+      "categories": [
+        "その他"
+      ],
+      "related_riddle_ids": [
+        361
+      ],
+      "aliases": []
+    },
+    "服を着る前に必ずあるもの": {
+      "count": 1,
+      "categories": [
+        "その他"
+      ],
+      "related_riddle_ids": [
+        362
+      ],
+      "aliases": []
+    },
+    "「全」と「部」でできる言葉": {
+      "count": 1,
+      "categories": [
+        "その他"
+      ],
+      "related_riddle_ids": [
+        366
+      ],
+      "aliases": []
+    },
+    "「大」に点を打つとできる漢字": {
+      "count": 1,
+      "categories": [
+        "その他"
+      ],
+      "related_riddle_ids": [
+        367
+      ],
+      "aliases": []
+    },
+    "「日」と「月」で明るい。で": {
+      "count": 1,
+      "categories": [
+        "その他"
+      ],
+      "related_riddle_ids": [
+        381
+      ],
+      "aliases": []
+    },
+    "「田」と「力」でできる漢字": {
+      "count": 1,
+      "categories": [
+        "その他"
+      ],
+      "related_riddle_ids": [
+        382
+      ],
+      "aliases": []
+    },
+    "「女」と「子」でできる漢字": {
+      "count": 1,
+      "categories": [
+        "その他"
+      ],
+      "related_riddle_ids": [
+        383
+      ],
+      "aliases": []
+    },
+    "「白」と「水」でできる漢字": {
+      "count": 1,
+      "categories": [
+        "その他"
+      ],
+      "related_riddle_ids": [
+        387
+      ],
+      "aliases": []
+    },
+    "「雨」と「田」でできる漢字": {
+      "count": 1,
+      "categories": [
+        "その他"
+      ],
+      "related_riddle_ids": [
+        388
+      ],
+      "aliases": []
+    },
+    "「雨」と「云」でできる漢字": {
+      "count": 1,
+      "categories": [
+        "その他"
+      ],
+      "related_riddle_ids": [
+        389
+      ],
+      "aliases": []
+    },
+    "「金」と「重」でできている金属": {
+      "count": 1,
+      "categories": [
+        "その他"
+      ],
+      "related_riddle_ids": [
+        392
+      ],
+      "aliases": []
+    },
+    "くつした": {
+      "count": 1,
+      "categories": [
+        "その他"
+      ],
+      "related_riddle_ids": [
+        441
+      ],
+      "aliases": []
+    },
+    "ぼうし": {
+      "count": 1,
+      "categories": [
+        "その他"
+      ],
+      "related_riddle_ids": [
+        442
+      ],
+      "aliases": []
+    },
+    "ねくたい": {
+      "count": 1,
+      "categories": [
+        "その他"
+      ],
+      "related_riddle_ids": [
+        445
+      ],
+      "aliases": []
+    },
+    "だんろ": {
+      "count": 1,
+      "categories": [
+        "その他"
+      ],
+      "related_riddle_ids": [
+        448
+      ],
+      "aliases": []
+    },
+    "かけぶとん": {
+      "count": 1,
+      "categories": [
+        "その他"
+      ],
+      "related_riddle_ids": [
+        451
+      ],
+      "aliases": []
+    },
+    "着るパン": {
+      "count": 1,
+      "categories": [
+        "その他"
+      ],
+      "related_riddle_ids": [
+        452
+      ],
+      "aliases": []
+    },
+    "警察官が大好きな食べ物": {
+      "count": 1,
+      "categories": [
+        "その他"
+      ],
+      "related_riddle_ids": [
+        454
+      ],
+      "aliases": []
+    },
+    "運転手が一番嫌いな花": {
+      "count": 1,
+      "categories": [
+        "その他"
+      ],
+      "related_riddle_ids": [
+        456
+      ],
+      "aliases": []
+    },
+    "消防士が使う乗り物の名前": {
+      "count": 1,
+      "categories": [
+        "その他"
+      ],
+      "related_riddle_ids": [
+        458
+      ],
+      "aliases": []
+    },
+    "医者が一番よく使う言葉": {
+      "count": 1,
+      "categories": [
+        "その他"
+      ],
+      "related_riddle_ids": [
+        459
+      ],
+      "aliases": []
+    },
+    "看護師が一番よく履く靴": {
+      "count": 1,
+      "categories": [
+        "その他"
+      ],
+      "related_riddle_ids": [
+        460
+      ],
+      "aliases": []
+    },
+    "弁護士が食べるお菓子": {
+      "count": 1,
+      "categories": [
+        "その他"
+      ],
+      "related_riddle_ids": [
+        461
+      ],
+      "aliases": []
+    },
+    "大臣が好きな食べ物": {
+      "count": 1,
+      "categories": [
+        "その他"
+      ],
+      "related_riddle_ids": [
+        462
+      ],
+      "aliases": []
+    },
+    "社長が入る部屋": {
+      "count": 1,
+      "categories": [
+        "その他"
+      ],
+      "related_riddle_ids": [
+        463
+      ],
+      "aliases": []
+    },
+    "先生が好きな食べ物": {
+      "count": 1,
+      "categories": [
+        "その他"
+      ],
+      "related_riddle_ids": [
+        464
+      ],
+      "aliases": []
+    },
+    "生徒が好きなお菓子": {
+      "count": 1,
+      "categories": [
+        "その他"
+      ],
+      "related_riddle_ids": [
+        465
+      ],
+      "aliases": []
+    },
+    "子どもが好きな電車": {
+      "count": 1,
+      "categories": [
+        "その他"
+      ],
+      "related_riddle_ids": [
+        466
+      ],
+      "aliases": []
+    },
+    "赤ちゃんが好きなジュース": {
+      "count": 1,
+      "categories": [
+        "その他"
+      ],
+      "related_riddle_ids": [
+        467
+      ],
+      "aliases": []
+    },
+    "お年寄りが嫌いなもの": {
+      "count": 1,
+      "categories": [
+        "その他"
+      ],
+      "related_riddle_ids": [
+        468
+      ],
+      "aliases": []
+    },
+    "学生が学校で一番楽しみな時間": {
+      "count": 1,
+      "categories": [
+        "その他"
+      ],
+      "related_riddle_ids": [
+        469
+      ],
+      "aliases": []
+    },
+    "先生が授業中に飲む飲み物": {
+      "count": 1,
+      "categories": [
+        "その他"
+      ],
+      "related_riddle_ids": [
+        470
+      ],
+      "aliases": []
+    },
+    "布団とかけて性格と解く。その心": {
+      "count": 1,
+      "categories": [
+        "その他"
+      ],
+      "related_riddle_ids": [
+        475
+      ],
+      "aliases": []
+    },
+    "踏切とかけて試験と解く。その心": {
+      "count": 1,
+      "categories": [
+        "その他"
+      ],
+      "related_riddle_ids": [
+        478
+      ],
+      "aliases": []
+    },
+    "体温計とかけて恋と解く。その心": {
+      "count": 1,
+      "categories": [
+        "その他"
+      ],
+      "related_riddle_ids": [
+        485
+      ],
+      "aliases": []
+    },
+    "入口の反対": {
+      "count": 1,
+      "categories": [
+        "その他"
+      ],
+      "related_riddle_ids": [
+        490
+      ],
+      "aliases": []
+    },
+    "出口の反対": {
+      "count": 1,
+      "categories": [
+        "その他"
+      ],
+      "related_riddle_ids": [
+        491
+      ],
+      "aliases": []
+    },
+    "入口と出口の間にあるもの": {
+      "count": 1,
+      "categories": [
+        "その他"
+      ],
+      "related_riddle_ids": [
+        492
+      ],
+      "aliases": []
+    },
+    "学校の入口と出口の間にいる人": {
+      "count": 1,
+      "categories": [
+        "その他"
+      ],
+      "related_riddle_ids": [
+        493
+      ],
+      "aliases": []
+    },
+    "冷蔵庫の中で一番偉いの": {
+      "count": 1,
+      "categories": [
+        "その他"
+      ],
+      "related_riddle_ids": [
+        495
+      ],
+      "aliases": []
+    },
+    "冷凍庫の中で一番寒い場所": {
+      "count": 1,
+      "categories": [
+        "その他"
+      ],
+      "related_riddle_ids": [
+        496
+      ],
+      "aliases": []
+    },
+    "電子レンジで温められないもの": {
+      "count": 1,
+      "categories": [
+        "その他"
+      ],
+      "related_riddle_ids": [
+        497
+      ],
+      "aliases": []
+    },
+    "炊飯器で一番やって": {
+      "count": 1,
+      "categories": [
+        "その他"
+      ],
+      "related_riddle_ids": [
+        499
+      ],
+      "aliases": []
+    },
+    "掃除機で一番吸い取れないもの": {
+      "count": 1,
+      "categories": [
+        "その他"
+      ],
+      "related_riddle_ids": [
+        500
+      ],
+      "aliases": []
+    },
+    "洗濯機の中で一番回っているもの": {
+      "count": 1,
+      "categories": [
+        "その他"
+      ],
+      "related_riddle_ids": [
+        501
+      ],
+      "aliases": []
+    },
+    "乾燥機の中で一番乾かないもの": {
+      "count": 1,
+      "categories": [
+        "その他"
+      ],
+      "related_riddle_ids": [
+        502
+      ],
+      "aliases": []
+    },
+    "アイロンで一番かけて": {
+      "count": 1,
+      "categories": [
+        "その他"
+      ],
+      "related_riddle_ids": [
+        503
+      ],
+      "aliases": []
+    },
+    "ミシンで縫えないもの": {
+      "count": 1,
+      "categories": [
+        "その他"
+      ],
+      "related_riddle_ids": [
+        504
+      ],
+      "aliases": []
+    },
+    "包丁で切れないもの": {
+      "count": 1,
+      "categories": [
+        "その他"
+      ],
+      "related_riddle_ids": [
+        505
+      ],
+      "aliases": []
+    },
+    "鍋の中で一番熱い場所": {
+      "count": 1,
+      "categories": [
+        "その他"
+      ],
+      "related_riddle_ids": [
+        507
+      ],
+      "aliases": []
+    },
+    "やかんで一番多い音": {
+      "count": 1,
+      "categories": [
+        "その他"
+      ],
+      "related_riddle_ids": [
+        509
+      ],
+      "aliases": []
+    },
+    "箸で一番使いにくい食材": {
+      "count": 1,
+      "categories": [
+        "その他"
+      ],
+      "related_riddle_ids": [
+        510
+      ],
+      "aliases": []
+    },
+    "スプーンですくえないスープ": {
+      "count": 1,
+      "categories": [
+        "その他"
+      ],
+      "related_riddle_ids": [
+        511
+      ],
+      "aliases": []
+    },
+    "フォークで刺せないサラダ": {
+      "count": 1,
+      "categories": [
+        "その他"
+      ],
+      "related_riddle_ids": [
+        512
+      ],
+      "aliases": []
+    },
+    "ナイフで切れないパン": {
+      "count": 1,
+      "categories": [
+        "その他"
+      ],
+      "related_riddle_ids": [
+        513
+      ],
+      "aliases": []
+    },
+    "コップに入れられない飲み物": {
+      "count": 1,
+      "categories": [
+        "その他"
+      ],
+      "related_riddle_ids": [
+        514
+      ],
+      "aliases": []
+    },
+    "グラスに注げないお酒": {
+      "count": 1,
+      "categories": [
+        "その他"
+      ],
+      "related_riddle_ids": [
+        515
+      ],
+      "aliases": []
+    },
+    "皿に盛れない料理": {
+      "count": 1,
+      "categories": [
+        "その他"
+      ],
+      "related_riddle_ids": [
+        516
+      ],
+      "aliases": []
+    },
+    "朝起きて一番最初にすること": {
+      "count": 1,
+      "categories": [
+        "その他"
+      ],
+      "related_riddle_ids": [
+        517
+      ],
+      "aliases": []
+    },
+    "夜寝る前の一番最後にすること": {
+      "count": 1,
+      "categories": [
+        "その他"
+      ],
+      "related_riddle_ids": [
+        518
+      ],
+      "aliases": []
+    },
+    "水の中で傘をさしている人": {
+      "count": 1,
+      "categories": [
+        "その他"
+      ],
+      "related_riddle_ids": [
+        520
+      ],
+      "aliases": []
+    },
+    "大声を出すと壊れるもの": {
+      "count": 1,
+      "categories": [
+        "その他"
+      ],
+      "related_riddle_ids": [
+        523
+      ],
+      "aliases": []
+    },
+    "目をつぶっても消えないもの": {
+      "count": 1,
+      "categories": [
+        "その他"
+      ],
+      "related_riddle_ids": [
+        524
+      ],
+      "aliases": []
+    },
+    "口を閉じていても味わえるもの": {
+      "count": 1,
+      "categories": [
+        "その他"
+      ],
+      "related_riddle_ids": [
+        526
+      ],
+      "aliases": []
+    },
+    "鼻をつまんでも感じる味": {
+      "count": 1,
+      "categories": [
+        "その他"
+      ],
+      "related_riddle_ids": [
+        527
+      ],
+      "aliases": []
+    },
+    "後ろを向いても見えるもの": {
+      "count": 1,
+      "categories": [
+        "その他"
+      ],
+      "related_riddle_ids": [
+        528
+      ],
+      "aliases": []
+    },
+    "上を向いても見えないもの": {
+      "count": 1,
+      "categories": [
+        "その他"
+      ],
+      "related_riddle_ids": [
+        529
+      ],
+      "aliases": []
+    },
+    "下を向いても見えないもの": {
+      "count": 1,
+      "categories": [
+        "その他"
+      ],
+      "related_riddle_ids": [
+        530
+      ],
+      "aliases": []
+    },
+    "左手でしか触れないもの": {
+      "count": 1,
+      "categories": [
+        "その他"
+      ],
+      "related_riddle_ids": [
+        532
+      ],
+      "aliases": []
+    },
+    "すいか": {
+      "count": 1,
+      "categories": [
+        "果物",
+        "食べ物"
+      ],
+      "related_riddle_ids": [
+        533
+      ],
+      "aliases": [
+        "西瓜"
+      ]
+    },
+    "メロン": {
+      "count": 1,
+      "categories": [
+        "果物",
+        "食べ物"
+      ],
+      "related_riddle_ids": [
+        534
+      ],
+      "aliases": []
+    },
+    "ブドウ": {
+      "count": 1,
+      "categories": [
+        "その他"
+      ],
+      "related_riddle_ids": [
+        535
+      ],
+      "aliases": []
+    },
+    "バナナ": {
+      "count": 1,
+      "categories": [
+        "果物",
+        "食べ物"
+      ],
+      "related_riddle_ids": [
+        540
+      ],
+      "aliases": []
+    },
+    "キウイ": {
+      "count": 1,
+      "categories": [
+        "その他"
+      ],
+      "related_riddle_ids": [
+        541
+      ],
+      "aliases": []
+    },
+    "パイナップル": {
+      "count": 1,
+      "categories": [
+        "その他"
+      ],
+      "related_riddle_ids": [
+        542
+      ],
+      "aliases": []
+    },
+    "さくらんぼ": {
+      "count": 1,
+      "categories": [
+        "その他"
+      ],
+      "related_riddle_ids": [
+        547
+      ],
+      "aliases": []
+    },
+    "すもも": {
+      "count": 1,
+      "categories": [
+        "その他"
+      ],
+      "related_riddle_ids": [
+        553
+      ],
+      "aliases": []
+    },
+    "あんず": {
+      "count": 1,
+      "categories": [
+        "その他"
+      ],
+      "related_riddle_ids": [
+        554
+      ],
+      "aliases": []
+    },
+    "うめ": {
+      "count": 1,
+      "categories": [
+        "その他"
+      ],
+      "related_riddle_ids": [
+        555
+      ],
+      "aliases": []
+    },
+    "きゅうり": {
+      "count": 1,
+      "categories": [
+        "その他"
+      ],
+      "related_riddle_ids": [
+        556
+      ],
+      "aliases": []
+    },
+    "なす": {
+      "count": 1,
+      "categories": [
+        "その他"
+      ],
+      "related_riddle_ids": [
+        557
+      ],
+      "aliases": []
+    },
+    "かぼちゃ": {
+      "count": 1,
+      "categories": [
+        "その他"
+      ],
+      "related_riddle_ids": [
+        558
+      ],
+      "aliases": []
+    },
+    "だいこん": {
+      "count": 1,
+      "categories": [
+        "その他"
+      ],
+      "related_riddle_ids": [
+        559
+      ],
+      "aliases": []
+    },
+    "にんじん": {
+      "count": 1,
+      "categories": [
+        "その他"
+      ],
+      "related_riddle_ids": [
+        560
+      ],
+      "aliases": []
+    },
+    "じゃがいも": {
+      "count": 1,
+      "categories": [
+        "その他"
+      ],
+      "related_riddle_ids": [
+        561
+      ],
+      "aliases": []
+    },
+    "さといも": {
+      "count": 1,
+      "categories": [
+        "その他"
+      ],
+      "related_riddle_ids": [
+        562
+      ],
+      "aliases": []
+    },
+    "やまいも": {
+      "count": 1,
+      "categories": [
+        "その他"
+      ],
+      "related_riddle_ids": [
+        563
+      ],
+      "aliases": []
+    },
+    "ねぎ": {
+      "count": 1,
+      "categories": [
+        "その他"
+      ],
+      "related_riddle_ids": [
+        566
+      ],
+      "aliases": []
+    },
+    "ほうれんそう": {
+      "count": 1,
+      "categories": [
+        "その他"
+      ],
+      "related_riddle_ids": [
+        567
+      ],
+      "aliases": []
+    },
+    "レタス": {
+      "count": 1,
+      "categories": [
+        "その他"
+      ],
+      "related_riddle_ids": [
+        568
+      ],
+      "aliases": []
+    },
+    "きのこ": {
+      "count": 1,
+      "categories": [
+        "その他"
+      ],
+      "related_riddle_ids": [
+        569
+      ],
+      "aliases": []
+    },
+    "しいたけ": {
+      "count": 1,
+      "categories": [
+        "その他"
+      ],
+      "related_riddle_ids": [
+        570
+      ],
+      "aliases": []
+    },
+    "まつたけ": {
+      "count": 1,
+      "categories": [
+        "その他"
+      ],
+      "related_riddle_ids": [
+        571
+      ],
+      "aliases": []
+    },
+    "えのき": {
+      "count": 1,
+      "categories": [
+        "その他"
+      ],
+      "related_riddle_ids": [
+        572
+      ],
+      "aliases": []
+    },
+    "しめじ": {
+      "count": 1,
+      "categories": [
+        "その他"
+      ],
+      "related_riddle_ids": [
+        573
+      ],
+      "aliases": []
+    },
+    "なっとう": {
+      "count": 1,
+      "categories": [
+        "その他"
+      ],
+      "related_riddle_ids": [
+        574
+      ],
+      "aliases": []
+    },
+    "とうふ": {
+      "count": 1,
+      "categories": [
+        "その他"
+      ],
+      "related_riddle_ids": [
+        575
+      ],
+      "aliases": []
+    },
+    "みそ": {
+      "count": 1,
+      "categories": [
+        "その他"
+      ],
+      "related_riddle_ids": [
+        576
+      ],
+      "aliases": []
+    },
+    "しょうゆ": {
+      "count": 1,
+      "categories": [
+        "その他"
+      ],
+      "related_riddle_ids": [
+        577
+      ],
+      "aliases": []
+    },
+    "さとう": {
+      "count": 1,
+      "categories": [
+        "その他"
+      ],
+      "related_riddle_ids": [
+        578
+      ],
+      "aliases": []
+    },
+    "しお": {
+      "count": 1,
+      "categories": [
+        "その他"
+      ],
+      "related_riddle_ids": [
+        579
+      ],
+      "aliases": []
+    },
+    "す": {
+      "count": 1,
+      "categories": [
+        "その他"
+      ],
+      "related_riddle_ids": [
+        580
+      ],
+      "aliases": []
+    },
+    "みりん": {
+      "count": 1,
+      "categories": [
+        "その他"
+      ],
+      "related_riddle_ids": [
+        581
+      ],
+      "aliases": []
+    },
+    "わさび": {
+      "count": 1,
+      "categories": [
+        "その他"
+      ],
+      "related_riddle_ids": [
+        582
+      ],
+      "aliases": []
+    },
+    "からし": {
+      "count": 1,
+      "categories": [
+        "その他"
+      ],
+      "related_riddle_ids": [
+        583
+      ],
+      "aliases": []
+    },
+    "しょうが": {
+      "count": 1,
+      "categories": [
+        "その他"
+      ],
+      "related_riddle_ids": [
+        584
+      ],
+      "aliases": []
+    },
+    "にんにく": {
+      "count": 1,
+      "categories": [
+        "その他"
+      ],
+      "related_riddle_ids": [
+        585
+      ],
+      "aliases": []
+    },
+    "ぎょうざ": {
+      "count": 1,
+      "categories": [
+        "その他"
+      ],
+      "related_riddle_ids": [
+        586
+      ],
+      "aliases": []
+    },
+    "しゅうまい": {
+      "count": 1,
+      "categories": [
+        "その他"
+      ],
+      "related_riddle_ids": [
+        587
+      ],
+      "aliases": []
+    },
+    "はるまき": {
+      "count": 1,
+      "categories": [
+        "その他"
+      ],
+      "related_riddle_ids": [
+        588
+      ],
+      "aliases": []
+    },
+    "やきとり": {
+      "count": 1,
+      "categories": [
+        "その他"
+      ],
+      "related_riddle_ids": [
+        589
+      ],
+      "aliases": []
+    },
+    "かつ": {
+      "count": 1,
+      "categories": [
+        "その他"
+      ],
+      "related_riddle_ids": [
+        590
+      ],
+      "aliases": []
+    },
+    "とんかつ": {
+      "count": 1,
+      "categories": [
+        "その他"
+      ],
+      "related_riddle_ids": [
+        591
+      ],
+      "aliases": []
+    },
+    "からあげ": {
+      "count": 1,
+      "categories": [
+        "その他"
+      ],
+      "related_riddle_ids": [
+        592
+      ],
+      "aliases": []
+    },
+    "さしみ": {
+      "count": 1,
+      "categories": [
+        "その他"
+      ],
+      "related_riddle_ids": [
+        593
+      ],
+      "aliases": []
+    },
+    "おにぎり": {
+      "count": 1,
+      "categories": [
+        "その他"
+      ],
+      "related_riddle_ids": [
+        595
+      ],
+      "aliases": []
+    },
+    "おすし": {
+      "count": 1,
+      "categories": [
+        "その他"
+      ],
+      "related_riddle_ids": [
+        596
+      ],
+      "aliases": []
+    },
+    "まぐろ": {
+      "count": 1,
+      "categories": [
+        "その他"
+      ],
+      "related_riddle_ids": [
+        597
+      ],
+      "aliases": []
+    },
+    "さば": {
+      "count": 1,
+      "categories": [
+        "その他"
+      ],
+      "related_riddle_ids": [
+        599
+      ],
+      "aliases": []
+    },
+    "あじ": {
+      "count": 1,
+      "categories": [
+        "その他"
+      ],
+      "related_riddle_ids": [
+        600
+      ],
+      "aliases": []
+    },
+    "たい": {
+      "count": 1,
+      "categories": [
+        "その他"
+      ],
+      "related_riddle_ids": [
+        601
+      ],
+      "aliases": []
+    },
+    "ひらめ": {
+      "count": 1,
+      "categories": [
+        "その他"
+      ],
+      "related_riddle_ids": [
+        602
+      ],
+      "aliases": []
+    },
+    "かれい": {
+      "count": 1,
+      "categories": [
+        "その他"
+      ],
+      "related_riddle_ids": [
+        603
+      ],
+      "aliases": []
+    },
+    "ふぐ": {
+      "count": 1,
+      "categories": [
+        "その他"
+      ],
+      "related_riddle_ids": [
+        604
+      ],
+      "aliases": []
+    },
+    "あわび": {
+      "count": 1,
+      "categories": [
+        "その他"
+      ],
+      "related_riddle_ids": [
+        609
+      ],
+      "aliases": []
+    },
+    "さざえ": {
+      "count": 1,
+      "categories": [
+        "その他"
+      ],
+      "related_riddle_ids": [
+        610
+      ],
+      "aliases": []
+    },
+    "ほたて": {
+      "count": 1,
+      "categories": [
+        "その他"
+      ],
+      "related_riddle_ids": [
+        611
+      ],
+      "aliases": []
+    },
+    "あさり": {
+      "count": 1,
+      "categories": [
+        "その他"
+      ],
+      "related_riddle_ids": [
+        612
+      ],
+      "aliases": []
+    },
+    "しじみ": {
+      "count": 1,
+      "categories": [
+        "その他"
+      ],
+      "related_riddle_ids": [
+        613
+      ],
+      "aliases": []
+    },
+    "はまぐり": {
+      "count": 1,
+      "categories": [
+        "その他"
+      ],
+      "related_riddle_ids": [
+        614
+      ],
+      "aliases": []
+    },
+    "こんぶ": {
+      "count": 1,
+      "categories": [
+        "その他"
+      ],
+      "related_riddle_ids": [
+        616
+      ],
+      "aliases": []
+    },
+    "わかめ": {
+      "count": 1,
+      "categories": [
+        "その他"
+      ],
+      "related_riddle_ids": [
+        617
+      ],
+      "aliases": []
+    },
+    "ひじき": {
+      "count": 1,
+      "categories": [
+        "その他"
+      ],
+      "related_riddle_ids": [
+        618
+      ],
+      "aliases": []
+    },
+    "ラーメン": {
+      "count": 1,
+      "categories": [
+        "料理",
+        "食べ物"
+      ],
+      "related_riddle_ids": [
+        622
+      ],
+      "aliases": []
+    },
+    "スパゲッティ": {
+      "count": 1,
+      "categories": [
+        "料理",
+        "食べ物"
+      ],
+      "related_riddle_ids": [
+        623
+      ],
+      "aliases": []
+    },
+    "シチュー": {
+      "count": 1,
+      "categories": [
+        "料理",
+        "食べ物"
+      ],
+      "related_riddle_ids": [
+        625
+      ],
+      "aliases": []
+    },
+    "ハンバーグ": {
+      "count": 1,
+      "categories": [
+        "料理",
+        "食べ物"
+      ],
+      "related_riddle_ids": [
+        628
+      ],
+      "aliases": []
+    },
+    "オムライス": {
+      "count": 1,
+      "categories": [
+        "料理",
+        "食べ物"
+      ],
+      "related_riddle_ids": [
+        629
+      ],
+      "aliases": []
+    },
+    "ピザ": {
+      "count": 1,
+      "categories": [
+        "料理",
+        "食べ物"
+      ],
+      "related_riddle_ids": [
+        630
+      ],
+      "aliases": []
+    },
+    "ドーナツ": {
+      "count": 1,
+      "categories": [
+        "料理",
+        "食べ物"
+      ],
+      "related_riddle_ids": [
+        631
+      ],
+      "aliases": []
+    },
+    "クッキー": {
+      "count": 1,
+      "categories": [
+        "料理",
+        "食べ物"
+      ],
+      "related_riddle_ids": [
+        632
+      ],
+      "aliases": []
+    },
+    "ビスケット": {
+      "count": 1,
+      "categories": [
+        "料理",
+        "食べ物"
+      ],
+      "related_riddle_ids": [
+        633
+      ],
+      "aliases": []
+    },
+    "チョコレート": {
+      "count": 1,
+      "categories": [
+        "その他"
+      ],
+      "related_riddle_ids": [
+        634
+      ],
+      "aliases": []
+    },
+    "キャンディ": {
+      "count": 1,
+      "categories": [
+        "その他"
+      ],
+      "related_riddle_ids": [
+        635
+      ],
+      "aliases": []
+    },
+    "ガム": {
+      "count": 1,
+      "categories": [
+        "その他"
+      ],
+      "related_riddle_ids": [
+        636
+      ],
+      "aliases": []
+    },
+    "せんべい": {
+      "count": 1,
+      "categories": [
+        "その他"
+      ],
+      "related_riddle_ids": [
+        637
+      ],
+      "aliases": []
+    },
+    "あられ": {
+      "count": 1,
+      "categories": [
+        "その他"
+      ],
+      "related_riddle_ids": [
+        638
+      ],
+      "aliases": []
+    },
+    "だんご": {
+      "count": 1,
+      "categories": [
+        "その他"
+      ],
+      "related_riddle_ids": [
+        639
+      ],
+      "aliases": []
+    },
+    "まんじゅう": {
+      "count": 1,
+      "categories": [
+        "その他"
+      ],
+      "related_riddle_ids": [
+        640
+      ],
+      "aliases": []
+    },
+    "ようかん": {
+      "count": 1,
+      "categories": [
+        "その他"
+      ],
+      "related_riddle_ids": [
+        641
+      ],
+      "aliases": []
+    },
+    "たいやき": {
+      "count": 1,
+      "categories": [
+        "その他"
+      ],
+      "related_riddle_ids": [
+        642
+      ],
+      "aliases": []
+    },
+    "どらやき": {
+      "count": 1,
+      "categories": [
+        "その他"
+      ],
+      "related_riddle_ids": [
+        643
+      ],
+      "aliases": []
+    },
+    "カステラ": {
+      "count": 1,
+      "categories": [
+        "その他"
+      ],
+      "related_riddle_ids": [
+        644
+      ],
+      "aliases": []
+    },
+    "プリン": {
+      "count": 1,
+      "categories": [
+        "その他"
+      ],
+      "related_riddle_ids": [
+        645
+      ],
+      "aliases": []
+    },
+    "ゼリー": {
+      "count": 1,
+      "categories": [
+        "その他"
+      ],
+      "related_riddle_ids": [
+        646
+      ],
+      "aliases": []
+    },
+    "シャーベット": {
+      "count": 1,
+      "categories": [
+        "その他"
+      ],
+      "related_riddle_ids": [
+        648
+      ],
+      "aliases": []
+    },
+    "ミルク": {
+      "count": 1,
+      "categories": [
+        "その他"
+      ],
+      "related_riddle_ids": [
+        649
+      ],
+      "aliases": []
+    },
+    "ヨーグルト": {
+      "count": 1,
+      "categories": [
+        "その他"
+      ],
+      "related_riddle_ids": [
+        650
+      ],
+      "aliases": []
+    },
+    "チーズ": {
+      "count": 1,
+      "categories": [
+        "その他"
+      ],
+      "related_riddle_ids": [
+        651
+      ],
+      "aliases": []
+    },
+    "バター": {
+      "count": 1,
+      "categories": [
+        "その他"
+      ],
+      "related_riddle_ids": [
+        652
+      ],
+      "aliases": []
+    },
+    "マヨネーズ": {
+      "count": 1,
+      "categories": [
+        "その他"
+      ],
+      "related_riddle_ids": [
+        653
+      ],
+      "aliases": []
+    },
+    "ケチャップ": {
+      "count": 1,
+      "categories": [
+        "その他"
+      ],
+      "related_riddle_ids": [
+        654
+      ],
+      "aliases": []
+    },
+    "ソース": {
+      "count": 1,
+      "categories": [
+        "その他"
+      ],
+      "related_riddle_ids": [
+        655
+      ],
+      "aliases": []
+    },
+    "でんしゃ": {
+      "count": 1,
+      "categories": [
+        "その他"
+      ],
+      "related_riddle_ids": [
+        657
+      ],
+      "aliases": []
+    },
+    "飛行機": {
+      "count": 1,
+      "categories": [
+        "乗り物",
+        "道具"
+      ],
+      "related_riddle_ids": [
+        658
+      ],
+      "aliases": [
+        "飛行機"
+      ]
+    },
+    "ひこうき": {
+      "count": 1,
+      "categories": [
+        "その他"
+      ],
+      "related_riddle_ids": [
+        658
+      ],
+      "aliases": []
+    },
+    "バス": {
+      "count": 1,
+      "categories": [
+        "その他"
+      ],
+      "related_riddle_ids": [
+        660
+      ],
+      "aliases": []
+    },
+    "タクシー": {
+      "count": 1,
+      "categories": [
+        "その他"
+      ],
+      "related_riddle_ids": [
+        661
+      ],
+      "aliases": []
+    },
+    "じてんしゃ": {
+      "count": 1,
+      "categories": [
+        "その他"
+      ],
+      "related_riddle_ids": [
+        662
+      ],
+      "aliases": []
+    },
+    "オートバイ": {
+      "count": 1,
+      "categories": [
+        "その他"
+      ],
+      "related_riddle_ids": [
+        663
+      ],
+      "aliases": []
+    },
+    "タオル": {
+      "count": 1,
+      "categories": [
+        "その他"
+      ],
+      "related_riddle_ids": [
+        666
+      ],
+      "aliases": []
+    },
+    "ハンカチ": {
+      "count": 1,
+      "categories": [
+        "その他"
+      ],
+      "related_riddle_ids": [
+        667
+      ],
+      "aliases": []
+    },
+    "ティッシュ": {
+      "count": 1,
+      "categories": [
+        "その他"
+      ],
+      "related_riddle_ids": [
+        668
+      ],
+      "aliases": []
+    },
+    "トイレットペーパー": {
+      "count": 1,
+      "categories": [
+        "その他"
+      ],
+      "related_riddle_ids": [
+        669
+      ],
+      "aliases": []
+    },
+    "せっけん": {
+      "count": 1,
+      "categories": [
+        "その他"
+      ],
+      "related_riddle_ids": [
+        670
+      ],
+      "aliases": []
+    },
+    "シャンプー": {
+      "count": 1,
+      "categories": [
+        "その他"
+      ],
+      "related_riddle_ids": [
+        671
+      ],
+      "aliases": []
+    },
+    "リンス": {
+      "count": 1,
+      "categories": [
+        "その他"
+      ],
+      "related_riddle_ids": [
+        672
+      ],
+      "aliases": []
+    },
+    "はみがき": {
+      "count": 1,
+      "categories": [
+        "その他"
+      ],
+      "related_riddle_ids": [
+        673
+      ],
+      "aliases": []
+    },
+    "くし": {
+      "count": 1,
+      "categories": [
+        "その他"
+      ],
+      "related_riddle_ids": [
+        674
+      ],
+      "aliases": []
+    },
+    "ボールペン": {
+      "count": 1,
+      "categories": [
+        "その他"
+      ],
+      "related_riddle_ids": [
+        677
+      ],
+      "aliases": []
+    },
+    "ものさし": {
+      "count": 1,
+      "categories": [
+        "その他"
+      ],
+      "related_riddle_ids": [
+        678
+      ],
+      "aliases": []
+    },
+    "せんたくばさみ": {
+      "count": 1,
+      "categories": [
+        "その他"
+      ],
+      "related_riddle_ids": [
+        681
+      ],
+      "aliases": []
+    },
+    "ふくろ": {
+      "count": 1,
+      "categories": [
+        "その他"
+      ],
+      "related_riddle_ids": [
+        686
+      ],
+      "aliases": []
+    },
+    "鍵": {
+      "count": 1,
+      "categories": [
+        "道具"
+      ],
+      "related_riddle_ids": [
+        688
+      ],
+      "aliases": []
+    },
+    "かぎ": {
+      "count": 1,
+      "categories": [
+        "その他"
+      ],
+      "related_riddle_ids": [
+        688
+      ],
+      "aliases": []
+    },
+    "カレンダー": {
+      "count": 1,
+      "categories": [
+        "その他"
+      ],
+      "related_riddle_ids": [
+        689
+      ],
+      "aliases": []
+    },
+    "めがね": {
+      "count": 1,
+      "categories": [
+        "その他"
+      ],
+      "related_riddle_ids": [
+        691
+      ],
+      "aliases": []
+    },
+    "じしょ": {
+      "count": 1,
+      "categories": [
+        "その他"
+      ],
+      "related_riddle_ids": [
+        694
+      ],
+      "aliases": []
+    },
+    "じてん": {
+      "count": 1,
+      "categories": [
+        "その他"
+      ],
+      "related_riddle_ids": [
+        695
+      ],
+      "aliases": []
+    },
+    "ちず": {
+      "count": 1,
+      "categories": [
+        "その他"
+      ],
+      "related_riddle_ids": [
+        696
+      ],
+      "aliases": []
+    },
+    "ふうとう": {
+      "count": 1,
+      "categories": [
+        "その他"
+      ],
+      "related_riddle_ids": [
+        698
+      ],
+      "aliases": []
+    },
+    "きって": {
+      "count": 1,
+      "categories": [
+        "その他"
+      ],
+      "related_riddle_ids": [
+        699
+      ],
+      "aliases": []
+    },
+    "はんこ": {
+      "count": 1,
+      "categories": [
+        "その他"
+      ],
+      "related_riddle_ids": [
+        700
+      ],
+      "aliases": []
+    },
+    "しゃしん": {
+      "count": 1,
+      "categories": [
+        "その他"
+      ],
+      "related_riddle_ids": [
+        701
+      ],
+      "aliases": []
+    },
+    "アルバム": {
+      "count": 1,
+      "categories": [
+        "その他"
+      ],
+      "related_riddle_ids": [
+        702
+      ],
+      "aliases": []
+    },
+    "でんち": {
+      "count": 1,
+      "categories": [
+        "その他"
+      ],
+      "related_riddle_ids": [
+        703
+      ],
+      "aliases": []
+    },
+    "でんきゅう": {
+      "count": 1,
+      "categories": [
+        "その他"
+      ],
+      "related_riddle_ids": [
+        704
+      ],
+      "aliases": []
+    },
+    "スイッチ": {
+      "count": 1,
+      "categories": [
+        "その他"
+      ],
+      "related_riddle_ids": [
+        705
+      ],
+      "aliases": []
+    },
+    "コンセント": {
+      "count": 1,
+      "categories": [
+        "その他"
+      ],
+      "related_riddle_ids": [
+        706
+      ],
+      "aliases": []
+    },
+    "コード": {
+      "count": 1,
+      "categories": [
+        "その他"
+      ],
+      "related_riddle_ids": [
+        707
+      ],
+      "aliases": []
+    },
+    "ケーブル": {
+      "count": 1,
+      "categories": [
+        "その他"
+      ],
+      "related_riddle_ids": [
+        708
+      ],
+      "aliases": []
+    },
+    "アンテナ": {
+      "count": 1,
+      "categories": [
+        "その他"
+      ],
+      "related_riddle_ids": [
+        709
+      ],
+      "aliases": []
+    },
+    "はいざら": {
+      "count": 1,
+      "categories": [
+        "その他"
+      ],
+      "related_riddle_ids": [
+        712
+      ],
+      "aliases": []
+    },
+    "ろうそく": {
+      "count": 1,
+      "categories": [
+        "その他"
+      ],
+      "related_riddle_ids": [
+        715
+      ],
+      "aliases": []
+    },
+    "たんす": {
+      "count": 1,
+      "categories": [
+        "その他"
+      ],
+      "related_riddle_ids": [
+        722
+      ],
+      "aliases": []
+    },
+    "ほんだな": {
+      "count": 1,
+      "categories": [
+        "その他"
+      ],
+      "related_riddle_ids": [
+        723
+      ],
+      "aliases": []
+    },
+    "カーテン": {
+      "count": 1,
+      "categories": [
+        "その他"
+      ],
+      "related_riddle_ids": [
+        724
+      ],
+      "aliases": []
+    },
+    "じゅうたん": {
+      "count": 1,
+      "categories": [
+        "その他"
+      ],
+      "related_riddle_ids": [
+        725
+      ],
+      "aliases": []
+    },
+    "エアコン": {
+      "count": 1,
+      "categories": [
+        "その他"
+      ],
+      "related_riddle_ids": [
+        726
+      ],
+      "aliases": []
+    },
+    "だんぼう": {
+      "count": 1,
+      "categories": [
+        "その他"
+      ],
+      "related_riddle_ids": [
+        727
+      ],
+      "aliases": []
+    },
+    "れいぼう": {
+      "count": 1,
+      "categories": [
+        "その他"
+      ],
+      "related_riddle_ids": [
+        728
+      ],
+      "aliases": []
+    },
+    "そうじき": {
+      "count": 1,
+      "categories": [
+        "その他"
+      ],
+      "related_riddle_ids": [
+        729
+      ],
+      "aliases": []
+    },
+    "せんたくき": {
+      "count": 1,
+      "categories": [
+        "その他"
+      ],
+      "related_riddle_ids": [
+        730
+      ],
+      "aliases": []
+    },
+    "れいぞうこ": {
+      "count": 1,
+      "categories": [
+        "その他"
+      ],
+      "related_riddle_ids": [
+        731
+      ],
+      "aliases": []
+    },
+    "でんしレンジ": {
+      "count": 1,
+      "categories": [
+        "その他"
+      ],
+      "related_riddle_ids": [
+        732
+      ],
+      "aliases": []
+    },
+    "トースター": {
+      "count": 1,
+      "categories": [
+        "その他"
+      ],
+      "related_riddle_ids": [
+        733
+      ],
+      "aliases": []
+    },
+    "すいはんき": {
+      "count": 1,
+      "categories": [
+        "その他"
+      ],
+      "related_riddle_ids": [
+        734
+      ],
+      "aliases": []
+    },
+    "すい": {
+      "count": 1,
+      "categories": [
+        "その他"
+      ],
+      "related_riddle_ids": [
+        734
+      ],
+      "aliases": []
+    },
+    "やかん": {
+      "count": 1,
+      "categories": [
+        "その他"
+      ],
+      "related_riddle_ids": [
+        735
+      ],
+      "aliases": []
+    },
+    "なべ": {
+      "count": 1,
+      "categories": [
+        "その他"
+      ],
+      "related_riddle_ids": [
+        736
+      ],
+      "aliases": []
+    },
+    "まな板": {
+      "count": 1,
+      "categories": [
+        "その他"
+      ],
+      "related_riddle_ids": [
+        738
+      ],
+      "aliases": []
+    },
+    "ほうちょう": {
+      "count": 1,
+      "categories": [
+        "その他"
+      ],
+      "related_riddle_ids": [
+        739
+      ],
+      "aliases": []
+    },
+    "さら": {
+      "count": 1,
+      "categories": [
+        "その他"
+      ],
+      "related_riddle_ids": [
+        740
+      ],
+      "aliases": []
+    },
+    "おちゃわん": {
+      "count": 1,
+      "categories": [
+        "その他"
+      ],
+      "related_riddle_ids": [
+        741
+      ],
+      "aliases": []
+    },
+    "コップ": {
+      "count": 1,
+      "categories": [
+        "その他"
+      ],
+      "related_riddle_ids": [
+        742
+      ],
+      "aliases": []
+    },
+    "ようふく": {
+      "count": 1,
+      "categories": [
+        "その他"
+      ],
+      "related_riddle_ids": [
+        747
+      ],
+      "aliases": []
+    },
+    "ワイシャツ": {
+      "count": 1,
+      "categories": [
+        "その他"
+      ],
+      "related_riddle_ids": [
+        748
+      ],
+      "aliases": []
+    },
+    "ズボン": {
+      "count": 1,
+      "categories": [
+        "その他"
+      ],
+      "related_riddle_ids": [
+        749
+      ],
+      "aliases": []
+    },
+    "スカート": {
+      "count": 1,
+      "categories": [
+        "その他"
+      ],
+      "related_riddle_ids": [
+        750
+      ],
+      "aliases": []
+    },
+    "セーター": {
+      "count": 1,
+      "categories": [
+        "その他"
+      ],
+      "related_riddle_ids": [
+        751
+      ],
+      "aliases": []
+    },
+    "ジャケット": {
+      "count": 1,
+      "categories": [
+        "その他"
+      ],
+      "related_riddle_ids": [
+        752
+      ],
+      "aliases": []
+    },
+    "コート": {
+      "count": 1,
+      "categories": [
+        "その他"
+      ],
+      "related_riddle_ids": [
+        753
+      ],
+      "aliases": []
+    },
+    "マフラー": {
+      "count": 1,
+      "categories": [
+        "その他"
+      ],
+      "related_riddle_ids": [
+        754
+      ],
+      "aliases": []
+    },
+    "てぶくろ": {
+      "count": 1,
+      "categories": [
+        "その他"
+      ],
+      "related_riddle_ids": [
+        755
+      ],
+      "aliases": []
+    },
+    "太陽": {
+      "count": 1,
+      "categories": [
+        "天体",
+        "自然"
+      ],
+      "related_riddle_ids": [
+        756
+      ],
+      "aliases": [
+        "日"
+      ]
+    },
+    "虹": {
+      "count": 1,
+      "categories": [
+        "天気",
+        "自然"
+      ],
+      "related_riddle_ids": [
+        763
+      ],
+      "aliases": []
+    },
+    "川": {
+      "count": 1,
+      "categories": [
+        "地形",
+        "自然"
+      ],
+      "related_riddle_ids": [
+        765
+      ],
+      "aliases": []
+    },
+    "空": {
+      "count": 1,
+      "categories": [
+        "その他"
+      ],
+      "related_riddle_ids": [
+        767
+      ],
+      "aliases": []
+    },
+    "森": {
+      "count": 1,
+      "categories": [
+        "その他"
+      ],
+      "related_riddle_ids": [
+        768
+      ],
+      "aliases": []
+    },
+    "林": {
+      "count": 1,
+      "categories": [
+        "その他"
+      ],
+      "related_riddle_ids": [
+        769
+      ],
+      "aliases": []
+    },
+    "花": {
+      "count": 1,
+      "categories": [
+        "その他"
+      ],
+      "related_riddle_ids": [
+        770
+      ],
+      "aliases": []
+    },
+    "草": {
+      "count": 1,
+      "categories": [
+        "その他"
+      ],
+      "related_riddle_ids": [
+        771
+      ],
+      "aliases": []
+    },
+    "木": {
+      "count": 1,
+      "categories": [
+        "その他"
+      ],
+      "related_riddle_ids": [
+        772
+      ],
+      "aliases": []
+    },
+    "実": {
+      "count": 1,
+      "categories": [
+        "その他"
+      ],
+      "related_riddle_ids": [
+        773
+      ],
+      "aliases": []
+    },
+    "種": {
+      "count": 1,
+      "categories": [
+        "その他"
+      ],
+      "related_riddle_ids": [
+        774
+      ],
+      "aliases": []
+    },
+    "根": {
+      "count": 1,
+      "categories": [
+        "その他"
+      ],
+      "related_riddle_ids": [
+        775
+      ],
+      "aliases": []
+    },
+    "葉": {
+      "count": 1,
+      "categories": [
+        "その他"
+      ],
+      "related_riddle_ids": [
+        776
+      ],
+      "aliases": []
+    },
+    "枝": {
+      "count": 1,
+      "categories": [
+        "その他"
+      ],
+      "related_riddle_ids": [
+        777
+      ],
+      "aliases": []
+    },
+    "石": {
+      "count": 1,
+      "categories": [
+        "その他"
+      ],
+      "related_riddle_ids": [
+        778
+      ],
+      "aliases": []
+    },
+    "岩": {
+      "count": 1,
+      "categories": [
+        "その他"
+      ],
+      "related_riddle_ids": [
+        779
+      ],
+      "aliases": []
+    },
+    "砂": {
+      "count": 1,
+      "categories": [
+        "その他"
+      ],
+      "related_riddle_ids": [
+        780
+      ],
+      "aliases": []
+    },
+    "土": {
+      "count": 1,
+      "categories": [
+        "その他"
+      ],
+      "related_riddle_ids": [
+        781
+      ],
+      "aliases": []
+    },
+    "池": {
+      "count": 1,
+      "categories": [
+        "その他"
+      ],
+      "related_riddle_ids": [
+        782
+      ],
+      "aliases": []
+    },
+    "湖": {
+      "count": 1,
+      "categories": [
+        "その他"
+      ],
+      "related_riddle_ids": [
+        783
+      ],
+      "aliases": []
+    },
+    "島": {
+      "count": 1,
+      "categories": [
+        "その他"
+      ],
+      "related_riddle_ids": [
+        784
+      ],
+      "aliases": []
+    },
+    "谷": {
+      "count": 1,
+      "categories": [
+        "その他"
+      ],
+      "related_riddle_ids": [
+        785
+      ],
+      "aliases": []
+    },
+    "屋根": {
+      "count": 1,
+      "categories": [
+        "その他"
+      ],
+      "related_riddle_ids": [
+        786
+      ],
+      "aliases": []
+    },
+    "壁": {
+      "count": 1,
+      "categories": [
+        "その他"
+      ],
+      "related_riddle_ids": [
+        787
+      ],
+      "aliases": []
+    },
+    "床": {
+      "count": 1,
+      "categories": [
+        "その他"
+      ],
+      "related_riddle_ids": [
+        788
+      ],
+      "aliases": []
+    },
+    "窓": {
+      "count": 1,
+      "categories": [
+        "その他"
+      ],
+      "related_riddle_ids": [
+        789
+      ],
+      "aliases": []
+    },
+    "玄関": {
+      "count": 1,
+      "categories": [
+        "その他"
+      ],
+      "related_riddle_ids": [
+        790
+      ],
+      "aliases": []
+    },
+    "廊下": {
+      "count": 1,
+      "categories": [
+        "その他"
+      ],
+      "related_riddle_ids": [
+        791
+      ],
+      "aliases": []
+    },
+    "階段": {
+      "count": 1,
+      "categories": [
+        "その他"
+      ],
+      "related_riddle_ids": [
+        792
+      ],
+      "aliases": []
+    },
+    "庭": {
+      "count": 1,
+      "categories": [
+        "その他"
+      ],
+      "related_riddle_ids": [
+        793
+      ],
+      "aliases": []
+    },
+    "門": {
+      "count": 1,
+      "categories": [
+        "その他"
+      ],
+      "related_riddle_ids": [
+        794
+      ],
+      "aliases": []
+    },
+    "塀": {
+      "count": 1,
+      "categories": [
+        "その他"
+      ],
+      "related_riddle_ids": [
+        795
+      ],
+      "aliases": []
+    },
+    "顔": {
+      "count": 1,
+      "categories": [
+        "その他"
+      ],
+      "related_riddle_ids": [
+        798
+      ],
+      "aliases": []
+    },
+    "喉": {
+      "count": 1,
+      "categories": [
+        "その他"
+      ],
+      "related_riddle_ids": [
+        805
+      ],
+      "aliases": []
+    },
+    "首": {
+      "count": 1,
+      "categories": [
+        "体"
+      ],
+      "related_riddle_ids": [
+        806
+      ],
+      "aliases": []
+    },
+    "肩": {
+      "count": 1,
+      "categories": [
+        "その他"
+      ],
+      "related_riddle_ids": [
+        807
+      ],
+      "aliases": []
+    },
+    "腕": {
+      "count": 1,
+      "categories": [
+        "その他"
+      ],
+      "related_riddle_ids": [
+        808
+      ],
+      "aliases": []
+    },
+    "指": {
+      "count": 1,
+      "categories": [
+        "体"
+      ],
+      "related_riddle_ids": [
+        810
+      ],
+      "aliases": []
+    },
+    "爪": {
+      "count": 1,
+      "categories": [
+        "その他"
+      ],
+      "related_riddle_ids": [
+        811
+      ],
+      "aliases": []
+    },
+    "胸": {
+      "count": 1,
+      "categories": [
+        "その他"
+      ],
+      "related_riddle_ids": [
+        812
+      ],
+      "aliases": []
+    },
+    "腹": {
+      "count": 1,
+      "categories": [
+        "その他"
+      ],
+      "related_riddle_ids": [
+        813
+      ],
+      "aliases": []
+    },
+    "腰": {
+      "count": 1,
+      "categories": [
+        "その他"
+      ],
+      "related_riddle_ids": [
+        814
+      ],
+      "aliases": []
+    },
+    "足": {
+      "count": 1,
+      "categories": [
+        "体"
+      ],
+      "related_riddle_ids": [
+        815
+      ],
+      "aliases": [
+        "脚"
+      ]
+    },
+    "膝": {
+      "count": 1,
+      "categories": [
+        "その他"
+      ],
+      "related_riddle_ids": [
+        816
+      ],
+      "aliases": []
+    },
+    "踵": {
+      "count": 1,
+      "categories": [
+        "その他"
+      ],
+      "related_riddle_ids": [
+        817
+      ],
+      "aliases": []
+    },
+    "赤": {
+      "count": 1,
+      "categories": [
+        "その他"
+      ],
+      "related_riddle_ids": [
+        818
+      ],
+      "aliases": []
+    },
+    "青": {
+      "count": 1,
+      "categories": [
+        "その他"
+      ],
+      "related_riddle_ids": [
+        819
+      ],
+      "aliases": []
+    },
+    "黄色": {
+      "count": 1,
+      "categories": [
+        "その他"
+      ],
+      "related_riddle_ids": [
+        820
+      ],
+      "aliases": []
+    },
+    "緑": {
+      "count": 1,
+      "categories": [
+        "その他"
+      ],
+      "related_riddle_ids": [
+        821
+      ],
+      "aliases": []
+    },
+    "白": {
+      "count": 1,
+      "categories": [
+        "その他"
+      ],
+      "related_riddle_ids": [
+        822
+      ],
+      "aliases": []
+    },
+    "黒": {
+      "count": 1,
+      "categories": [
+        "その他"
+      ],
+      "related_riddle_ids": [
+        823
+      ],
+      "aliases": []
+    },
+    "紫": {
+      "count": 1,
+      "categories": [
+        "その他"
+      ],
+      "related_riddle_ids": [
+        824
+      ],
+      "aliases": []
+    },
+    "ピンク": {
+      "count": 1,
+      "categories": [
+        "その他"
+      ],
+      "related_riddle_ids": [
+        825
+      ],
+      "aliases": []
+    },
+    "茶色": {
+      "count": 1,
+      "categories": [
+        "その他"
+      ],
+      "related_riddle_ids": [
+        826
+      ],
+      "aliases": []
+    },
+    "金": {
+      "count": 1,
+      "categories": [
+        "その他"
+      ],
+      "related_riddle_ids": [
+        827
+      ],
+      "aliases": []
+    },
+    "銀": {
+      "count": 1,
+      "categories": [
+        "その他"
+      ],
+      "related_riddle_ids": [
+        828
+      ],
+      "aliases": []
+    },
+    "サッカー": {
+      "count": 1,
+      "categories": [
+        "その他"
+      ],
+      "related_riddle_ids": [
+        829
+      ],
+      "aliases": []
+    },
+    "野球": {
+      "count": 1,
+      "categories": [
+        "その他"
+      ],
+      "related_riddle_ids": [
+        830
+      ],
+      "aliases": []
+    },
+    "テニス": {
+      "count": 1,
+      "categories": [
+        "その他"
+      ],
+      "related_riddle_ids": [
+        831
+      ],
+      "aliases": []
+    },
+    "ゴルフ": {
+      "count": 1,
+      "categories": [
+        "その他"
+      ],
+      "related_riddle_ids": [
+        832
+      ],
+      "aliases": []
+    },
+    "卓球": {
+      "count": 1,
+      "categories": [
+        "その他"
+      ],
+      "related_riddle_ids": [
+        833
+      ],
+      "aliases": []
+    },
+    "バレー": {
+      "count": 1,
+      "categories": [
+        "その他"
+      ],
+      "related_riddle_ids": [
+        834
+      ],
+      "aliases": []
+    },
+    "水泳": {
+      "count": 1,
+      "categories": [
+        "その他"
+      ],
+      "related_riddle_ids": [
+        835
+      ],
+      "aliases": []
+    },
+    "柔道": {
+      "count": 1,
+      "categories": [
+        "その他"
+      ],
+      "related_riddle_ids": [
+        836
+      ],
+      "aliases": []
+    },
+    "剣道": {
+      "count": 1,
+      "categories": [
+        "その他"
+      ],
+      "related_riddle_ids": [
+        837
+      ],
+      "aliases": []
+    },
+    "相撲": {
+      "count": 1,
+      "categories": [
+        "その他"
+      ],
+      "related_riddle_ids": [
+        838
+      ],
+      "aliases": []
+    },
+    "ギター": {
+      "count": 1,
+      "categories": [
+        "その他"
+      ],
+      "related_riddle_ids": [
+        839
+      ],
+      "aliases": []
+    },
+    "ピアノ": {
+      "count": 1,
+      "categories": [
+        "その他"
+      ],
+      "related_riddle_ids": [
+        840
+      ],
+      "aliases": []
+    },
+    "バイオリン": {
+      "count": 1,
+      "categories": [
+        "その他"
+      ],
+      "related_riddle_ids": [
+        841
+      ],
+      "aliases": []
+    },
+    "トランペット": {
+      "count": 1,
+      "categories": [
+        "その他"
+      ],
+      "related_riddle_ids": [
+        842
+      ],
+      "aliases": []
+    },
+    "フルート": {
+      "count": 1,
+      "categories": [
+        "その他"
+      ],
+      "related_riddle_ids": [
+        843
+      ],
+      "aliases": []
+    },
+    "ハーモニカ": {
+      "count": 1,
+      "categories": [
+        "その他"
+      ],
+      "related_riddle_ids": [
+        844
+      ],
+      "aliases": []
+    },
+    "太鼓": {
+      "count": 1,
+      "categories": [
+        "その他"
+      ],
+      "related_riddle_ids": [
+        845
+      ],
+      "aliases": []
+    },
+    "鈴": {
+      "count": 1,
+      "categories": [
+        "その他"
+      ],
+      "related_riddle_ids": [
+        846
+      ],
+      "aliases": []
+    },
+    "学校": {
+      "count": 1,
+      "categories": [
+        "その他"
+      ],
+      "related_riddle_ids": [
+        847
+      ],
+      "aliases": []
+    },
+    "病院": {
+      "count": 1,
+      "categories": [
+        "その他"
+      ],
+      "related_riddle_ids": [
+        848
+      ],
+      "aliases": []
+    },
+    "駅": {
+      "count": 1,
+      "categories": [
+        "その他"
+      ],
+      "related_riddle_ids": [
+        849
+      ],
+      "aliases": []
+    },
+    "公園": {
+      "count": 1,
+      "categories": [
+        "その他"
+      ],
+      "related_riddle_ids": [
+        850
+      ],
+      "aliases": []
+    },
+    "神社": {
+      "count": 1,
+      "categories": [
+        "その他"
+      ],
+      "related_riddle_ids": [
+        851
+      ],
+      "aliases": []
+    },
+    "お寺": {
+      "count": 1,
+      "categories": [
+        "その他"
+      ],
+      "related_riddle_ids": [
+        852
+      ],
+      "aliases": []
+    },
+    "郵便局": {
+      "count": 1,
+      "categories": [
+        "その他"
+      ],
+      "related_riddle_ids": [
+        853
+      ],
+      "aliases": []
+    },
+    "図書館": {
+      "count": 1,
+      "categories": [
+        "その他"
+      ],
+      "related_riddle_ids": [
+        854
+      ],
+      "aliases": []
+    },
+    "博物館": {
+      "count": 1,
+      "categories": [
+        "その他"
+      ],
+      "related_riddle_ids": [
+        855
+      ],
+      "aliases": []
+    },
+    "喫茶店": {
+      "count": 1,
+      "categories": [
+        "その他"
+      ],
+      "related_riddle_ids": [
+        856
+      ],
+      "aliases": []
+    },
+    "医者": {
+      "count": 1,
+      "categories": [
+        "その他"
+      ],
+      "related_riddle_ids": [
+        857
+      ],
+      "aliases": []
+    },
+    "看護師": {
+      "count": 1,
+      "categories": [
+        "その他"
+      ],
+      "related_riddle_ids": [
+        858
+      ],
+      "aliases": []
+    },
+    "警察官": {
+      "count": 1,
+      "categories": [
+        "その他"
+      ],
+      "related_riddle_ids": [
+        860
+      ],
+      "aliases": []
+    },
+    "消防士": {
+      "count": 1,
+      "categories": [
+        "その他"
+      ],
+      "related_riddle_ids": [
+        861
+      ],
+      "aliases": []
+    },
+    "運転手": {
+      "count": 1,
+      "categories": [
+        "その他"
+      ],
+      "related_riddle_ids": [
+        862
+      ],
+      "aliases": []
+    },
+    "パイロット": {
+      "count": 1,
+      "categories": [
+        "その他"
+      ],
+      "related_riddle_ids": [
+        863
+      ],
+      "aliases": []
+    },
+    "船長": {
+      "count": 1,
+      "categories": [
+        "その他"
+      ],
+      "related_riddle_ids": [
+        864
+      ],
+      "aliases": []
+    },
+    "社長": {
+      "count": 1,
+      "categories": [
+        "その他"
+      ],
+      "related_riddle_ids": [
+        865
+      ],
+      "aliases": []
+    },
+    "会長": {
+      "count": 1,
+      "categories": [
+        "その他"
+      ],
+      "related_riddle_ids": [
+        866
+      ],
+      "aliases": []
+    },
+    "愛": {
+      "count": 1,
+      "categories": [
+        "その他"
+      ],
+      "related_riddle_ids": [
+        867
+      ],
+      "aliases": []
+    },
+    "夢": {
+      "count": 1,
+      "categories": [
+        "その他"
+      ],
+      "related_riddle_ids": [
+        868
+      ],
+      "aliases": []
+    },
+    "希望": {
+      "count": 1,
+      "categories": [
+        "その他"
+      ],
+      "related_riddle_ids": [
+        869
+      ],
+      "aliases": []
+    },
+    "勇気": {
+      "count": 1,
+      "categories": [
+        "その他"
+      ],
+      "related_riddle_ids": [
+        870
+      ],
+      "aliases": []
+    },
+    "元気": {
+      "count": 1,
+      "categories": [
+        "その他"
+      ],
+      "related_riddle_ids": [
+        871
+      ],
+      "aliases": []
+    },
+    "根気": {
+      "count": 1,
+      "categories": [
+        "その他"
+      ],
+      "related_riddle_ids": [
+        872
+      ],
+      "aliases": []
+    },
+    "本気": {
+      "count": 1,
+      "categories": [
+        "その他"
+      ],
+      "related_riddle_ids": [
+        873
+      ],
+      "aliases": []
+    },
+    "やる気": {
+      "count": 1,
+      "categories": [
+        "その他"
+      ],
+      "related_riddle_ids": [
+        874
+      ],
+      "aliases": []
+    },
+    "気合い": {
+      "count": 1,
+      "categories": [
+        "その他"
+      ],
+      "related_riddle_ids": [
+        875
+      ],
+      "aliases": []
+    },
+    "やさしさ": {
+      "count": 1,
+      "categories": [
+        "その他"
+      ],
+      "related_riddle_ids": [
+        876
+      ],
+      "aliases": []
+    },
+    "努力": {
+      "count": 1,
+      "categories": [
+        "その他"
+      ],
+      "related_riddle_ids": [
+        877
+      ],
+      "aliases": []
+    },
+    "才能": {
+      "count": 1,
+      "categories": [
+        "その他"
+      ],
+      "related_riddle_ids": [
+        878
+      ],
+      "aliases": []
+    },
+    "幸せ": {
+      "count": 1,
+      "categories": [
+        "その他"
+      ],
+      "related_riddle_ids": [
+        879
+      ],
+      "aliases": []
+    },
+    "平和": {
+      "count": 1,
+      "categories": [
+        "その他"
+      ],
+      "related_riddle_ids": [
+        880
+      ],
+      "aliases": []
+    },
+    "自由": {
+      "count": 1,
+      "categories": [
+        "その他"
+      ],
+      "related_riddle_ids": [
+        881
+      ],
+      "aliases": []
+    },
+    "平等": {
+      "count": 1,
+      "categories": [
+        "その他"
+      ],
+      "related_riddle_ids": [
+        882
+      ],
+      "aliases": []
+    },
+    "水": {
+      "count": 1,
+      "categories": [
+        "その他"
+      ],
+      "related_riddle_ids": [
+        883
+      ],
+      "aliases": []
+    },
+    "火": {
+      "count": 1,
+      "categories": [
+        "その他"
+      ],
+      "related_riddle_ids": [
+        884
+      ],
+      "aliases": []
+    },
+    "お金": {
+      "count": 1,
+      "categories": [
+        "その他"
+      ],
+      "related_riddle_ids": [
+        885
+      ],
+      "aliases": []
+    },
+    "時間": {
+      "count": 1,
+      "categories": [
+        "その他"
+      ],
+      "related_riddle_ids": [
+        886
+      ],
+      "aliases": []
+    },
+    "言葉": {
+      "count": 1,
+      "categories": [
+        "その他"
+      ],
+      "related_riddle_ids": [
+        887
+      ],
+      "aliases": []
+    },
+    "写真": {
+      "count": 1,
+      "categories": [
+        "その他"
+      ],
+      "related_riddle_ids": [
+        888
+      ],
+      "aliases": []
+    },
+    "ニュース": {
+      "count": 1,
+      "categories": [
+        "その他"
+      ],
+      "related_riddle_ids": [
+        889
+      ],
+      "aliases": []
+    },
+    "情報": {
+      "count": 1,
+      "categories": [
+        "その他"
+      ],
+      "related_riddle_ids": [
+        890
+      ],
+      "aliases": []
+    },
+    "知恵": {
+      "count": 1,
+      "categories": [
+        "その他"
+      ],
+      "related_riddle_ids": [
+        891
+      ],
+      "aliases": []
+    },
+    "知識": {
+      "count": 1,
+      "categories": [
+        "その他"
+      ],
+      "related_riddle_ids": [
+        892
+      ],
+      "aliases": []
+    },
+    "経験": {
+      "count": 1,
+      "categories": [
+        "その他"
+      ],
+      "related_riddle_ids": [
+        893
+      ],
+      "aliases": []
+    },
+    "涙": {
+      "count": 1,
+      "categories": [
+        "その他"
+      ],
+      "related_riddle_ids": [
+        894
+      ],
+      "aliases": []
+    },
+    "汗": {
+      "count": 1,
+      "categories": [
+        "その他"
+      ],
+      "related_riddle_ids": [
+        895
+      ],
+      "aliases": []
+    },
+    "数": {
+      "count": 1,
+      "categories": [
+        "その他"
+      ],
+      "related_riddle_ids": [
+        897
+      ],
+      "aliases": []
+    },
+    "音": {
+      "count": 1,
+      "categories": [
+        "その他"
+      ],
+      "related_riddle_ids": [
+        898
+      ],
+      "aliases": []
+    },
+    "光": {
+      "count": 1,
+      "categories": [
+        "その他"
+      ],
+      "related_riddle_ids": [
+        899
+      ],
+      "aliases": []
+    },
+    "影": {
+      "count": 1,
+      "categories": [
+        "その他"
+      ],
+      "related_riddle_ids": [
+        900
+      ],
+      "aliases": []
+    },
+    "色": {
+      "count": 1,
+      "categories": [
+        "その他"
+      ],
+      "related_riddle_ids": [
+        901
+      ],
+      "aliases": []
+    },
+    "形": {
+      "count": 1,
+      "categories": [
+        "その他"
+      ],
+      "related_riddle_ids": [
+        902
+      ],
+      "aliases": []
+    },
+    "大きさ": {
+      "count": 1,
+      "categories": [
+        "その他"
+      ],
+      "related_riddle_ids": [
+        903
+      ],
+      "aliases": []
+    },
+    "重さ": {
+      "count": 1,
+      "categories": [
+        "その他"
+      ],
+      "related_riddle_ids": [
+        904
+      ],
+      "aliases": []
+    },
+    "長さ": {
+      "count": 1,
+      "categories": [
+        "その他"
+      ],
+      "related_riddle_ids": [
+        905
+      ],
+      "aliases": []
+    },
+    "深さ": {
+      "count": 1,
+      "categories": [
+        "その他"
+      ],
+      "related_riddle_ids": [
+        906
+      ],
+      "aliases": []
+    },
+    "高さ": {
+      "count": 1,
+      "categories": [
+        "その他"
+      ],
+      "related_riddle_ids": [
+        907
+      ],
+      "aliases": []
+    },
+    "入口と出口の間にある漢字一文字": {
+      "count": 1,
+      "categories": [
+        "その他"
+      ],
+      "related_riddle_ids": [
+        908
+      ],
+      "aliases": []
+    },
+    "学校の門を入って最初に見るもの": {
+      "count": 1,
+      "categories": [
+        "その他"
+      ],
+      "related_riddle_ids": [
+        910
+      ],
+      "aliases": []
+    },
+    "黒板に書かれた字を消すもの": {
+      "count": 1,
+      "categories": [
+        "その他"
+      ],
+      "related_riddle_ids": [
+        912
+      ],
+      "aliases": []
+    },
+    "消しゴムで消せないもの": {
+      "count": 1,
+      "categories": [
+        "その他"
+      ],
+      "related_riddle_ids": [
+        916
+      ],
+      "aliases": []
+    },
+    "鉛筆で書けるけれどペンで": {
+      "count": 1,
+      "categories": [
+        "その他"
+      ],
+      "related_riddle_ids": [
+        917
+      ],
+      "aliases": []
+    },
+    "定規": {
+      "count": 1,
+      "categories": [
+        "文房具",
+        "道具"
+      ],
+      "related_riddle_ids": [
+        918
+      ],
+      "aliases": []
+    },
+    "定規で測れるけれど手で": {
+      "count": 1,
+      "categories": [
+        "その他"
+      ],
+      "related_riddle_ids": [
+        918
+      ],
+      "aliases": []
+    },
+    "コンパス": {
+      "count": 1,
+      "categories": [
+        "文房具",
+        "道具"
+      ],
+      "related_riddle_ids": [
+        919
+      ],
+      "aliases": []
+    },
+    "コンパスで描けるけれど手で": {
+      "count": 1,
+      "categories": [
+        "その他"
+      ],
+      "related_riddle_ids": [
+        919
+      ],
+      "aliases": []
+    },
+    "のりで貼れるけれど水で": {
+      "count": 1,
+      "categories": [
+        "その他"
+      ],
+      "related_riddle_ids": [
+        920
+      ],
+      "aliases": []
+    },
+    "はさみで切れるけれど手で": {
+      "count": 1,
+      "categories": [
+        "その他"
+      ],
+      "related_riddle_ids": [
+        921
+      ],
+      "aliases": []
+    },
+    "カッター": {
+      "count": 1,
+      "categories": [
+        "文房具",
+        "道具"
+      ],
+      "related_riddle_ids": [
+        922
+      ],
+      "aliases": []
+    },
+    "カッターで切れるけれど": {
+      "count": 1,
+      "categories": [
+        "その他"
+      ],
+      "related_riddle_ids": [
+        922
+      ],
+      "aliases": []
+    },
+    "ホッチキスで留められるけれど手で": {
+      "count": 1,
+      "categories": [
+        "その他"
+      ],
+      "related_riddle_ids": [
+        923
+      ],
+      "aliases": []
+    },
+    "ホッチキス": {
+      "count": 1,
+      "categories": [
+        "文房具",
+        "道具"
+      ],
+      "related_riddle_ids": [
+        923
+      ],
+      "aliases": [
+        "ホチキス",
+        "ステープラー"
+      ]
+    },
+    "クリップで留められるけれど輪ゴムで": {
+      "count": 1,
+      "categories": [
+        "その他"
+      ],
+      "related_riddle_ids": [
+        924
+      ],
+      "aliases": []
+    },
+    "クリップ": {
+      "count": 1,
+      "categories": [
+        "文房具",
+        "道具"
+      ],
+      "related_riddle_ids": [
+        924
+      ],
+      "aliases": []
+    },
+    "セロハンテープで貼れるけれどガムテープで": {
+      "count": 1,
+      "categories": [
+        "その他"
+      ],
+      "related_riddle_ids": [
+        925
+      ],
+      "aliases": []
+    },
+    "ガムテープ": {
+      "count": 1,
+      "categories": [
+        "文房具",
+        "道具"
+      ],
+      "related_riddle_ids": [
+        925
+      ],
+      "aliases": []
+    },
+    "セロハンテープ": {
+      "count": 1,
+      "categories": [
+        "文房具",
+        "道具"
+      ],
+      "related_riddle_ids": [
+        925
+      ],
+      "aliases": [
+        "セロテープ"
+      ]
+    },
+    "後輩": {
+      "count": 1,
+      "categories": [
+        "人"
+      ],
+      "related_riddle_ids": [
+        926
+      ],
+      "aliases": []
+    },
+    "先輩": {
+      "count": 1,
+      "categories": [
+        "人"
+      ],
+      "related_riddle_ids": [
+        926
+      ],
+      "aliases": []
+    },
+    "「先輩」と「後輩」の間にいる人": {
+      "count": 1,
+      "categories": [
+        "その他"
+      ],
+      "related_riddle_ids": [
+        926
+      ],
+      "aliases": []
+    },
+    "同級生": {
+      "count": 1,
+      "categories": [
+        "人"
+      ],
+      "related_riddle_ids": [
+        926
+      ],
+      "aliases": []
+    },
+    "「父」と「母」の間にいる人": {
+      "count": 1,
+      "categories": [
+        "その他"
+      ],
+      "related_riddle_ids": [
+        927
+      ],
+      "aliases": []
+    },
+    "父": {
+      "count": 1,
+      "categories": [
+        "人",
+        "家族"
+      ],
+      "related_riddle_ids": [
+        927
+      ],
+      "aliases": [
+        "父親"
+      ]
+    },
+    "妹": {
+      "count": 1,
+      "categories": [
+        "人",
+        "家族"
+      ],
+      "related_riddle_ids": [
+        928
+      ],
+      "aliases": []
+    },
+    "「兄」と「弟」の間にいる人": {
+      "count": 1,
+      "categories": [
+        "その他"
+      ],
+      "related_riddle_ids": [
+        928
+      ],
+      "aliases": []
+    },
+    "校長": {
+      "count": 1,
+      "categories": [
+        "人",
+        "職業"
+      ],
+      "related_riddle_ids": [
+        929
+      ],
+      "aliases": []
+    },
+    "「先生」と「生徒」の間にいる人": {
+      "count": 1,
+      "categories": [
+        "その他"
+      ],
+      "related_riddle_ids": [
+        929
+      ],
+      "aliases": []
+    },
+    "「右」と「左」の間にあるもの": {
+      "count": 1,
+      "categories": [
+        "その他"
+      ],
+      "related_riddle_ids": [
+        930
+      ],
+      "aliases": []
+    },
+    "真ん中": {
+      "count": 1,
+      "categories": [
+        "位置",
+        "抽象"
+      ],
+      "related_riddle_ids": [
+        930
+      ],
+      "aliases": [
+        "中心"
+      ]
+    },
+    "「前」と「後ろ」の間にあるもの": {
+      "count": 1,
+      "categories": [
+        "その他"
+      ],
+      "related_riddle_ids": [
+        931
+      ],
+      "aliases": []
+    },
+    "「上」と「下」の間にあるもの": {
+      "count": 1,
+      "categories": [
+        "その他"
+      ],
+      "related_riddle_ids": [
+        932
+      ],
+      "aliases": []
+    },
+    "遠いと近いの間にある距離感": {
+      "count": 1,
+      "categories": [
+        "その他"
+      ],
+      "related_riddle_ids": [
+        940
+      ],
+      "aliases": []
+    },
+    "「買う」と「売る」の間にある人": {
+      "count": 1,
+      "categories": [
+        "その他"
+      ],
+      "related_riddle_ids": [
+        946
+      ],
+      "aliases": []
+    },
+    "右手でできるのに左手で": {
+      "count": 1,
+      "categories": [
+        "その他"
+      ],
+      "related_riddle_ids": [
+        948
+      ],
+      "aliases": []
+    },
+    "右手で持って左手で渡すもの": {
+      "count": 1,
+      "categories": [
+        "その他"
+      ],
+      "related_riddle_ids": [
+        949
+      ],
+      "aliases": []
+    },
+    "目を開けて見えないもの": {
+      "count": 1,
+      "categories": [
+        "その他"
+      ],
+      "related_riddle_ids": [
+        950
+      ],
+      "aliases": []
+    },
+    "目を閉じて見えるもの": {
+      "count": 1,
+      "categories": [
+        "その他"
+      ],
+      "related_riddle_ids": [
+        951
+      ],
+      "aliases": []
+    },
+    "口を開けて食べられないもの": {
+      "count": 1,
+      "categories": [
+        "その他"
+      ],
+      "related_riddle_ids": [
+        952
+      ],
+      "aliases": []
+    },
+    "口を閉じて話せる言葉": {
+      "count": 1,
+      "categories": [
+        "その他"
+      ],
+      "related_riddle_ids": [
+        953
+      ],
+      "aliases": []
+    },
+    "鼻で息をしながら口でできること": {
+      "count": 1,
+      "categories": [
+        "その他"
+      ],
+      "related_riddle_ids": [
+        954
+      ],
+      "aliases": []
+    },
+    "手を叩けば出る音": {
+      "count": 1,
+      "categories": [
+        "その他"
+      ],
+      "related_riddle_ids": [
+        956
+      ],
+      "aliases": []
+    },
+    "足を踏めば出る音": {
+      "count": 1,
+      "categories": [
+        "その他"
+      ],
+      "related_riddle_ids": [
+        957
+      ],
+      "aliases": []
+    },
+    "指を鳴らせば出る音": {
+      "count": 1,
+      "categories": [
+        "その他"
+      ],
+      "related_riddle_ids": [
+        958
+      ],
+      "aliases": []
+    },
+    "口笛で吹けるのに歌で": {
+      "count": 1,
+      "categories": [
+        "その他"
+      ],
+      "related_riddle_ids": [
+        959
+      ],
+      "aliases": []
+    },
+    "朝": {
+      "count": 1,
+      "categories": [
+        "その他"
+      ],
+      "related_riddle_ids": [
+        965
+      ],
+      "aliases": []
+    },
+    "1度に2つのことができる動物": {
+      "count": 1,
+      "categories": [
+        "その他"
+      ],
+      "related_riddle_ids": [
+        966
+      ],
+      "aliases": []
+    },
+    "夏休みとかけて夢と解く。その心": {
+      "count": 1,
+      "categories": [
+        "その他"
+      ],
+      "related_riddle_ids": [
+        981
+      ],
+      "aliases": []
+    },
+    "遠足とかけて冒険と解く。その心": {
+      "count": 1,
+      "categories": [
+        "その他"
+      ],
+      "related_riddle_ids": [
+        988
+      ],
+      "aliases": []
+    },
+    "給食とかけて宝箱と解く。その心": {
+      "count": 1,
+      "categories": [
+        "その他"
+      ],
+      "related_riddle_ids": [
+        989
+      ],
+      "aliases": []
+    },
+    "宿題とかけて借金と解く。その心": {
+      "count": 1,
+      "categories": [
+        "その他"
+      ],
+      "related_riddle_ids": [
+        991
+      ],
+      "aliases": []
+    },
+    "試験とかけて緊張と解く。その心": {
+      "count": 1,
+      "categories": [
+        "その他"
+      ],
+      "related_riddle_ids": [
+        992
+      ],
+      "aliases": []
+    },
+    "通知表とかけて鏡と解く。その心": {
+      "count": 1,
+      "categories": [
+        "その他"
+      ],
+      "related_riddle_ids": [
+        993
+      ],
+      "aliases": []
+    },
+    "「木」に一本足すとできる漢字": {
+      "count": 1,
+      "categories": [
+        "その他"
+      ],
+      "related_riddle_ids": [
+        1000
+      ],
+      "aliases": []
+    },
+    "寝る前に必ずすること": {
+      "count": 1,
+      "categories": [
+        "その他"
+      ],
+      "related_riddle_ids": [
+        1013
+      ],
+      "aliases": []
+    },
+    "起きたら必ずすること": {
+      "count": 1,
+      "categories": [
+        "その他"
+      ],
+      "related_riddle_ids": [
+        1014
+      ],
+      "aliases": []
+    },
+    "トイレに入る前に必ずすること": {
+      "count": 1,
+      "categories": [
+        "その他"
+      ],
+      "related_riddle_ids": [
+        1015
+      ],
+      "aliases": []
+    },
+    "トイレから出たら必ずすること": {
+      "count": 1,
+      "categories": [
+        "その他"
+      ],
+      "related_riddle_ids": [
+        1016
+      ],
+      "aliases": []
+    },
+    "メールが来たら必ずすること": {
+      "count": 1,
+      "categories": [
+        "その他"
+      ],
+      "related_riddle_ids": [
+        1018
+      ],
+      "aliases": []
+    },
+    "お風呂に入ったら必ずすること": {
+      "count": 1,
+      "categories": [
+        "その他"
+      ],
+      "related_riddle_ids": [
+        1019
+      ],
+      "aliases": []
+    },
+    "ご飯を食べる前に必ずすること": {
+      "count": 1,
+      "categories": [
+        "その他"
+      ],
+      "related_riddle_ids": [
+        1020
+      ],
+      "aliases": []
+    },
+    "外から帰ったら必ずすること": {
+      "count": 1,
+      "categories": [
+        "その他"
+      ],
+      "related_riddle_ids": [
+        1021
+      ],
+      "aliases": []
+    },
+    "くしゃみをしたら必ず言うこと": {
+      "count": 1,
+      "categories": [
+        "その他"
+      ],
+      "related_riddle_ids": [
+        1022
+      ],
+      "aliases": []
+    },
+    "あくびが出たら必ず言うこと": {
+      "count": 1,
+      "categories": [
+        "その他"
+      ],
+      "related_riddle_ids": [
+        1023
+      ],
+      "aliases": []
+    },
+    "つまずいたら必ず言うこと": {
+      "count": 1,
+      "categories": [
+        "その他"
+      ],
+      "related_riddle_ids": [
+        1024
+      ],
+      "aliases": []
+    },
+    "ぶつかったら必ず言うこと": {
+      "count": 1,
+      "categories": [
+        "その他"
+      ],
+      "related_riddle_ids": [
+        1025
+      ],
+      "aliases": []
+    },
+    "落としたら必ず言うこと": {
+      "count": 1,
+      "categories": [
+        "その他"
+      ],
+      "related_riddle_ids": [
+        1026
+      ],
+      "aliases": []
+    },
+    "忘れたら必ず言うこと": {
+      "count": 1,
+      "categories": [
+        "その他"
+      ],
+      "related_riddle_ids": [
+        1027
+      ],
+      "aliases": []
+    },
+    "遅刻したら必ず言うこと": {
+      "count": 1,
+      "categories": [
+        "その他"
+      ],
+      "related_riddle_ids": [
+        1028
+      ],
+      "aliases": []
+    },
+    "褒められたら必ず言うこと": {
+      "count": 1,
+      "categories": [
+        "その他"
+      ],
+      "related_riddle_ids": [
+        1029
+      ],
+      "aliases": []
+    },
+    "謝られたら必ず言うこと": {
+      "count": 1,
+      "categories": [
+        "その他"
+      ],
+      "related_riddle_ids": [
+        1030
+      ],
+      "aliases": []
+    },
+    "「1」と「0」でできる言葉": {
+      "count": 1,
+      "categories": [
+        "その他"
+      ],
+      "related_riddle_ids": [
+        1036
+      ],
+      "aliases": []
+    },
+    "「∞」を縦にすると見える数字": {
+      "count": 1,
+      "categories": [
+        "その他"
+      ],
+      "related_riddle_ids": [
+        1045
+      ],
+      "aliases": []
+    }
+  },
+  "homophone_map": {
+    "パン": [
+      {
+        "meaning": "フライパン",
+        "count": 4
+      },
+      {
+        "meaning": "食パン",
+        "count": 1
+      },
+      {
+        "meaning": "ライトバン",
+        "count": 1
+      },
+      {
+        "meaning": "食べ物のパン",
+        "count": 1
+      }
+    ],
+    "カレー/カレンダー": [
+      {
+        "meaning": "カレー",
+        "count": 4
+      },
+      {
+        "meaning": "カレンダー",
+        "count": 4
+      }
+    ],
+    "うどんげ": [
+      {
+        "meaning": "優曇華",
+        "count": 1
+      },
+      {
+        "meaning": "饂飩",
+        "count": 1
+      }
+    ],
+    "てんぷら/テンプレート": [
+      {
+        "meaning": "テンプレート",
+        "count": 1
+      },
+      {
+        "meaning": "天ぷら",
+        "count": 1
+      }
+    ],
+    "りんご/わリンゴ": [
+      {
+        "meaning": "輪ゴム",
+        "count": 2
+      },
+      {
+        "meaning": "林檎",
+        "count": 2
+      }
+    ],
+    "ぶどう/武道": [
+      {
+        "meaning": "武道",
+        "count": 2
+      },
+      {
+        "meaning": "葡萄",
+        "count": 1
+      }
+    ],
+    "いか": [
+      {
+        "meaning": "伊賀",
+        "count": 1
+      },
+      {
+        "meaning": "以下",
+        "count": 1
+      },
+      {
+        "meaning": "烏賊",
+        "count": 1
+      }
+    ],
+    "たこ": [
+      {
+        "meaning": "凧",
+        "count": 2
+      },
+      {
+        "meaning": "蛸",
+        "count": 1
+      }
+    ],
+    "とり": [
+      {
+        "meaning": "鳥",
+        "count": 13
+      },
+      {
+        "meaning": "取り",
+        "count": 1
+      }
+    ],
+    "ぶた": [
+      {
+        "meaning": "豚",
+        "count": 3
+      },
+      {
+        "meaning": "蓋",
+        "count": 1
+      }
+    ],
+    "うし": [
+      {
+        "meaning": "丑",
+        "count": 1
+      },
+      {
+        "meaning": "牛",
+        "count": 1
+      }
+    ],
+    "うま": [
+      {
+        "meaning": "馬",
+        "count": 4
+      },
+      {
+        "meaning": "午",
+        "count": 3
+      }
+    ],
+    "さる": [
+      {
+        "meaning": "申",
+        "count": 1
+      },
+      {
+        "meaning": "猿",
+        "count": 1
+      }
+    ],
+    "いぬ": [
+      {
+        "meaning": "犬",
+        "count": 5
+      },
+      {
+        "meaning": "戌",
+        "count": 1
+      }
+    ],
+    "ねずみ": [
+      {
+        "meaning": "子",
+        "count": 38
+      },
+      {
+        "meaning": "鼠",
+        "count": 1
+      }
+    ],
+    "めん": [
+      {
+        "meaning": "面",
+        "count": 2
+      },
+      {
+        "meaning": "麺",
+        "count": 2
+      }
+    ],
+    "そば": [
+      {
+        "meaning": "蕎麦",
+        "count": 2
+      },
+      {
+        "meaning": "側",
+        "count": 1
+      }
+    ],
+    "かみ": [
+      {
+        "meaning": "紙",
+        "count": 10
+      },
+      {
+        "meaning": "髪",
+        "count": 6
+      },
+      {
+        "meaning": "神",
+        "count": 1
+      }
+    ],
+    "はな": [
+      {
+        "meaning": "鼻",
+        "count": 7
+      },
+      {
+        "meaning": "花",
+        "count": 7
+      }
+    ],
+    "くつ": [
+      {
+        "meaning": "靴",
+        "count": 10
+      },
+      {
+        "meaning": "朽つ",
+        "count": 1
+      }
+    ],
+    "はし": [
+      {
+        "meaning": "箸",
+        "count": 5
+      },
+      {
+        "meaning": "橋",
+        "count": 1
+      }
+    ],
+    "ふく": [
+      {
+        "meaning": "服",
+        "count": 8
+      },
+      {
+        "meaning": "福",
+        "count": 4
+      }
+    ],
+    "はる": [
+      {
+        "meaning": "春",
+        "count": 6
+      },
+      {
+        "meaning": "貼る/張る",
+        "count": 1
+      }
+    ],
+    "かき": [
+      {
+        "meaning": "柿",
+        "count": 3
+      },
+      {
+        "meaning": "牡蠣",
+        "count": 1
+      }
+    ],
+    "くも": [
+      {
+        "meaning": "雲",
+        "count": 2
+      },
+      {
+        "meaning": "蜘蛛",
+        "count": 1
+      }
+    ]
+  },
+  "wordplay_patterns": {
+    "templates": [
+      {
+        "pattern": "XXはXXでもXXないXXは？",
+        "count": 507
+      },
+      {
+        "pattern": "その他",
+        "count": 327
+      },
+      {
+        "pattern": "漢字分解パターン",
+        "count": 90
+      },
+      {
+        "pattern": "XXはXXは？",
+        "count": 36
+      },
+      {
+        "pattern": "数字パターン",
+        "count": 32
+      },
+      {
+        "pattern": "あるあるパターン",
+        "count": 26
+      },
+      {
+        "pattern": "理由説明パターン",
+        "count": 16
+      },
+      {
+        "pattern": "XXはXXでもXXは？",
+        "count": 8
+      },
+      {
+        "pattern": "XXなものは？",
+        "count": 6
+      }
+    ],
+    "structures": [
+      "あるある",
+      "なぞかけ",
+      "ひっかけ",
+      "ダジャレ・同音異義語",
+      "動物なぞなぞ",
+      "数字・記号",
+      "漢字なぞなぞ",
+      "漢字連想",
+      "言葉遊び",
+      "道具なぞなぞ"
+    ],
+    "template_dominance_pct": {
+      "XXはXXでもXXないXXは？": 48.4,
+      "XXとかけてXXととく、そのこころは？": 0.0,
+      "漢字分解パターン": 7.6,
+      "数字パターン": 4.1
+    }
+  },
+  "entity_relations": [
+    {
+      "source": "右",
+      "target": "左",
+      "relation": "共起",
+      "strength": 6
+    },
+    {
+      "source": "ペン",
+      "target": "ペンギン",
+      "relation": "共起",
+      "strength": 5
+    },
+    {
+      "source": "パン",
+      "target": "フライパン",
+      "relation": "共起",
+      "strength": 4
+    },
+    {
+      "source": "車",
+      "target": "電車",
+      "relation": "共起",
+      "strength": 4
+    },
+    {
+      "source": "とけい",
+      "target": "時計",
+      "relation": "共起",
+      "strength": 4
+    },
+    {
+      "source": "くるま",
+      "target": "車",
+      "relation": "共起",
+      "strength": 4
+    },
+    {
+      "source": "口",
+      "target": "漢字",
+      "relation": "共起",
+      "strength": 4
+    },
+    {
+      "source": "いか",
+      "target": "かさ",
+      "relation": "共起",
+      "strength": 3
+    },
+    {
+      "source": "でんわ",
+      "target": "電話",
+      "relation": "共起",
+      "strength": 3
+    },
+    {
+      "source": "ふね",
+      "target": "船",
+      "relation": "共起",
+      "strength": 3
+    },
+    {
+      "source": "かみ",
+      "target": "髪",
+      "relation": "共起",
+      "strength": 2
+    },
+    {
+      "source": "かさ",
+      "target": "雨",
+      "relation": "共起",
+      "strength": 2
+    },
+    {
+      "source": "自転車",
+      "target": "車",
+      "relation": "共起",
+      "strength": 2
+    },
+    {
+      "source": "上",
+      "target": "下",
+      "relation": "共起",
+      "strength": 2
+    },
+    {
+      "source": "かき",
+      "target": "雪",
+      "relation": "共起",
+      "strength": 2
+    },
+    {
+      "source": "パン",
+      "target": "パンダ",
+      "relation": "共起",
+      "strength": 2
+    },
+    {
+      "source": "前",
+      "target": "風",
+      "relation": "共起",
+      "strength": 2
+    },
+    {
+      "source": "兄",
+      "target": "弟",
+      "relation": "共起",
+      "strength": 2
+    },
+    {
+      "source": "たこ",
+      "target": "赤ちゃん",
+      "relation": "共起",
+      "strength": 2
+    },
+    {
+      "source": "下",
+      "target": "前",
+      "relation": "共起",
+      "strength": 2
+    },
+    {
+      "source": "口",
+      "target": "目",
+      "relation": "共起",
+      "strength": 2
+    },
+    {
+      "source": "漢字",
+      "target": "雨",
+      "relation": "共起",
+      "strength": 2
+    },
+    {
+      "source": "かばん",
+      "target": "子ども",
+      "relation": "共起",
+      "strength": 2
+    },
+    {
+      "source": "下",
+      "target": "舌",
+      "relation": "共起",
+      "strength": 2
+    },
+    {
+      "source": "いか",
+      "target": "かき",
+      "relation": "共起",
+      "strength": 2
+    },
+    {
+      "source": "のり",
+      "target": "海",
+      "relation": "共起",
+      "strength": 2
+    },
+    {
+      "source": "パン",
+      "target": "食パン",
+      "relation": "共起",
+      "strength": 1
+    },
+    {
+      "source": "すし",
+      "target": "電車",
+      "relation": "共起",
+      "strength": 1
+    },
+    {
+      "source": "すし",
+      "target": "車",
+      "relation": "共起",
+      "strength": 1
+    },
+    {
+      "source": "かに",
+      "target": "かにカニでも食べられないカニ",
+      "relation": "共起",
+      "strength": 1
+    },
+    {
+      "source": "そば",
+      "target": "やきそば",
+      "relation": "共起",
+      "strength": 1
+    },
+    {
+      "source": "うば",
+      "target": "母",
+      "relation": "共起",
+      "strength": 1
+    },
+    {
+      "source": "はな",
+      "target": "鼻",
+      "relation": "共起",
+      "strength": 1
+    },
+    {
+      "source": "くち",
+      "target": "口",
+      "relation": "共起",
+      "strength": 1
+    },
+    {
+      "source": "て",
+      "target": "手",
+      "relation": "共起",
+      "strength": 1
+    },
+    {
+      "source": "あたま",
+      "target": "頭",
+      "relation": "共起",
+      "strength": 1
+    },
+    {
+      "source": "かみ",
+      "target": "はさみ",
+      "relation": "共起",
+      "strength": 1
+    },
+    {
+      "source": "いか",
+      "target": "自転車",
+      "relation": "共起",
+      "strength": 1
+    },
+    {
+      "source": "いか",
+      "target": "車",
+      "relation": "共起",
+      "strength": 1
+    },
+    {
+      "source": "くるま",
+      "target": "海",
+      "relation": "共起",
+      "strength": 1
+    },
+    {
+      "source": "海",
+      "target": "車",
+      "relation": "共起",
+      "strength": 1
+    },
+    {
+      "source": "電車",
+      "target": "電車とかけて弁当と解く。その心",
+      "relation": "共起",
+      "strength": 1
+    },
+    {
+      "source": "車",
+      "target": "電車とかけて弁当と解く。その心",
+      "relation": "共起",
+      "strength": 1
+    },
+    {
+      "source": "電話",
+      "target": "電話とかけて友情と解く。その心",
+      "relation": "共起",
+      "strength": 1
+    },
+    {
+      "source": "上",
+      "target": "階段とかけて人生と解く。その心",
+      "relation": "共起",
+      "strength": 1
+    },
+    {
+      "source": "下",
+      "target": "階段とかけて人生と解く。その心",
+      "relation": "共起",
+      "strength": 1
+    },
+    {
+      "source": "鏡",
+      "target": "鏡とかけて夫婦と解く。その心",
+      "relation": "共起",
+      "strength": 1
+    },
+    {
+      "source": "海",
+      "target": "漢字",
+      "relation": "共起",
+      "strength": 1
+    },
+    {
+      "source": "月",
+      "target": "海",
+      "relation": "共起",
+      "strength": 1
+    },
+    {
+      "source": "月",
+      "target": "漢字",
+      "relation": "共起",
+      "strength": 1
+    },
+    {
+      "source": "とり",
+      "target": "漢字",
+      "relation": "共起",
+      "strength": 1
+    },
+    {
+      "source": "左",
+      "target": "漢字",
+      "relation": "共起",
+      "strength": 1
+    },
+    {
+      "source": "右",
+      "target": "漢字",
+      "relation": "共起",
+      "strength": 1
+    },
+    {
+      "source": "「口」に「鳥」を足すとできる鳥",
+      "target": "口",
+      "relation": "共起",
+      "strength": 1
+    },
+    {
+      "source": "「人」と「人」が支え合う漢字",
+      "target": "漢字",
+      "relation": "共起",
+      "strength": 1
+    },
+    {
+      "source": "ペンギン",
+      "target": "前",
+      "relation": "共起",
+      "strength": 1
+    },
+    {
+      "source": "ペン",
+      "target": "前",
+      "relation": "共起",
+      "strength": 1
+    },
+    {
+      "source": "かき",
+      "target": "頭に雪が積もっている食べ物",
+      "relation": "共起",
+      "strength": 1
+    },
+    {
+      "source": "雪",
+      "target": "頭に雪が積もっている食べ物",
+      "relation": "共起",
+      "strength": 1
+    },
+    {
+      "source": "ゾウ",
+      "target": "ゾウが乗っている車",
+      "relation": "共起",
+      "strength": 1
+    },
+    {
+      "source": "ゾウが乗っている車",
+      "target": "車",
+      "relation": "共起",
+      "strength": 1
+    },
+    {
+      "source": "ゾウ",
+      "target": "車",
+      "relation": "共起",
+      "strength": 1
+    },
+    {
+      "source": "かさ",
+      "target": "雨の日にかぎりなく近づけるもの",
+      "relation": "共起",
+      "strength": 1
+    },
+    {
+      "source": "雨",
+      "target": "雨の日にかぎりなく近づけるもの",
+      "relation": "共起",
+      "strength": 1
+    },
+    {
+      "source": "子ども",
+      "target": "子どもが3人集まるとできるもの",
+      "relation": "共起",
+      "strength": 1
+    },
+    {
+      "source": "いつも人のうしろにいるもの",
+      "target": "うし",
+      "relation": "共起",
+      "strength": 1
+    },
+    {
+      "source": "子ども",
+      "target": "子どもの頃",
+      "relation": "共起",
+      "strength": 1
+    },
+    {
+      "source": "からだが半分しかない鳥",
+      "target": "とり",
+      "relation": "共起",
+      "strength": 1
+    },
+    {
+      "source": "パン",
+      "target": "口の周りにぐるっと巻いた食べ物",
+      "relation": "共起",
+      "strength": 1
+    },
+    {
+      "source": "時計",
+      "target": "歩くとカチカチ音がする生き物",
+      "relation": "共起",
+      "strength": 1
+    },
+    {
+      "source": "世界中の人の耳の後ろにあるもの",
+      "target": "後ろ",
+      "relation": "共起",
+      "strength": 1
+    },
+    {
+      "source": "くま",
+      "target": "中にクマが住んでいるお菓子",
+      "relation": "共起",
+      "strength": 1
+    },
+    {
+      "source": "かき",
+      "target": "夏にしか会えない雪だるま",
+      "relation": "共起",
+      "strength": 1
+    },
+    {
+      "source": "夏にしか会えない雪だるま",
+      "target": "雪",
+      "relation": "共起",
+      "strength": 1
+    },
+    {
+      "source": "パンダ",
+      "target": "外",
+      "relation": "共起",
+      "strength": 1
+    },
+    {
+      "source": "パンダ",
+      "target": "パンダの好きな食べ物",
+      "relation": "共起",
+      "strength": 1
+    },
+    {
+      "source": "パン",
+      "target": "外",
+      "relation": "共起",
+      "strength": 1
+    },
+    {
+      "source": "パンダの好きな食べ物",
+      "target": "外",
+      "relation": "共起",
+      "strength": 1
+    },
+    {
+      "source": "パン",
+      "target": "パンダの好きな食べ物",
+      "relation": "共起",
+      "strength": 1
+    },
+    {
+      "source": "風",
+      "target": "風が吹けば桶屋が儲かる。で",
+      "relation": "共起",
+      "strength": 1
+    },
+    {
+      "source": "お風呂に入る前にするべきこと",
+      "target": "風",
+      "relation": "共起",
+      "strength": 1
+    },
+    {
+      "source": "お風呂に入る前にするべきこと",
+      "target": "前",
+      "relation": "共起",
+      "strength": 1
+    },
+    {
+      "source": "生まれたときから老いているもの",
+      "target": "鏡",
+      "relation": "共起",
+      "strength": 1
+    },
+    {
+      "source": "耳",
+      "target": "耳にすると美味しいもの",
+      "relation": "共起",
+      "strength": 1
+    },
+    {
+      "source": "テレビ",
+      "target": "宇宙人が見ているテレビ番組",
+      "relation": "共起",
+      "strength": 1
+    },
+    {
+      "source": "後ろ",
+      "target": "男の人も女の人も持っているけど、自分で",
+      "relation": "共起",
+      "strength": 1
+    },
+    {
+      "source": "内",
+      "target": "母",
+      "relation": "共起",
+      "strength": 1
+    },
+    {
+      "source": "たこ",
+      "target": "一度も見たことがないのに、明日に",
+      "relation": "共起",
+      "strength": 1
+    },
+    {
+      "source": "手が2本なのに触れないもの",
+      "target": "時計",
+      "relation": "共起",
+      "strength": 1
+    },
+    {
+      "source": "前",
+      "target": "明日の前日",
+      "relation": "共起",
+      "strength": 1
+    },
+    {
+      "source": "前",
+      "target": "明後日の前日",
+      "relation": "共起",
+      "strength": 1
+    },
+    {
+      "source": "赤ちゃん",
+      "target": "風",
+      "relation": "共起",
+      "strength": 1
+    },
+    {
+      "source": "たこ",
+      "target": "風",
+      "relation": "共起",
+      "strength": 1
+    },
+    {
+      "source": "泳げないのに海で生きていける魚",
+      "target": "海",
+      "relation": "共起",
+      "strength": 1
+    },
+    {
+      "source": "ミルクを出すのに牛で",
+      "target": "母",
+      "relation": "共起",
+      "strength": 1
+    },
+    {
+      "source": "ライター",
+      "target": "火を使うのに料理をしない道具",
+      "relation": "共起",
+      "strength": 1
+    },
+    {
+      "source": "マッチ",
+      "target": "火を使うのに料理をしない道具",
+      "relation": "共起",
+      "strength": 1
+    },
+    {
+      "source": "マッチ",
+      "target": "ライター",
+      "relation": "共起",
+      "strength": 1
+    },
+    {
+      "source": "海",
+      "target": "海の中にあるのに濡れないもの",
+      "relation": "共起",
+      "strength": 1
+    },
+    {
+      "source": "そば",
+      "target": "火のそばにいるのに燃えないもの",
+      "relation": "共起",
+      "strength": 1
+    },
+    {
+      "source": "お茶",
+      "target": "熱いのに冷たいと言われるもの",
+      "relation": "共起",
+      "strength": 1
+    },
+    {
+      "source": "りんご",
+      "target": "前",
+      "relation": "共起",
+      "strength": 1
+    },
+    {
+      "source": "りんご",
+      "target": "赤いのに青いと言われる果物",
+      "relation": "共起",
+      "strength": 1
+    },
+    {
+      "source": "前",
+      "target": "赤いのに青いと言われる果物",
+      "relation": "共起",
+      "strength": 1
+    },
+    {
+      "source": "いぬ",
+      "target": "犬を飼うときにもらえる書類",
+      "relation": "共起",
+      "strength": 1
+    },
+    {
+      "source": "ペンギン",
+      "target": "ペンギンの好きな文房具",
+      "relation": "共起",
+      "strength": 1
+    },
+    {
+      "source": "ペン",
+      "target": "ペンギンの好きな文房具",
+      "relation": "共起",
+      "strength": 1
+    },
+    {
+      "source": "ペンギン",
+      "target": "ペンギンが仕事中に使うもの",
+      "relation": "共起",
+      "strength": 1
+    },
+    {
+      "source": "ペン",
+      "target": "ペンギンが仕事中に使うもの",
+      "relation": "共起",
+      "strength": 1
+    },
+    {
+      "source": "カンガルー",
+      "target": "赤ちゃん",
+      "relation": "共起",
+      "strength": 1
+    },
+    {
+      "source": "カンガルー",
+      "target": "カンガルーの好きな食べ物",
+      "relation": "共起",
+      "strength": 1
+    },
+    {
+      "source": "ゾウ",
+      "target": "赤ちゃん",
+      "relation": "共起",
+      "strength": 1
+    },
+    {
+      "source": "ライオン",
+      "target": "ライオンが泳げない理由",
+      "relation": "共起",
+      "strength": 1
+    },
+    {
+      "source": "シマウマのシマシマ",
+      "target": "頭",
+      "relation": "共起",
+      "strength": 1
+    },
+    {
+      "source": "パンダ",
+      "target": "パンダの模様が白と黒なの",
+      "relation": "共起",
+      "strength": 1
+    },
+    {
+      "source": "パン",
+      "target": "パンダの模様が白と黒なの",
+      "relation": "共起",
+      "strength": 1
+    },
+    {
+      "source": "パンダの模様が白と黒なの",
+      "target": "雪",
+      "relation": "共起",
+      "strength": 1
+    },
+    {
+      "source": "パンダ",
+      "target": "雪",
+      "relation": "共起",
+      "strength": 1
+    },
+    {
+      "source": "パン",
+      "target": "雪",
+      "relation": "共起",
+      "strength": 1
+    },
+    {
+      "source": "いか",
+      "target": "コアラ",
+      "relation": "共起",
+      "strength": 1
+    },
+    {
+      "source": "いか",
+      "target": "コアラがほとんど動かないの",
+      "relation": "共起",
+      "strength": 1
+    },
+    {
+      "source": "コアラ",
+      "target": "コアラがほとんど動かないの",
+      "relation": "共起",
+      "strength": 1
+    },
+    {
+      "source": "カラスが賢いと言われる理由",
+      "target": "車",
+      "relation": "共起",
+      "strength": 1
+    },
+    {
+      "source": "いるか",
+      "target": "フクロウが夜に活動するの",
+      "relation": "共起",
+      "strength": 1
+    },
+    {
+      "source": "いるか",
+      "target": "アリが行列を作るの",
+      "relation": "共起",
+      "strength": 1
+    },
+    {
+      "source": "クモの巣が雨の日に見えやすいの",
+      "target": "雨",
+      "relation": "共起",
+      "strength": 1
+    },
+    {
+      "source": "イヌが寝る前にくるくる回るの",
+      "target": "前",
+      "relation": "共起",
+      "strength": 1
+    },
+    {
+      "source": "いか",
+      "target": "カメが長生きするの",
+      "relation": "共起",
+      "strength": 1
+    },
+    {
+      "source": "上",
+      "target": "机の上で働く動物",
+      "relation": "共起",
+      "strength": 1
+    },
+    {
+      "source": "上",
+      "target": "机の上にのっている動物",
+      "relation": "共起",
+      "strength": 1
+    },
+    {
+      "source": "外",
+      "target": "触ると熱いのに、中が冷たいもの",
+      "relation": "共起",
+      "strength": 1
+    },
+    {
+      "source": "時計",
+      "target": "朝に合わせるのに、夜に使うもの",
+      "relation": "共起",
+      "strength": 1
+    },
+    {
+      "source": "外",
+      "target": "風",
+      "relation": "共起",
+      "strength": 1
+    },
+    {
+      "source": "ペン",
+      "target": "書くものの中で一番細いもの",
+      "relation": "共起",
+      "strength": 1
+    },
+    {
+      "source": "「十」を四つ集めてできる漢字",
+      "target": "漢字",
+      "relation": "共起",
+      "strength": 1
+    },
+    {
+      "source": "数字の1と数字の1でできる漢字",
+      "target": "漢字",
+      "relation": "共起",
+      "strength": 1
+    },
+    {
+      "source": "数字の1と数字の2でできる漢字",
+      "target": "漢字",
+      "relation": "共起",
+      "strength": 1
+    },
+    {
+      "source": "「★」を4つ集めるとできる記号",
+      "target": "星",
+      "relation": "共起",
+      "strength": 1
+    },
+    {
+      "source": "「○」と「△」でできる形",
+      "target": "上",
+      "relation": "共起",
+      "strength": 1
+    },
+    {
+      "source": "3本の線でできる漢字",
+      "target": "漢字",
+      "relation": "共起",
+      "strength": 1
+    },
+    {
+      "source": "4本の線でできる漢字",
+      "target": "漢字",
+      "relation": "共起",
+      "strength": 1
+    },
+    {
+      "source": "パン",
+      "target": "パンを食べるときに必ずする動作",
+      "relation": "共起",
+      "strength": 1
+    },
+    {
+      "source": "ご飯を食べる前に必ず言うこと",
+      "target": "前",
+      "relation": "共起",
+      "strength": 1
+    },
+    {
+      "source": "お風呂に入る前に必ずすること",
+      "target": "風",
+      "relation": "共起",
+      "strength": 1
+    },
+    {
+      "source": "お風呂に入る前に必ずすること",
+      "target": "前",
+      "relation": "共起",
+      "strength": 1
+    },
+    {
+      "source": "お風呂に入った後に必ずすること",
+      "target": "風",
+      "relation": "共起",
+      "strength": 1
+    },
+    {
+      "source": "下",
+      "target": "靴を履く前に必ずすること",
+      "relation": "共起",
+      "strength": 1
+    },
+    {
+      "source": "前",
+      "target": "靴を履く前に必ずすること",
+      "relation": "共起",
+      "strength": 1
+    },
+    {
+      "source": "下",
+      "target": "靴下を履く前に必ずすること",
+      "relation": "共起",
+      "strength": 1
+    },
+    {
+      "source": "前",
+      "target": "靴下を履く前に必ずすること",
+      "relation": "共起",
+      "strength": 1
+    },
+    {
+      "source": "前",
+      "target": "服を着る前に必ずあるもの",
+      "relation": "共起",
+      "strength": 1
+    },
+    {
+      "source": "「大」に点を打つとできる漢字",
+      "target": "漢字",
+      "relation": "共起",
+      "strength": 1
+    },
+    {
+      "source": "漢字",
+      "target": "目",
+      "relation": "共起",
+      "strength": 1
+    },
+    {
+      "source": "「日」と「月」で明るい。で",
+      "target": "月",
+      "relation": "共起",
+      "strength": 1
+    },
+    {
+      "source": "「田」と「力」でできる漢字",
+      "target": "漢字",
+      "relation": "共起",
+      "strength": 1
+    },
+    {
+      "source": "「女」と「子」でできる漢字",
+      "target": "漢字",
+      "relation": "共起",
+      "strength": 1
+    },
+    {
+      "source": "「白」と「水」でできる漢字",
+      "target": "漢字",
+      "relation": "共起",
+      "strength": 1
+    },
+    {
+      "source": "「雨」と「田」でできる漢字",
+      "target": "漢字",
+      "relation": "共起",
+      "strength": 1
+    },
+    {
+      "source": "「雨」と「田」でできる漢字",
+      "target": "雨",
+      "relation": "共起",
+      "strength": 1
+    },
+    {
+      "source": "漢字",
+      "target": "雲",
+      "relation": "共起",
+      "strength": 1
+    },
+    {
+      "source": "雨",
+      "target": "雲",
+      "relation": "共起",
+      "strength": 1
+    },
+    {
+      "source": "「雨」と「云」でできる漢字",
+      "target": "雲",
+      "relation": "共起",
+      "strength": 1
+    },
+    {
+      "source": "「雨」と「云」でできる漢字",
+      "target": "漢字",
+      "relation": "共起",
+      "strength": 1
+    },
+    {
+      "source": "「雨」と「云」でできる漢字",
+      "target": "雨",
+      "relation": "共起",
+      "strength": 1
+    },
+    {
+      "source": "まんが",
+      "target": "ペン",
+      "relation": "共起",
+      "strength": 1
+    },
+    {
+      "source": "つくえ",
+      "target": "上",
+      "relation": "共起",
+      "strength": 1
+    },
+    {
+      "source": "ラジオ",
+      "target": "時計",
+      "relation": "共起",
+      "strength": 1
+    },
+    {
+      "source": "くつ",
+      "target": "雨",
+      "relation": "共起",
+      "strength": 1
+    },
+    {
+      "source": "くつした",
+      "target": "舌",
+      "relation": "共起",
+      "strength": 1
+    },
+    {
+      "source": "くつした",
+      "target": "下",
+      "relation": "共起",
+      "strength": 1
+    },
+    {
+      "source": "うし",
+      "target": "ぼうし",
+      "relation": "共起",
+      "strength": 1
+    },
+    {
+      "source": "パン",
+      "target": "着るパン",
+      "relation": "共起",
+      "strength": 1
+    },
+    {
+      "source": "すし",
+      "target": "カレー",
+      "relation": "共起",
+      "strength": 1
+    },
+    {
+      "source": "うし",
+      "target": "消防士が使う乗り物の名前",
+      "relation": "共起",
+      "strength": 1
+    },
+    {
+      "source": "うし",
+      "target": "前",
+      "relation": "共起",
+      "strength": 1
+    },
+    {
+      "source": "うし",
+      "target": "車",
+      "relation": "共起",
+      "strength": 1
+    },
+    {
+      "source": "前",
+      "target": "消防士が使う乗り物の名前",
+      "relation": "共起",
+      "strength": 1
+    },
+    {
+      "source": "消防士が使う乗り物の名前",
+      "target": "車",
+      "relation": "共起",
+      "strength": 1
+    },
+    {
+      "source": "前",
+      "target": "車",
+      "relation": "共起",
+      "strength": 1
+    },
+    {
+      "source": "うし",
+      "target": "社長が入る部屋",
+      "relation": "共起",
+      "strength": 1
+    },
+    {
+      "source": "先生",
+      "target": "先生が好きな食べ物",
+      "relation": "共起",
+      "strength": 1
+    },
+    {
+      "source": "生徒",
+      "target": "生徒が好きなお菓子",
+      "relation": "共起",
+      "strength": 1
+    },
+    {
+      "source": "子ども",
+      "target": "電車",
+      "relation": "共起",
+      "strength": 1
+    },
+    {
+      "source": "子ども",
+      "target": "子どもが好きな電車",
+      "relation": "共起",
+      "strength": 1
+    },
+    {
+      "source": "子ども",
+      "target": "車",
+      "relation": "共起",
+      "strength": 1
+    },
+    {
+      "source": "子どもが好きな電車",
+      "target": "電車",
+      "relation": "共起",
+      "strength": 1
+    },
+    {
+      "source": "子どもが好きな電車",
+      "target": "車",
+      "relation": "共起",
+      "strength": 1
+    },
+    {
+      "source": "赤ちゃん",
+      "target": "赤ちゃんが好きなジュース",
+      "relation": "共起",
+      "strength": 1
+    },
+    {
+      "source": "ジュース",
+      "target": "赤ちゃんが好きなジュース",
+      "relation": "共起",
+      "strength": 1
+    },
+    {
+      "source": "ジュース",
+      "target": "赤ちゃん",
+      "relation": "共起",
+      "strength": 1
+    },
+    {
+      "source": "先生",
+      "target": "先生が授業中に飲む飲み物",
+      "relation": "共起",
+      "strength": 1
+    },
+    {
+      "source": "お茶",
+      "target": "先生",
+      "relation": "共起",
+      "strength": 1
+    },
+    {
+      "source": "お茶",
+      "target": "先生が授業中に飲む飲み物",
+      "relation": "共起",
+      "strength": 1
+    },
+    {
+      "source": "テレビ",
+      "target": "先生",
+      "relation": "共起",
+      "strength": 1
+    },
+    {
+      "source": "出口の反対",
+      "target": "漢字",
+      "relation": "共起",
+      "strength": 1
+    },
+    {
+      "source": "先生",
+      "target": "学校の入口と出口の間にいる人",
+      "relation": "共起",
+      "strength": 1
+    },
+    {
+      "source": "下",
+      "target": "先生",
+      "relation": "共起",
+      "strength": 1
+    },
+    {
+      "source": "下",
+      "target": "学校の入口と出口の間にいる人",
+      "relation": "共起",
+      "strength": 1
+    },
+    {
+      "source": "冷蔵庫",
+      "target": "冷蔵庫の中で一番偉いの",
+      "relation": "共起",
+      "strength": 1
+    },
+    {
+      "source": "包丁",
+      "target": "包丁で切れないもの",
+      "relation": "共起",
+      "strength": 1
+    },
+    {
+      "source": "上",
+      "target": "包丁",
+      "relation": "共起",
+      "strength": 1
+    },
+    {
+      "source": "鍋",
+      "target": "鍋の中で一番熱い場所",
+      "relation": "共起",
+      "strength": 1
+    },
+    {
+      "source": "スプーンですくえないスープ",
+      "target": "スープ",
+      "relation": "共起",
+      "strength": 1
+    },
+    {
+      "source": "サラダ",
+      "target": "フォークで刺せないサラダ",
+      "relation": "共起",
+      "strength": 1
+    },
+    {
+      "source": "ナイフで切れないパン",
+      "target": "パン",
+      "relation": "共起",
+      "strength": 1
+    },
+    {
+      "source": "前",
+      "target": "夜寝る前の一番最後にすること",
+      "relation": "共起",
+      "strength": 1
+    },
+    {
+      "source": "外",
+      "target": "雨",
+      "relation": "共起",
+      "strength": 1
+    },
+    {
+      "source": "下",
+      "target": "外",
+      "relation": "共起",
+      "strength": 1
+    },
+    {
+      "source": "下",
+      "target": "雨",
+      "relation": "共起",
+      "strength": 1
+    },
+    {
+      "source": "後ろ",
+      "target": "後ろを向いても見えるもの",
+      "relation": "共起",
+      "strength": 1
+    },
+    {
+      "source": "上",
+      "target": "上を向いても見えないもの",
+      "relation": "共起",
+      "strength": 1
+    },
+    {
+      "source": "下",
+      "target": "下を向いても見えないもの",
+      "relation": "共起",
+      "strength": 1
+    },
+    {
+      "source": "左",
+      "target": "左手でしか触れないもの",
+      "relation": "共起",
+      "strength": 1
+    },
+    {
+      "source": "右",
+      "target": "左手でしか触れないもの",
+      "relation": "共起",
+      "strength": 1
+    },
+    {
+      "source": "いか",
+      "target": "すいか",
+      "relation": "共起",
+      "strength": 1
+    },
+    {
+      "source": "ぶどう",
+      "target": "ブドウ",
+      "relation": "共起",
+      "strength": 1
+    },
+    {
+      "source": "すもも",
+      "target": "もも",
+      "relation": "共起",
+      "strength": 1
+    },
+    {
+      "source": "いか",
+      "target": "かぼちゃ",
+      "relation": "共起",
+      "strength": 1
+    },
+    {
+      "source": "やまいも",
+      "target": "山",
+      "relation": "共起",
+      "strength": 1
+    },
+    {
+      "source": "わさび",
+      "target": "山",
+      "relation": "共起",
+      "strength": 1
+    },
+    {
+      "source": "いか",
+      "target": "からし",
+      "relation": "共起",
+      "strength": 1
+    },
+    {
+      "source": "うま",
+      "target": "しゅうまい",
+      "relation": "共起",
+      "strength": 1
+    },
+    {
+      "source": "とり",
+      "target": "やきとり",
+      "relation": "共起",
+      "strength": 1
+    },
+    {
+      "source": "いか",
+      "target": "かつ",
+      "relation": "共起",
+      "strength": 1
+    },
+    {
+      "source": "いか",
+      "target": "からあげ",
+      "relation": "共起",
+      "strength": 1
+    },
+    {
+      "source": "おすし",
+      "target": "すし",
+      "relation": "共起",
+      "strength": 1
+    },
+    {
+      "source": "いか",
+      "target": "かれい",
+      "relation": "共起",
+      "strength": 1
+    },
+    {
+      "source": "いか",
+      "target": "下",
+      "relation": "共起",
+      "strength": 1
+    },
+    {
+      "source": "いか",
+      "target": "かに",
+      "relation": "共起",
+      "strength": 1
+    },
+    {
+      "source": "かめ",
+      "target": "わかめ",
+      "relation": "共起",
+      "strength": 1
+    },
+    {
+      "source": "スパゲッティ",
+      "target": "月",
+      "relation": "共起",
+      "strength": 1
+    },
+    {
+      "source": "シャーベット",
+      "target": "車",
+      "relation": "共起",
+      "strength": 1
+    },
+    {
+      "source": "でんしゃ",
+      "target": "電車",
+      "relation": "共起",
+      "strength": 1
+    },
+    {
+      "source": "でんしゃ",
+      "target": "車",
+      "relation": "共起",
+      "strength": 1
+    },
+    {
+      "source": "ひこうき",
+      "target": "飛行機",
+      "relation": "共起",
+      "strength": 1
+    },
+    {
+      "source": "じてんしゃ",
+      "target": "自転車",
+      "relation": "共起",
+      "strength": 1
+    },
+    {
+      "source": "じてんしゃ",
+      "target": "車",
+      "relation": "共起",
+      "strength": 1
+    },
+    {
+      "source": "シャンプー",
+      "target": "風",
+      "relation": "共起",
+      "strength": 1
+    },
+    {
+      "source": "いか",
+      "target": "かみ",
+      "relation": "共起",
+      "strength": 1
+    },
+    {
+      "source": "いか",
+      "target": "髪",
+      "relation": "共起",
+      "strength": 1
+    },
+    {
+      "source": "ペン",
+      "target": "ボールペン",
+      "relation": "共起",
+      "strength": 1
+    },
+    {
+      "source": "いか",
+      "target": "子ども",
+      "relation": "共起",
+      "strength": 1
+    },
+    {
+      "source": "いか",
+      "target": "かばん",
+      "relation": "共起",
+      "strength": 1
+    },
+    {
+      "source": "いか",
+      "target": "鍵",
+      "relation": "共起",
+      "strength": 1
+    },
+    {
+      "source": "かぎ",
+      "target": "鍵",
+      "relation": "共起",
+      "strength": 1
+    },
+    {
+      "source": "いか",
+      "target": "かぎ",
+      "relation": "共起",
+      "strength": 1
+    },
+    {
+      "source": "姉",
+      "target": "鏡",
+      "relation": "共起",
+      "strength": 1
+    },
+    {
+      "source": "めがね",
+      "target": "鏡",
+      "relation": "共起",
+      "strength": 1
+    },
+    {
+      "source": "めがね",
+      "target": "姉",
+      "relation": "共起",
+      "strength": 1
+    },
+    {
+      "source": "かき",
+      "target": "はがき",
+      "relation": "共起",
+      "strength": 1
+    },
+    {
+      "source": "ふうとう",
+      "target": "風",
+      "relation": "共起",
+      "strength": 1
+    },
+    {
+      "source": "はがき",
+      "target": "月",
+      "relation": "共起",
+      "strength": 1
+    },
+    {
+      "source": "れいぞうこ",
+      "target": "冷蔵庫",
+      "relation": "共起",
+      "strength": 1
+    },
+    {
+      "source": "すい",
+      "target": "すいはんき",
+      "relation": "共起",
+      "strength": 1
+    },
+    {
+      "source": "なべ",
+      "target": "鍋",
+      "relation": "共起",
+      "strength": 1
+    },
+    {
+      "source": "ほうちょう",
+      "target": "包丁",
+      "relation": "共起",
+      "strength": 1
+    },
+    {
+      "source": "おちゃわん",
+      "target": "お茶",
+      "relation": "共起",
+      "strength": 1
+    },
+    {
+      "source": "スプーン",
+      "target": "風",
+      "relation": "共起",
+      "strength": 1
+    },
+    {
+      "source": "マフラー",
+      "target": "風",
+      "relation": "共起",
+      "strength": 1
+    },
+    {
+      "source": "花",
+      "target": "鼻",
+      "relation": "同音異義語",
+      "strength": 1
+    },
+    {
+      "source": "さる",
+      "target": "草",
+      "relation": "共起",
+      "strength": 1
+    },
+    {
+      "source": "歯",
+      "target": "葉",
+      "relation": "共起",
+      "strength": 1
+    },
+    {
+      "source": "下",
+      "target": "谷",
+      "relation": "共起",
+      "strength": 1
+    },
+    {
+      "source": "下",
+      "target": "壁",
+      "relation": "共起",
+      "strength": 1
+    },
+    {
+      "source": "下",
+      "target": "廊下",
+      "relation": "共起",
+      "strength": 1
+    },
+    {
+      "source": "上",
+      "target": "階段",
+      "relation": "共起",
+      "strength": 1
+    },
+    {
+      "source": "上",
+      "target": "腕",
+      "relation": "共起",
+      "strength": 1
+    },
+    {
+      "source": "上",
+      "target": "踵",
+      "relation": "共起",
+      "strength": 1
+    },
+    {
+      "source": "ゴルフ",
+      "target": "風",
+      "relation": "共起",
+      "strength": 1
+    },
+    {
+      "source": "フルート",
+      "target": "風",
+      "relation": "共起",
+      "strength": 1
+    },
+    {
+      "source": "船",
+      "target": "船長",
+      "relation": "共起",
+      "strength": 1
+    },
+    {
+      "source": "社長",
+      "target": "車",
+      "relation": "共起",
+      "strength": 1
+    },
+    {
+      "source": "かめ",
+      "target": "幸せ",
+      "relation": "共起",
+      "strength": 1
+    },
+    {
+      "source": "弟",
+      "target": "音",
+      "relation": "共起",
+      "strength": 1
+    },
+    {
+      "source": "入口と出口の間にある漢字一文字",
+      "target": "漢字",
+      "relation": "共起",
+      "strength": 1
+    },
+    {
+      "source": "入口と出口の間にある漢字一文字",
+      "target": "口",
+      "relation": "共起",
+      "strength": 1
+    },
+    {
+      "source": "うし",
+      "target": "学校の門を入って最初に見るもの",
+      "relation": "共起",
+      "strength": 1
+    },
+    {
+      "source": "ペン",
+      "target": "鉛筆で書けるけれどペンで",
+      "relation": "共起",
+      "strength": 1
+    },
+    {
+      "source": "ペン",
+      "target": "下",
+      "relation": "共起",
+      "strength": 1
+    },
+    {
+      "source": "下",
+      "target": "鉛筆で書けるけれどペンで",
+      "relation": "共起",
+      "strength": 1
+    },
+    {
+      "source": "定規",
+      "target": "定規で測れるけれど手で",
+      "relation": "共起",
+      "strength": 1
+    },
+    {
+      "source": "コンパス",
+      "target": "コンパスで描けるけれど手で",
+      "relation": "共起",
+      "strength": 1
+    },
+    {
+      "source": "のり",
+      "target": "のりで貼れるけれど水で",
+      "relation": "共起",
+      "strength": 1
+    },
+    {
+      "source": "はさみ",
+      "target": "はさみで切れるけれど手で",
+      "relation": "共起",
+      "strength": 1
+    },
+    {
+      "source": "はさみ",
+      "target": "カッター",
+      "relation": "共起",
+      "strength": 1
+    },
+    {
+      "source": "カッター",
+      "target": "カッターで切れるけれど",
+      "relation": "共起",
+      "strength": 1
+    },
+    {
+      "source": "はさみ",
+      "target": "カッターで切れるけれど",
+      "relation": "共起",
+      "strength": 1
+    },
+    {
+      "source": "ホッチキス",
+      "target": "ホッチキスで留められるけれど手で",
+      "relation": "共起",
+      "strength": 1
+    },
+    {
+      "source": "クリップ",
+      "target": "クリップで留められるけれど輪ゴムで",
+      "relation": "共起",
+      "strength": 1
+    },
+    {
+      "source": "ガムテープ",
+      "target": "セロハンテープで貼れるけれどガムテープで",
+      "relation": "共起",
+      "strength": 1
+    },
+    {
+      "source": "セロハンテープ",
+      "target": "セロハンテープで貼れるけれどガムテープで",
+      "relation": "共起",
+      "strength": 1
+    },
+    {
+      "source": "ガムテープ",
+      "target": "セロハンテープ",
+      "relation": "共起",
+      "strength": 1
+    },
+    {
+      "source": "先輩",
+      "target": "後輩",
+      "relation": "共起",
+      "strength": 1
+    },
+    {
+      "source": "「先輩」と「後輩」の間にいる人",
+      "target": "後輩",
+      "relation": "共起",
+      "strength": 1
+    },
+    {
+      "source": "同級生",
+      "target": "後輩",
+      "relation": "共起",
+      "strength": 1
+    },
+    {
+      "source": "「先輩」と「後輩」の間にいる人",
+      "target": "先輩",
+      "relation": "共起",
+      "strength": 1
+    },
+    {
+      "source": "先輩",
+      "target": "同級生",
+      "relation": "共起",
+      "strength": 1
+    },
+    {
+      "source": "「先輩」と「後輩」の間にいる人",
+      "target": "同級生",
+      "relation": "共起",
+      "strength": 1
+    },
+    {
+      "source": "「父」と「母」の間にいる人",
+      "target": "子ども",
+      "relation": "共起",
+      "strength": 1
+    },
+    {
+      "source": "子ども",
+      "target": "父",
+      "relation": "共起",
+      "strength": 1
+    },
+    {
+      "source": "子ども",
+      "target": "母",
+      "relation": "共起",
+      "strength": 1
+    },
+    {
+      "source": "「父」と「母」の間にいる人",
+      "target": "父",
+      "relation": "共起",
+      "strength": 1
+    },
+    {
+      "source": "「父」と「母」の間にいる人",
+      "target": "母",
+      "relation": "共起",
+      "strength": 1
+    },
+    {
+      "source": "母",
+      "target": "父",
+      "relation": "共起",
+      "strength": 1
+    },
+    {
+      "source": "姉",
+      "target": "弟",
+      "relation": "共起",
+      "strength": 1
+    },
+    {
+      "source": "妹",
+      "target": "姉",
+      "relation": "共起",
+      "strength": 1
+    },
+    {
+      "source": "「兄」と「弟」の間にいる人",
+      "target": "姉",
+      "relation": "共起",
+      "strength": 1
+    },
+    {
+      "source": "兄",
+      "target": "姉",
+      "relation": "共起",
+      "strength": 1
+    },
+    {
+      "source": "妹",
+      "target": "弟",
+      "relation": "共起",
+      "strength": 1
+    },
+    {
+      "source": "「兄」と「弟」の間にいる人",
+      "target": "弟",
+      "relation": "共起",
+      "strength": 1
+    },
+    {
+      "source": "「兄」と「弟」の間にいる人",
+      "target": "妹",
+      "relation": "共起",
+      "strength": 1
+    },
+    {
+      "source": "兄",
+      "target": "妹",
+      "relation": "共起",
+      "strength": 1
+    },
+    {
+      "source": "「兄」と「弟」の間にいる人",
+      "target": "兄",
+      "relation": "共起",
+      "strength": 1
+    },
+    {
+      "source": "先生",
+      "target": "校長",
+      "relation": "共起",
+      "strength": 1
+    },
+    {
+      "source": "「先生」と「生徒」の間にいる人",
+      "target": "先生",
+      "relation": "共起",
+      "strength": 1
+    },
+    {
+      "source": "先生",
+      "target": "生徒",
+      "relation": "共起",
+      "strength": 1
+    },
+    {
+      "source": "「先生」と「生徒」の間にいる人",
+      "target": "校長",
+      "relation": "共起",
+      "strength": 1
+    },
+    {
+      "source": "校長",
+      "target": "生徒",
+      "relation": "共起",
+      "strength": 1
+    },
+    {
+      "source": "「先生」と「生徒」の間にいる人",
+      "target": "生徒",
+      "relation": "共起",
+      "strength": 1
+    },
+    {
+      "source": "「右」と「左」の間にあるもの",
+      "target": "左",
+      "relation": "共起",
+      "strength": 1
+    },
+    {
+      "source": "左",
+      "target": "真ん中",
+      "relation": "共起",
+      "strength": 1
+    },
+    {
+      "source": "「右」と「左」の間にあるもの",
+      "target": "右",
+      "relation": "共起",
+      "strength": 1
+    },
+    {
+      "source": "「右」と「左」の間にあるもの",
+      "target": "真ん中",
+      "relation": "共起",
+      "strength": 1
+    },
+    {
+      "source": "右",
+      "target": "真ん中",
+      "relation": "共起",
+      "strength": 1
+    },
+    {
+      "source": "「前」と「後ろ」の間にあるもの",
+      "target": "後ろ",
+      "relation": "共起",
+      "strength": 1
+    },
+    {
+      "source": "「前」と「後ろ」の間にあるもの",
+      "target": "前",
+      "relation": "共起",
+      "strength": 1
+    },
+    {
+      "source": "前",
+      "target": "後ろ",
+      "relation": "共起",
+      "strength": 1
+    },
+    {
+      "source": "上",
+      "target": "中間",
+      "relation": "共起",
+      "strength": 1
+    },
+    {
+      "source": "下",
+      "target": "中間",
+      "relation": "共起",
+      "strength": 1
+    },
+    {
+      "source": "「上」と「下」の間にあるもの",
+      "target": "中間",
+      "relation": "共起",
+      "strength": 1
+    },
+    {
+      "source": "「上」と「下」の間にあるもの",
+      "target": "上",
+      "relation": "共起",
+      "strength": 1
+    },
+    {
+      "source": "「上」と「下」の間にあるもの",
+      "target": "下",
+      "relation": "共起",
+      "strength": 1
+    },
+    {
+      "source": "中間",
+      "target": "遠いと近いの間にある距離感",
+      "relation": "共起",
+      "strength": 1
+    },
+    {
+      "source": "右手でできるのに左手で",
+      "target": "左",
+      "relation": "共起",
+      "strength": 1
+    },
+    {
+      "source": "右",
+      "target": "右手でできるのに左手で",
+      "relation": "共起",
+      "strength": 1
+    },
+    {
+      "source": "右手で持って左手で渡すもの",
+      "target": "左",
+      "relation": "共起",
+      "strength": 1
+    },
+    {
+      "source": "右",
+      "target": "右手で持って左手で渡すもの",
+      "relation": "共起",
+      "strength": 1
+    },
+    {
+      "source": "ぶた",
+      "target": "目を開けて見えないもの",
+      "relation": "共起",
+      "strength": 1
+    },
+    {
+      "source": "カレー",
+      "target": "自分で",
+      "relation": "共起",
+      "strength": 1
+    },
+    {
+      "source": "自分で",
+      "target": "電話",
+      "relation": "共起",
+      "strength": 1
+    },
+    {
+      "source": "自分で",
+      "target": "車",
+      "relation": "共起",
+      "strength": 1
+    },
+    {
+      "source": "ペン",
+      "target": "先生",
+      "relation": "共起",
+      "strength": 1
+    },
+    {
+      "source": "通知表とかけて鏡と解く。その心",
+      "target": "鏡",
+      "relation": "共起",
+      "strength": 1
+    },
+    {
+      "source": "上",
+      "target": "漢字",
+      "relation": "共起",
+      "strength": 1
+    },
+    {
+      "source": "「木」に一本足すとできる漢字",
+      "target": "漢字",
+      "relation": "共起",
+      "strength": 1
+    },
+    {
+      "source": "前",
+      "target": "寝る前に必ずすること",
+      "relation": "共起",
+      "strength": 1
+    },
+    {
+      "source": "トイレに入る前に必ずすること",
+      "target": "前",
+      "relation": "共起",
+      "strength": 1
+    },
+    {
+      "source": "お風呂に入ったら必ずすること",
+      "target": "風",
+      "relation": "共起",
+      "strength": 1
+    },
+    {
+      "source": "ご飯を食べる前に必ずすること",
+      "target": "前",
+      "relation": "共起",
+      "strength": 1
+    },
+    {
+      "source": "外",
+      "target": "外から帰ったら必ずすること",
+      "relation": "共起",
+      "strength": 1
+    }
+  ],
+  "ontology": {
+    "食べ物": {
+      "子カテゴリ": [
+        "果物",
+        "野菜",
+        "料理",
+        "飲み物",
+        "調味料"
+      ],
+      "エンティティ": [
+        "いちご",
+        "うどん",
+        "お茶",
+        "かき",
+        "すいか",
+        "すし",
+        "そば",
+        "てんぷら",
+        "なし",
+        "ぶどう",
+        "みかん",
+        "もも",
+        "りんご",
+        "オムライス",
+        "カレー",
+        "クッキー",
+        "コーヒー",
+        "サラダ",
+        "シチュー",
+        "ジュース",
+        "スパゲッティ",
+        "スープ",
+        "ドーナツ",
+        "ハンバーグ",
+        "バナナ",
+        "パン",
+        "ビスケット",
+        "ピザ",
+        "メロン",
+        "ラーメン",
+        "食パン",
+        "おすし",
+        "パンを食べるときに必ずする動作",
+        "フライパン",
+        "茶色",
+        "パンダの好きな食べ物",
+        "パンダの模様が白と黒なの",
+        "着るパン",
+        "喫茶店",
+        "ナイフで切れないパン"
+      ]
+    },
+    "動物": {
+      "子カテゴリ": [
+        "鳥",
+        "海の生き物",
+        "虫",
+        "干支"
+      ],
+      "エンティティ": [
+        "いか",
+        "いぬ",
+        "いるか",
+        "うし",
+        "うま",
+        "えび",
+        "かに",
+        "かめ",
+        "くま",
+        "さる",
+        "たこ",
+        "とら",
+        "とり",
+        "ねこ",
+        "ねずみ",
+        "ぶた",
+        "カンガルー",
+        "コアラ",
+        "ゾウ",
+        "パンダ",
+        "ペンギン",
+        "ライオン",
+        "すいか",
+        "やきとり",
+        "一度も見たことがないのに、明日に",
+        "ぼうし",
+        "いつも人のうしろにいるもの",
+        "しゅうまい"
+      ]
+    },
+    "道具": {
+      "子カテゴリ": [
+        "調理器具",
+        "家電",
+        "文房具",
+        "通信機器",
+        "電子機器",
+        "乗り物"
+      ],
+      "エンティティ": [
+        "かさ",
+        "のり",
+        "はさみ",
+        "カッター",
+        "ガムテープ",
+        "クリップ",
+        "コンパス",
+        "セロハンテープ",
+        "テレビ",
+        "フライパン",
+        "ペン",
+        "ホッチキス",
+        "マッチ",
+        "ライター",
+        "ラジオ",
+        "冷蔵庫",
+        "包丁",
+        "定規",
+        "時計",
+        "自転車",
+        "船",
+        "車",
+        "鍋",
+        "鍵",
+        "鏡",
+        "電話",
+        "電車",
+        "飛行機"
+      ]
+    },
+    "体": {
+      "子カテゴリ": [
+        "顔",
+        "手足",
+        "頭部"
+      ],
+      "エンティティ": [
+        "口",
+        "太陽",
+        "手",
+        "指",
+        "星",
+        "月",
+        "歯",
+        "目",
+        "耳",
+        "舌",
+        "足",
+        "頭",
+        "首",
+        "髪",
+        "鼻"
+      ]
+    },
+    "自然": {
+      "子カテゴリ": [
+        "天気",
+        "天体",
+        "地形"
+      ],
+      "エンティティ": [
+        "太陽",
+        "山",
+        "川",
+        "星",
+        "月",
+        "海",
+        "虹",
+        "雨",
+        "雪",
+        "雲",
+        "風"
+      ]
+    },
+    "人": {
+      "子カテゴリ": [
+        "職業",
+        "家族",
+        "立場"
+      ],
+      "エンティティ": [
+        "兄",
+        "先生",
+        "先輩",
+        "同級生",
+        "妹",
+        "姉",
+        "子ども",
+        "弟",
+        "後輩",
+        "校長",
+        "母",
+        "父",
+        "生徒",
+        "赤ちゃん"
+      ]
+    },
+    "抽象概念": {
+      "子カテゴリ": [
+        "方角",
+        "文字",
+        "数",
+        "時間",
+        "位置"
+      ],
+      "エンティティ": [
+        "アルファベット",
+        "上",
+        "下",
+        "中間",
+        "内",
+        "前",
+        "右",
+        "外",
+        "左",
+        "後ろ",
+        "漢字",
+        "真ん中"
+      ]
+    }
+  },
+  "reasoning_laws": [
+    "「XXはXXでもXXないXXは？」が最多テンプレート：507問/1048問（48%）— 食べ物名を繰り返し、別の同音異義語で答える構造",
+    "ダジャレ・同音異義語カテゴリが最多：535問（51%）— 言葉の音を利用した遊びが中心",
+    "食べ物名（パン・カレー・うどん等）+ 別の同音異義語（フライパン・カレンダー・うどんげ等）の組み合わせが最も多いダジャレパターン",
+    "動物名（干支を含む）の同音異義語：うし（牛→丑）、うま（馬→午）、さる（猿→申）、いぬ（犬→戌）、とら（虎→寅）、ねずみ（鼠→子）",
+    "体の部位のダブルミーニング：はな（花/鼻）、かみ（髪/紙/神）、は（歯/葉）、くち（口/嘴）",
+    "道具の名前が動詞・抽象名詞と同音：はさみ（鋏/挟み）、のり（糊/乗り/法）、かさ（傘/嵩）",
+    "数・数字を読み替える言葉遊び：数字パターン43問 — 例：1（いち/ワン）、2（に/ツー）",
+    "漢字の部首・構成を分解する遊び：漢字系80問",
+    "なぞかけ定型「XXとかけてXXととく、そのこころは？」：0問 — 二つの無関係なものを共通点で結ぶ",
+    "ひっかけ問題93問 — 問題文を字義通りではなくトリッキーに解釈",
+    "あるある38問 — 日常の共感できる状況をなぞなぞ化",
+    "「XXはXXでもXXないXXは？」テンプレート内の否定修飾語で答えが決まる（食べられない→フライパン、食べられる→食パン、噛めない→すりばん）",
+    "動物の特徴を擬人化・連想：ゾウ→鼻が長い、キリン→首が長い、ペンギン→飛べない",
+    "同一語を質問文で繰り返し（XXはXXでも）、その音を保ったまま別の単語を答える「音を借りた連想」が基本構造"
+  ]
+}
