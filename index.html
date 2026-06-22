@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>なぞなぞ世界モデル — nazo-world</title>
+<style>
+* { margin:0; padding:0; box-sizing:border-box; }
+body {
+  font-family: 'Hiragino Sans', 'Noto Sans JP', sans-serif;
+  background: #0f0f23;
+  color: #e0e0e0;
+  line-height: 1.7;
+  min-height: 100vh;
+}
+.hero {
+  background: linear-gradient(135deg, #1a1a3e 0%, #16213e 50%, #0f3460 100%);
+  padding: 4rem 1rem;
+  text-align: center;
+  border-bottom: 2px solid #e94560;
+}
+.hero h1 { font-size: 2.5rem; margin-bottom: 0.5rem; color: #fff; }
+.hero h1 span { color: #e94560; }
+.hero p { font-size: 1.1rem; color: #a0a0c0; max-width: 600px; margin: 0 auto; }
+.hero .badge {
+  display: inline-block;
+  background: #e94560;
+  color: #fff;
+  padding: 0.3rem 1rem;
+  border-radius: 20px;
+  font-size: 0.85rem;
+  margin-top: 1rem;
+}
+.container { max-width: 900px; margin: 0 auto; padding: 2rem 1rem; }
+.section { margin: 2rem 0; }
+.section h2 {
+  font-size: 1.4rem;
+  margin-bottom: 1rem;
+  padding-bottom: 0.3rem;
+  border-bottom: 2px solid #e94560;
+  display: inline-block;
+}
+.card {
+  background: #1a1a3e;
+  border-radius: 8px;
+  padding: 1.2rem;
+  margin: 0.8rem 0;
+  border: 1px solid #2a2a5e;
+}
+.card h3 { color: #e94560; margin-bottom: 0.5rem; }
+.grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 1rem; }
+.stat {
+  text-align: center;
+  background: #1a1a3e;
+  border-radius: 8px;
+  padding: 1.5rem 1rem;
+  border: 1px solid #2a2a5e;
+}
+.stat .num { font-size: 2.5rem; font-weight: bold; color: #e94560; }
+.stat .label { font-size: 0.85rem; color: #8888aa; margin-top: 0.3rem; }
+.discovery {
+  background: #1e1e40;
+  border-left: 4px solid #e94560;
+  padding: 1rem 1.2rem;
+  margin: 1rem 0;
+  border-radius: 0 8px 8px 0;
+}
+.discovery strong { color: #e94560; }
+pre {
+  background: #0a0a1e;
+  padding: 0.8rem;
+  border-radius: 6px;
+  overflow-x: auto;
+  font-size: 0.9rem;
+  color: #c0c0e0;
+}
+table { width: 100%; border-collapse: collapse; margin: 1rem 0; font-size: 0.9rem; }
+th, td { border: 1px solid #2a2a5e; padding: 0.4rem 0.6rem; }
+th { background: #e94560; color: #fff; }
+td { background: #1a1a3e; }
+.footer {
+  text-align: center;
+  padding: 2rem;
+  color: #555;
+  font-size: 0.8rem;
+  border-top: 1px solid #2a2a5e;
+  margin-top: 3rem;
+}
+a { color: #e94560; text-decoration: none; }
+a:hover { text-decoration: underline; }
+code { background: #2a2a5e; padding: 0.1rem 0.3rem; border-radius: 3px; }
+</style>
+</head>
+<body>
+
+<div class="hero">
+  <h1>🧩 なぞなぞ<span>世界モデル</span></h1>
+  <p>日本語なぞなぞ1048問から構築した知識グラフ<br>同音異義語ネットワークとダジャレテンプレートの構造分析</p>
+  <div class="badge">bonsai/nazo-world</div>
+</div>
+
+<div class="container">
+
+<div class="section">
+  <div class="grid">
+    <div class="stat"><div class="num">1,048</div><div class="label">なぞなぞ問題</div></div>
+    <div class="stat"><div class="num">753</div><div class="label">エンティティ</div></div>
+    <div class="stat"><div class="num">54</div><div class="label">同音異義語グループ</div></div>
+    <div class="stat"><div class="num">14</div><div class="label">推論法則</div></div>
+  </div>
+</div>
+
+<div class="section">
+  <h2>🔬 主要発見</h2>
+  <div class="discovery">
+    <strong>48%</strong> がたった1つのテンプレート「<code>XXはXXでもXXないXXは？</code>」
+  </div>
+  <div class="discovery">
+    <strong>3大</strong> 同音異義語パターン：🍔 食べ物⇄道具 ｜ 🧑 体の部位 ｜ 🐾 動物⇄干支
+  </div>
+  <div class="discovery">
+    <strong>「音を借りた連想」</strong> — 全ダジャレなぞなぞの認知メカニズム
+  </div>
+</div>
+
+<div class="section">
+  <h2>🎭 同音異義語トップ5</h2>
+  <table>
+    <tr><th>#</th><th>語</th><th>意味1</th><th>意味2</th><th>意味3</th></tr>
+    <tr><td>1</td><td>パン</td><td>フライパン(4)</td><td>食パン(1)</td><td>ライトバン(1)</td></tr>
+    <tr><td>2</td><td>ねずみ</td><td>鼠(1)</td><td>子(38)</td><td>—</td></tr>
+    <tr><td>3</td><td>かみ</td><td>紙(10)</td><td>髪(6)</td><td>神(1)</td></tr>
+    <tr><td>4</td><td>はな</td><td>花(7)</td><td>鼻(7)</td><td>—</td></tr>
+    <tr><td>5</td><td>カレー</td><td>カレー(4)</td><td>カレンダー(4)</td><td>—</td></tr>
+  </table>
+</div>
+
+<div class="section">
+  <h2>📊 カテゴリ分布</h2>
+  <table>
+    <tr><th>カテゴリ</th><th>問題数</th><th>割合</th></tr>
+    <tr><td>🎭 ダジャレ・同音異義語</td><td>535</td><td>51.0%</td></tr>
+    <tr><td>🎮 言葉遊び</td><td>133</td><td>12.7%</td></tr>
+    <tr><td>🪤 ひっかけ</td><td>93</td><td>8.9%</td></tr>
+    <tr><td>🧩 なぞかけ</td><td>64</td><td>6.1%</td></tr>
+    <tr><td>🈵 漢字</td><td>80</td><td>7.6%</td></tr>
+    <tr><td>🔢 数字</td><td>43</td><td>4.1%</td></tr>
+    <tr><td>😌 あるある</td><td>38</td><td>3.6%</td></tr>
+    <tr><td>🔧 道具</td><td>33</td><td>3.1%</td></tr>
+    <tr><td>🐾 動物</td><td>29</td><td>2.8%</td></tr>
+  </table>
+</div>
+
+<div class="section">
+  <h2>📦 データ</h2>
+  <div class="grid">
+    <div class="card">
+      <h3>📄 論文</h3>
+      <a href="paper/nazo_world_paper.pdf">PDF</a> ·
+      <a href="paper/nazo_world_paper.html">HTML</a> ·
+      <a href="paper/nazo_world_paper.tex">LaTeX</a>
+    </div>
+    <div class="card">
+      <h3>🗄️ SQLite</h3>
+      <code>data/nazo_world.db</code> (9テーブル)
+    </div>
+    <div class="card">
+      <h3>📊 CSV</h3>
+      <code>data/csv/*.csv</code> (BQ-ready)
+    </div>
+    <div class="card">
+      <h3>🧬 JSON</h3>
+      <code>data/world_model.json</code> (6層)
+    </div>
+  </div>
+</div>
+
+<div class="section">
+  <h2>🎯 なぞなぞサンプル</h2>
+  <pre>
+Q: パンはパンでも食べられないパンは？
+A: フライパン
+
+Q: カレーはカレーでも食べられないカレーは？
+A: カレンダー
+
+Q: ペンはペンでも書けないペンは？
+A: ペンギン
+
+Q: 机の上にのっている動物は？
+A: ドリル
+
+Q: ねずみはねずみでも12年に一度のねずみは？
+A: 子（干支）
+  </pre>
+</div>
+
+<div class="footer">
+  <a href="https://github.com/bonsai/nazo-world">github.com/bonsai/nazo-world</a>
+</div>
+
+</div>
+</body>
+</html>
