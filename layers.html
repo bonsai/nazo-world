@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>6層世界モデル — 言語工学フレームワーク</title>
+<style>
+* { margin:0; padding:0; box-sizing:border-box; }
+body {
+  font-family: 'Hiragino Sans', 'Noto Sans JP', sans-serif;
+  background: #0f0f23;
+  color: #e0e0e0;
+  line-height: 1.7;
+}
+.hero {
+  background: linear-gradient(135deg, #1a1a3e, #16213e, #0f3460);
+  padding: 3rem 1rem;
+  text-align: center;
+  border-bottom: 2px solid #e94560;
+}
+.hero h1 { font-size: 2rem; color: #fff; }
+.hero h1 span { color: #e94560; }
+.hero p { color: #a0a0c0; max-width: 600px; margin: 0.5rem auto; }
+.container { max-width: 1000px; margin: 0 auto; padding: 2rem 1rem; }
+
+/* Layer stack visualization */
+.layer-stack { margin: 2rem 0; }
+.layer {
+  display: flex;
+  align-items: center;
+  margin: 0.3rem 0;
+  border-radius: 8px;
+  padding: 0.8rem 1rem;
+  cursor: pointer;
+  transition: transform 0.2s;
+  border: 1px solid rgba(255,255,255,0.1);
+}
+.layer:hover { transform: translateX(8px); }
+.layer .num {
+  width: 2rem;
+  height: 2rem;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  margin-right: 1rem;
+  flex-shrink: 0;
+}
+.layer .name { width: 100px; font-weight: bold; flex-shrink: 0; }
+.layer .desc { flex: 1; font-size: 0.85rem; color: #c0c0d0; }
+.layer .stat { font-size: 0.75rem; color: #888; text-align: right; flex-shrink: 0; }
+
+.l1 { background: #1a1a3e; }
+.l1 .num { background: #4a90d9; color: #fff; }
+.l1 .name { color: #4a90d9; }
+.l2 { background: #1e2a3e; }
+.l2 .num { background: #50b080; color: #fff; }
+.l2 .name { color: #50b080; }
+.l3 { background: #1e3e2a; }
+.l3 .num { background: #e0a030; color: #fff; }
+.l3 .name { color: #e0a030; }
+.l4 { background: #3e1e2a; }
+.l4 .num { background: #d94a8a; color: #fff; }
+.l4 .name { color: #d94a8a; }
+.l5 { background: #2a1e3e; }
+.l5 .num { background: #e94560; color: #fff; }
+.l5 .name { color: #e94560; font-size: 1.1rem; }
+.l6 { background: #1e2e3e; }
+.l6 .num { background: #a0a0e0; color: #fff; }
+.l6 .name { color: #a0a0e0; }
+
+/* Interaction diagram */
+.diagram {
+  background: #1a1a3e;
+  border-radius: 12px;
+  padding: 2rem;
+  margin: 2rem 0;
+  border: 1px solid #2a2a5e;
+  text-align: center;
+}
+.diagram pre {
+  font-size: 0.75rem;
+  line-height: 1.4;
+  color: #a0a0c0;
+}
+.arrow { color: #e94560; font-size: 1.5rem; }
+
+.section { margin: 2rem 0; }
+.section h2 {
+  font-size: 1.3rem;
+  margin-bottom: 1rem;
+  padding-bottom: 0.3rem;
+  border-bottom: 2px solid #e94560;
+  display: inline-block;
+}
+.card {
+  background: #1a1a3e;
+  border-radius: 8px;
+  padding: 1.2rem;
+  margin: 0.8rem 0;
+}
+.card h3 { color: #e94560; margin-bottom: 0.5rem; }
+.grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 1rem; }
+table { width: 100%; border-collapse: collapse; margin: 1rem 0; font-size: 0.9rem; }
+th, td { border: 1px solid #2a2a5e; padding: 0.4rem 0.6rem; }
+th { background: #e94560; color: #fff; }
+td { background: #1a1a3e; }
+code { background: #2a2a5e; padding: 0.1rem 0.3rem; border-radius: 3px; }
+.footer {
+  text-align: center;
+  padding: 2rem;
+  color: #555;
+  font-size: 0.8rem;
+  border-top: 1px solid #2a2a5e;
+  margin-top: 3rem;
+}
+a { color: #e94560; text-decoration: none; }
+b { color: #e94560; }
+</style>
+</head>
+<body>
+
+<div class="hero">
+  <h1>🧩 6層<span>世界モデル</span></h1>
+  <p>言語工学フレームワーク — 日本語なぞなぞ1048問に基づく<br>認知・言語・知識の層状構造分析</p>
+</div>
+
+<div class="container">
+
+<!-- Layer Stack -->
+<div class="layer-stack">
+  <div class="layer l5">
+    <div class="num">5</div>
+    <div class="name">記号層</div>
+    <div class="desc">🏆 <b>支配層</b> — 同音異義語・テンプレート・漢字遊び</div>
+    <div class="stat">812問 (77%)</div>
+  </div>
+  <div class="layer l4">
+    <div class="num">4</div>
+    <div class="name">社会層</div>
+    <div class="desc">共有知識・役割・文化・慣習（なぞかけ・あるある）</div>
+    <div class="stat">102問 (10%)</div>
+  </div>
+  <div class="layer l6">
+    <div class="num">6</div>
+    <div class="name">自己層</div>
+    <div class="desc">メタ認知・ひっかけ・状態監視・意思決定</div>
+    <div class="stat">93問 (9%)</div>
+  </div>
+  <div class="layer l2">
+    <div class="num">2</div>
+    <div class="name">物体層</div>
+    <div class="desc">属性・部品・状態・機能転換（道具・動物なぞなぞ）</div>
+    <div class="stat">62問 (6%)</div>
+  </div>
+  <div class="layer l1">
+    <div class="num">1</div>
+    <div class="name">空間層</div>
+    <div class="desc">位置・方向・幾何・運動（数字・方向語遊び）</div>
+    <div class="stat">43問 (4%)</div>
+  </div>
+  <div class="layer l3">
+    <div class="num">3</div>
+    <div class="name">時間層</div>
+    <div class="desc">順序・周期・変化・歴史（干支・季節）</div>
+    <div class="stat">~50問 (3%)</div>
+  </div>
+</div>
+
+<!-- Interaction -->
+<div class="section">
+  <h2>🔗 層間相互作用パターン</h2>
+  <div class="grid">
+    <div class="card">
+      <h3>🅰 記号層支配型</h3>
+      <p><code>物体層[パン] → <b>記号層</b>[パン⇄フライパン]</code></p>
+      <p style="font-size:0.85rem;color:#999;">535問 (51%) — 同音異義語単純写像</p>
+    </div>
+    <div class="card">
+      <h3>🅱 3層直列型（なぞかけ）</h3>
+      <p><code>物体層[階段] → <b>社会層</b>[人生] → <b>記号層</b>[上り下り]</code></p>
+      <p style="font-size:0.85rem;color:#999;">64問 — 異層間アナロジー</p>
+    </div>
+    <div class="card">
+      <h3>🅲 自己層破壊型（ひっかけ）</h3>
+      <p><code><b>社会層</b>[常識] → <b>自己層</b>[期待] → <b>記号層</b>[字義]</code></p>
+      <p style="font-size:0.85rem;color:#999;">93問 — 期待vs字義のギャップ</p>
+    </div>
+    <div class="card">
+      <h3>🅳 時間層埋め込み型（干支）</h3>
+      <p><code><b>物体層</b>[動物] + <b>時間層</b>[12年] → <b>記号層</b>[干支名]</code></p>
+      <p style="font-size:0.85rem;color:#999;">~50問 — 文化固有周期→言語遊び</p>
+    </div>
+  </div>
+</div>
+
+<!-- 6 layers detail -->
+<div class="section">
+  <h2>📋 各層詳細</h2>
+  <table>
+    <tr><th>層</th><th>エンティティ例</th><th>問題例</th><th>メカニズム</th></tr>
+    <tr>
+      <td><b style="color:#4a90d9;">1 空間層</b></td>
+      <td>上(17)・下(16)・左(7)・右(6)</td>
+      <td>「入口の反対は？」→出口</td>
+      <td>対義語対称性（strength 6）</td>
+    </tr>
+    <tr>
+      <td><b style="color:#50b080;">2 物体層</b></td>
+      <td>車(18)・パン(16)・ペン(13)</td>
+      <td>「パンはパンでも食べられないパンは？」→フライパン</td>
+      <td>食べ物→道具の非対称写像</td>
+    </tr>
+    <tr>
+      <td><b style="color:#e0a030;">3 時間層</b></td>
+      <td>前(23)・月(7)・季節</td>
+      <td>「ねずみはねずみでも12年に一度のねずみは？」→子</td>
+      <td>干支文化（12年周期）</td>
+    </tr>
+    <tr>
+      <td><b style="color:#d94a8a;">4 社会層</b></td>
+      <td>先生(7)・母(4)・お金(1)</td>
+      <td>「階段とかけて人生と解く、その心は？」</td>
+      <td>共有知識ベース（なぞかけ）</td>
+    </tr>
+    <tr>
+      <td><b style="color:#e94560;">5 記号層</b> ⭐</td>
+      <td>漢字(44)・言葉(1)・音(1)</td>
+      <td>「木に一本足すと？」→本 / 「カレーはカレーでも…」</td>
+      <td>音韻固定＋意味ジャンプ</td>
+    </tr>
+    <tr>
+      <td><b style="color:#a0a0e0;">6 自己層</b></td>
+      <td>口(11)・目(3)・頭(3)</td>
+      <td>「朝起きて最初にすることは？」→目を開ける</td>
+      <td>常識期待の裏切り</td>
+    </tr>
+  </table>
+</div>
+
+<!-- Data -->
+<div class="section">
+  <h2>📊 層別統計</h2>
+  <div class="grid">
+    <div class="card">
+      <h3>記号層 77%</h3>
+      <p style="font-size:2rem;color:#e94560;">812問</p>
+      <p>ダジャレ(535)＋言葉遊び(133)＋漢字(80)＋なぞかけ(64)</p>
+    </div>
+    <div class="card">
+      <h3>社会層 10%</h3>
+      <p style="font-size:2rem;color:#d94a8a;">102問</p>
+      <p>あるある(38)＋なぞかけ社会要素(64)</p>
+    </div>
+    <div class="card">
+      <h3>自己層 9%</h3>
+      <p style="font-size:2rem;color:#a0a0e0;">93問</p>
+      <p>ひっかけ問題全般</p>
+    </div>
+    <div class="card">
+      <h3>物体層 6%</h3>
+      <p style="font-size:2rem;color:#50b080;">62問</p>
+      <p>道具(33)＋動物(29)</p>
+    </div>
+    <div class="card">
+      <h3>空間層 4%</h3>
+      <p style="font-size:2rem;color:#4a90d9;">43問</p>
+      <p>数字・記号＋方向語</p>
+    </div>
+    <div class="card">
+      <h3>時間層 3%</h3>
+      <p style="font-size:2rem;color:#e0a030;">~50問</p>
+      <p>干支＋季節＋時間語</p>
+    </div>
+  </div>
+</div>
+
+<div class="footer">
+  <p>📄 <a href="paper/layer_framework_paper.md">論文 (Markdown)</a></p>
+  <p>📦 <a href="https://github.com/bonsai/nazo-world">github.com/bonsai/nazo-world</a></p>
+</div>
+
+</div>
+</body>
+</html>
